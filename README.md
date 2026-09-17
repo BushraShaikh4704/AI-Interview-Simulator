@@ -6,4 +6,8 @@
 
 # 🤖 AI-Powered Interview Readiness Assessment and Career Improvement Platform 🚀
 
-Developed an NLP-powered interview simulation platform that conducts role-specific mock interviews, evaluates responses using keyword matching and text similarity, calculates interview readiness scores, identifies weak skill areas, and generates personalized improvement recommendations through an interactive Flask-based web application.
+The AI-Powered Interview Readiness Assessment and Career Improvement Platform is an intelligent web-based application designed to help students, fresh graduates, and job seekers prepare effectively for technical interviews.
+
+The platform simulates real interview experiences by conducting role-specific mock interviews, evaluating candidate responses using Natural Language Processing (NLP) techniques, calculating interview readiness scores, identifying weak skill areas, and generating personalized improvement recommendations.
+
+The system aims to bridge the gap between interview preparation and actual interview performance by providing measurable feedback and structured learning guidance.
