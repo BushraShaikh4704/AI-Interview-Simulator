@@ -1,0 +1,1001 @@
+question_id,question,expected_answer,answer_level
+1,What is SQL and what is it used for?,"SQL (Structured Query Language) is used to create, manage, query, and manipulate data stored in relational databases.",Basic
+2,What is the difference between WHERE and HAVING?,"WHERE filters individual rows before grouping, while HAVING filters groups after aggregation has been performed.",Basic
+3,"Explain INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL JOIN.","INNER JOIN returns matching rows from both tables, LEFT JOIN returns all rows from the left table, RIGHT JOIN returns all rows from the right table, and FULL JOIN returns all matching and non-matching rows from both tables.",Basic
+4,What is a primary key?,A primary key uniquely identifies each row in a table and does not allow duplicate or NULL values.,Basic
+5,What is a foreign key?,A foreign key is a column that references a primary key in another table and helps maintain referential integrity.,Basic
+6,What is normalization in databases?,Normalization is the process of organizing database tables to reduce redundancy and improve data integrity.,Basic
+7,"What is the difference between DELETE, TRUNCATE, and DROP?","DELETE removes selected rows, TRUNCATE removes all rows from a table, and DROP removes the entire table structure and data.",Basic
+8,What is GROUP BY used for?,"GROUP BY is used to group rows with similar values so aggregate functions such as COUNT, SUM, AVG, MIN, and MAX can be applied.",Basic
+9,What does DISTINCT do?,DISTINCT removes duplicate rows from a query result and returns only unique values.,Basic
+10,What is a database index?,A database index is a data structure that improves query performance by allowing faster data retrieval.,Basic
+11,Explain the difference between UNION and UNION ALL.,"UNION combines result sets and removes duplicates, while UNION ALL combines result sets and keeps duplicates.",Basic
+12,What is a subquery?,A subquery is a query nested inside another SQL query and is used to provide data to the outer query.,Basic
+13,What is a correlated subquery?,A correlated subquery references columns from the outer query and is evaluated once for each row processed by the outer query.,Intermediate
+14,What is a CTE?,A CTE (Common Table Expression) is a temporary named result set created with the WITH clause and used within a single query.,Intermediate
+15,What is a window function?,A window function performs calculations across a set of related rows while preserving individual rows in the result.,Intermediate
+16,How do you find duplicate rows in SQL?,Duplicate rows can be found by grouping records with GROUP BY and identifying groups with a count greater than one.,Intermediate
+17,How do you find the second-highest salary?,The second-highest salary can be found by sorting salaries in descending order and selecting the value immediately below the highest salary.,Intermediate
+18,How do you count NULL values?,NULL values can be counted by checking for rows where the column value is NULL and counting those records.,Intermediate
+19,What is COALESCE used for?,COALESCE returns the first non-NULL value from a list of expressions.,Intermediate
+20,What is CASE WHEN in SQL?,CASE WHEN provides conditional logic in SQL and returns values based on specified conditions.,Intermediate
+21,What is the difference between COUNT(*) and COUNT(column)?,"COUNT(*) counts all rows in a table, while COUNT(column) counts only rows where the specified column is not NULL.",Intermediate
+22,How does ORDER BY work?,ORDER BY sorts query results in ascending or descending order based on one or more columns.,Intermediate
+23,What is the difference between CHAR and VARCHAR?,"CHAR stores fixed-length strings, while VARCHAR stores variable-length strings and uses space more efficiently.",Intermediate
+24,What are aggregate functions?,"Aggregate functions summarize multiple rows into a single value, such as COUNT, SUM, AVG, MIN, or MAX.",Intermediate
+25,What is a self join?,"A self join joins a table to itself, often using aliases, to compare or relate rows within the same table.",Advanced
+26,What is a composite key?,A composite key consists of two or more columns that together uniquely identify a row in a table.,Advanced
+27,What are constraints in SQL?,"Constraints are rules applied to table columns that enforce data accuracy, consistency, and integrity.",Advanced
+28,What is referential integrity?,Referential integrity ensures that foreign-key values always reference valid rows in the related table.,Advanced
+29,What is a transaction?,A transaction is a sequence of database operations treated as a single unit of work that can be committed or rolled back.,Advanced
+30,Explain ACID properties.,"ACID stands for Atomicity, Consistency, Isolation, and Durability, which ensure reliable and accurate database transactions.",Advanced
+31,What is a cell reference in Excel?,"A cell reference identifies the location of a cell in a worksheet using its column letter and row number, such as A1.",Basic
+32,What is the difference between relative and absolute references?,"Relative references change when copied to another cell, while absolute references remain fixed using the dollar sign ($).",Basic
+33,How do you use SUM and AVERAGE?,"SUM adds numerical values, while AVERAGE calculates the arithmetic mean of a set of values.",Basic
+34,What is VLOOKUP?,VLOOKUP searches for a value in the first column of a table and returns a corresponding value from another column.,Basic
+35,What is XLOOKUP?,XLOOKUP searches for a value and returns a corresponding result from any column or row with greater flexibility than VLOOKUP.,Basic
+36,How does INDEX-MATCH work?,INDEX-MATCH combines INDEX and MATCH functions to perform flexible lookups without requiring the lookup column to be first.,Basic
+37,What is a PivotTable?,"A PivotTable summarizes, groups, and analyzes large datasets to reveal patterns and insights.",Basic
+38,How do you remove duplicates?,Duplicate records can be removed using Excel's Remove Duplicates feature or by applying formulas and filters.,Basic
+39,How do you apply conditional formatting?,Conditional formatting automatically applies formatting to cells based on specified rules or conditions.,Intermediate
+40,What is data validation?,Data validation restricts the type of data that can be entered into a cell to improve accuracy and consistency.,Intermediate
+41,How do you sort and filter data?,Data can be sorted to arrange records in a specific order and filtered to display only records that meet selected criteria.,Intermediate
+42,What is the IF function?,The IF function returns one value when a condition is true and another value when it is false.,Intermediate
+43,How do AND and OR work with IF?,AND and OR are logical functions used within IF statements to evaluate multiple conditions.,Intermediate
+44,What is SUMIF?,SUMIF adds values that meet a specified condition.,Intermediate
+45,What is SUMIFS?,SUMIFS adds values that satisfy multiple conditions.,Intermediate
+46,What is COUNTIF?,COUNTIF counts the number of cells that meet a specified condition.,Intermediate
+47,What is COUNTIFS?,COUNTIFS counts the number of cells that satisfy multiple conditions.,Advanced
+48,How do you handle errors with IFERROR?,IFERROR returns an alternative value when a formula generates an error.,Advanced
+49,What are Excel tables?,"Excel tables organize data into structured ranges and provide features such as filtering, sorting, and automatic formula expansion.",Advanced
+50,What is Power Query in Excel?,"Power Query is a data preparation and transformation tool used to import, clean, and reshape data from various sources.",Advanced
+51,"What is mean, median, and mode?","Mean is the arithmetic average, median is the middle value, and mode is the most frequently occurring value in a dataset.",Basic
+52,What is variance?,Variance measures how far data values are spread from the mean.,Basic
+53,What is standard deviation?,Standard deviation measures the amount of variation or dispersion in a dataset.,Basic
+54,What is a percentile?,A percentile indicates the value below which a given percentage of observations fall.,Basic
+55,What is a distribution?,A distribution describes how values are spread across a dataset.,Basic
+56,What is a normal distribution?,A normal distribution is a symmetric bell-shaped distribution where most values cluster around the mean.,Basic
+57,What is skewness?,Skewness measures the asymmetry of a data distribution.,Basic
+58,What is correlation?,Correlation measures the strength and direction of the relationship between two variables.,Basic
+59,Does correlation imply causation?,Correlation does not imply causation because two variables may be related without one causing the other.,Intermediate
+60,What is covariance?,Covariance measures how two variables change together and indicates the direction of their relationship.,Intermediate
+61,What is a confidence interval?,A confidence interval is a range of values that is likely to contain the true population parameter with a specified level of confidence.,Intermediate
+62,What is a hypothesis test?,A hypothesis test is a statistical method used to evaluate evidence from sample data and determine whether a claim about a population should be rejected.,Intermediate
+63,What is a null hypothesis?,"A null hypothesis is the default assumption that there is no effect, difference, or relationship between variables.",Intermediate
+64,What is a p-value?,A p-value measures the probability of obtaining results at least as extreme as the observed data if the null hypothesis is true.,Intermediate
+65,What is statistical significance?,Statistical significance indicates that an observed result is unlikely to have occurred by random chance alone according to a chosen significance level.,Intermediate
+66,What is Type I error?,A Type I error occurs when a true null hypothesis is incorrectly rejected.,Intermediate
+67,What is Type II error?,A Type II error occurs when a false null hypothesis is incorrectly accepted or not rejected.,Advanced
+68,What is a z-score?,A z-score measures how many standard deviations a value is above or below the mean.,Advanced
+69,What is sampling bias?,"Sampling bias occurs when a sample is not representative of the population, leading to distorted conclusions.",Advanced
+70,What is the central limit theorem?,"The central limit theorem states that the sampling distribution of the sample mean approaches a normal distribution as sample size increases, regardless of the population distribution.",Advanced
+71,What is Power BI?,Power BI is a business intelligence and data visualization platform used to analyze data and create interactive reports and dashboards.,Basic
+72,What is Power Query?,"Power Query is a data transformation and preparation tool used to connect, clean, and reshape data before analysis.",Basic
+73,What is DAX?,"DAX (Data Analysis Expressions) is a formula language used in Power BI to create calculations, measures, and calculated columns.",Basic
+74,What is a measure in Power BI?,A measure is a dynamic calculation created using DAX that is evaluated based on the current filter context.,Basic
+75,What is a calculated column?,A calculated column is a column created using a DAX formula that is computed for each row and stored in the data model.,Basic
+76,What is a relationship between tables?,A relationship connects tables through common columns and enables data to be analyzed across multiple tables.,Basic
+77,What is a star schema?,A star schema is a data model that consists of a central fact table connected to multiple dimension tables.,Intermediate
+78,What is a slicer?,A slicer is a visual filtering tool that allows users to interactively filter data in reports and dashboards.,Intermediate
+79,What is a Power BI dashboard?,A Power BI dashboard is a collection of visualizations displayed on a single page to monitor key metrics and insights.,Intermediate
+80,What is a report page?,"A report page is a canvas that contains visualizations, filters, and other report elements used to present data insights.",Intermediate
+81,What is drill-through?,Drill-through allows users to navigate from a summary visual to a detailed report page focused on a selected value.,Intermediate
+82,What is drill-down?,Drill-down allows users to move from higher-level data to more detailed levels within a hierarchy.,Intermediate
+83,What is row-level security?,Row-level security restricts data access so users can view only the rows they are authorized to see.,Advanced
+84,What is a data model in Power BI?,"A data model is a collection of tables, relationships, and calculations that organize data for analysis and reporting.",Advanced
+85,How can you improve Power BI report performance?,"Power BI report performance can be improved by reducing unnecessary visuals, optimizing data models, using efficient DAX calculations, and limiting data volume.",Advanced
+86,What is data visualization?,"Data visualization is the graphical representation of data to communicate patterns, trends, and insights effectively.",Basic
+87,When should you use a bar chart?,A bar chart should be used to compare values across different categories.,Basic
+88,When is a line chart appropriate?,A line chart is appropriate for showing trends and changes over time.,Basic
+89,When should you use a scatter plot?,"A scatter plot should be used to examine relationships, correlations, clusters, and outliers between numerical variables.",Basic
+90,What is a histogram?,A histogram displays the frequency distribution of numerical data by grouping values into intervals or bins.,Basic
+91,What is a box plot?,"A box plot is a chart that displays the distribution of data using the minimum, first quartile, median, third quartile, and maximum values, helping identify spread and outliers.",Basic
+92,What makes a dashboard effective?,"An effective dashboard presents relevant information clearly, uses appropriate visualizations, highlights key metrics, and enables quick decision-making.",Intermediate
+93,What is chart junk?,Chart junk refers to unnecessary visual elements that distract from or obscure the data being presented.,Intermediate
+94,Why is choosing the right scale important?,Choosing the right scale ensures data is represented accurately and prevents misleading interpretations of trends or comparisons.,Intermediate
+95,What is color accessibility in charts?,Color accessibility ensures charts remain understandable for people with color vision deficiencies by using distinguishable colors and labels.,Intermediate
+96,What is a heatmap?,A heatmap is a visualization that uses color intensity to represent the magnitude of values across a dataset.,Intermediate
+97,What is a KPI card?,A KPI card is a visual element that displays a key performance indicator as a single important metric.,Intermediate
+98,What is data storytelling?,"Data storytelling combines data, visualizations, and narrative to communicate insights and support decision-making.",Advanced
+99,How can misleading visualizations be avoided?,"Misleading visualizations can be avoided by using appropriate chart types, accurate scales, clear labels, and presenting data objectively.",Advanced
+100,What is a small-multiple chart?,A small-multiple chart displays a series of similar charts using the same scale to compare patterns across categories.,Advanced
+101,What is Python and why is it popular for data science?,"Python is a high-level programming language popular in data science because of its simplicity, large ecosystem, and powerful libraries such as NumPy, pandas, and scikit-learn.",Basic
+102,What are Python lists?,"Lists are ordered, mutable collections in Python that can store multiple items of different data types.",Basic
+103,What is a tuple?,"A tuple is an ordered, immutable collection of items in Python.",Basic
+104,What is a dictionary?,A dictionary is a collection of key-value pairs used to store and retrieve data efficiently.,Basic
+105,What is a set?,A set is an unordered collection of unique elements used to remove duplicates and perform set operations.,Basic
+106,What is list comprehension?,List comprehension is a concise way to create lists by combining iteration and optional filtering in a single expression.,Basic
+107,What is a lambda function?,A lambda function is a small anonymous function defined using the lambda keyword.,Basic
+108,What is the difference between == and is?,"The == operator compares values for equality, while the is operator checks whether two variables reference the same object in memory.",Basic
+109,What are mutable and immutable objects?,"Mutable objects can be changed after creation, while immutable objects cannot be modified once created.",Intermediate
+110,What is slicing in Python?,"Slicing is a technique used to extract a portion of a sequence such as a string, list, or tuple.",Intermediate
+111,What is *args and **kwargs?,"*args allows a function to accept a variable number of positional arguments, while **kwargs allows it to accept a variable number of keyword arguments.",Intermediate
+112,What is a generator?,"A generator is an iterator that produces values one at a time using the yield keyword, reducing memory usage.",Intermediate
+113,What is an iterator?,An iterator is an object that allows sequential access to elements using the iterator protocol.,Intermediate
+114,What is a decorator?,A decorator is a function that modifies or extends the behavior of another function without changing its source code.,Intermediate
+115,What is a Python virtual environment?,A virtual environment is an isolated Python environment that allows project-specific package management.,Intermediate
+116,What is NumPy used for?,"NumPy is used for numerical computing, providing efficient array operations and mathematical functions.",Intermediate
+117,What is pandas used for?,"pandas is used for data manipulation, cleaning, analysis, and working with tabular data structures such as DataFrames.",Advanced
+118,What is a DataFrame?,A DataFrame is a two-dimensional labeled data structure in pandas consisting of rows and columns.,Advanced
+119,What is broadcasting in NumPy?,Broadcasting is a NumPy feature that allows arithmetic operations on arrays of different shapes when they are compatible.,Advanced
+120,How does Python manage memory?,Python manages memory automatically using reference counting and a garbage collector to reclaim unused objects.,Advanced
+121,"What is mean, median, and mode?","Mean is the average of a dataset, median is the middle value when the data is ordered, and mode is the most frequently occurring value.",Basic
+122,What is variance?,Variance measures how much the values in a dataset differ from the mean by calculating the average squared deviation from the mean.,Basic
+123,What is standard deviation?,Standard deviation measures the amount of variation or dispersion in a dataset and is the square root of variance.,Basic
+124,What is a percentile?,A percentile indicates the value below which a given percentage of observations in a dataset falls.,Basic
+125,What is a distribution?,A distribution describes how values or observations are spread across a dataset and shows the frequency or probability of different values.,Basic
+126,What is a normal distribution?,"A normal distribution is a symmetric, bell-shaped probability distribution in which values are concentrated around the mean.",Basic
+127,What is skewness?,Skewness measures the asymmetry of a data distribution around its mean.,Basic
+128,What is correlation?,Correlation measures the strength and direction of the relationship between two variables.,Basic
+129,Does correlation imply causation?,"No, correlation does not imply causation because two variables can be related without one variable directly causing changes in the other.",Intermediate
+130,What is covariance?,Covariance measures how two variables change together and indicates whether they tend to increase or decrease together.,Intermediate
+131,What is a confidence interval?,A confidence interval is a range of values estimated from sample data that is expected to contain the true population parameter at a specified confidence level.,Intermediate
+132,What is a hypothesis test?,A hypothesis test is a statistical method used to determine whether there is enough evidence in sample data to reject a null hypothesis.,Intermediate
+133,What is a null hypothesis?,"The null hypothesis is a statement that there is no significant effect, difference, or relationship in the population being studied.",Intermediate
+134,What is a p-value?,"A p-value is the probability of obtaining results at least as extreme as the observed results, assuming that the null hypothesis is true.",Intermediate
+135,What is statistical significance?,Statistical significance indicates that an observed result is unlikely to have occurred by random chance under the assumption of the null hypothesis.,Intermediate
+136,What is Type I error?,"A Type I error occurs when a true null hypothesis is incorrectly rejected, resulting in a false positive.",Intermediate
+137,What is Type II error?,"A Type II error occurs when a false null hypothesis is not rejected, resulting in a false negative.",Advanced
+138,What is a z-score?,A z-score indicates how many standard deviations a data value is away from the mean.,Advanced
+139,What is sampling bias?,"Sampling bias occurs when the selected sample is not representative of the target population, causing systematic distortion in the results.",Advanced
+140,What is the central limit theorem?,"The central limit theorem states that, under suitable conditions, the sampling distribution of the sample mean approaches a normal distribution as the sample size becomes sufficiently large.",Advanced
+141,What is supervised learning?,Supervised learning is a machine learning approach where a model learns from labeled data to make predictions or classifications.,Basic
+142,What is unsupervised learning?,Unsupervised learning is a machine learning approach where a model learns patterns or structures from data without labeled target values.,Basic
+143,What is reinforcement learning?,Reinforcement learning is a machine learning approach where an agent learns by interacting with an environment and receiving rewards or penalties for its actions.,Basic
+144,What is linear regression?,Linear regression is a supervised learning algorithm used to model the relationship between a dependent variable and one or more independent variables using a linear equation.,Basic
+145,What is logistic regression?,Logistic regression is a supervised learning algorithm used primarily for classification by estimating the probability of an outcome.,Basic
+146,What is a decision tree?,A decision tree is a supervised learning algorithm that makes predictions by recursively splitting data based on feature conditions.,Basic
+147,What is random forest?,Random forest is an ensemble learning algorithm that combines multiple decision trees to improve prediction accuracy and reduce overfitting.,Basic
+148,What is gradient boosting?,"Gradient boosting is an ensemble learning technique that builds models sequentially, with each new model focusing on reducing the errors made by previous models.",Basic
+149,What is k-nearest neighbors?,K-nearest neighbors is a supervised learning algorithm that predicts the class or value of a data point based on the closest K training examples.,Basic
+150,What is k-means clustering?,K-means clustering is an unsupervised learning algorithm that divides data into K clusters by assigning points to the nearest cluster centroid and updating the centroids iteratively.,Basic
+151,What is overfitting?,"Overfitting occurs when a machine learning model learns the training data too closely, including noise, and performs poorly on unseen data.",Basic
+152,What is underfitting?,"Underfitting occurs when a model is too simple to capture the underlying patterns in the data, resulting in poor performance on both training and unseen data.",Basic
+153,What is the bias-variance tradeoff?,"The bias-variance tradeoff is the balance between underfitting caused by high bias and overfitting caused by high variance, with the goal of achieving good generalization.",Intermediate
+154,What is regularization?,Regularization is a technique that adds a penalty to a model's complexity to reduce overfitting and improve its ability to generalize to unseen data.,Intermediate
+155,What is cross-validation?,Cross-validation is a model evaluation technique that divides the data into multiple subsets and trains and evaluates the model on different combinations of those subsets.,Intermediate
+156,What is hyperparameter tuning?,Hyperparameter tuning is the process of selecting the best values for a model's hyperparameters to improve its performance.,Intermediate
+157,What is a learning rate?,The learning rate controls the size of the steps taken by an optimization algorithm when updating a model's parameters during training.,Intermediate
+158,What is feature scaling?,Feature scaling is the process of transforming numerical features to comparable scales so that differences in their magnitudes do not negatively affect model training.,Intermediate
+159,What is an ensemble method?,An ensemble method combines predictions from multiple models to produce a more accurate and robust prediction than a single model.,Intermediate
+160,What is dimensionality reduction?,Dimensionality reduction is the process of reducing the number of features in a dataset while retaining as much useful information as possible.,Intermediate
+161,What is PCA?,"PCA, or Principal Component Analysis, is a dimensionality reduction technique that transforms correlated features into a smaller set of uncorrelated principal components that capture most of the variance in the data.",Intermediate
+162,What is class imbalance?,Class imbalance occurs when some classes in a classification dataset have significantly more observations than other classes.,Intermediate
+163,What is a confusion matrix?,"A confusion matrix is a table used to evaluate a classification model by showing true positives, true negatives, false positives, and false negatives.",Intermediate
+164,What is a classification threshold?,A classification threshold is a probability cutoff used to convert a model's predicted probability into a class prediction.,Intermediate
+165,What is a regression loss function?,A regression loss function measures the difference between predicted and actual numerical values and is used to evaluate or optimize a regression model.,Advanced
+166,What is gradient descent?,Gradient descent is an optimization algorithm that iteratively updates model parameters in the direction that reduces the loss function.,Advanced
+167,What is early stopping?,"Early stopping is a regularization technique that stops model training when performance on validation data stops improving, helping prevent overfitting.",Advanced
+168,What is data leakage?,"Data leakage occurs when information that would not be available when making a real prediction is unintentionally used during model training, leading to overly optimistic performance.",Advanced
+169,How does a decision tree choose a split?,A decision tree chooses a split that best separates the data according to an objective such as reducing impurity for classification or reducing error for regression.,Advanced
+170,What is model interpretability?,Model interpretability refers to how easily humans can understand and explain how a machine learning model makes its predictions.,Advanced
+171,What is feature engineering?,"Feature engineering is the process of creating, transforming, or selecting features from raw data to improve a machine learning model's performance.",Basic
+172,Why is feature scaling useful?,Feature scaling is useful because it puts numerical features on comparable scales and can improve the performance of algorithms that are sensitive to feature magnitude.,Basic
+173,What is one-hot encoding?,"One-hot encoding converts a categorical variable into separate binary columns, with each column representing a category.",Basic
+174,What is label encoding?,"Label encoding converts categorical values into numerical labels, with each category assigned an integer value.",Basic
+175,How do you handle missing values?,"Missing values can be handled by removing affected rows or columns, or by imputing values using methods such as the mean, median, mode, or more advanced techniques.",Basic
+176,What is feature selection?,Feature selection is the process of choosing the most relevant features for a machine learning model while removing irrelevant or redundant features.,Basic
+177,What is feature extraction?,Feature extraction is the process of transforming raw data into a smaller set of meaningful features that capture important information for a machine learning model.,Intermediate
+178,What is binning?,Binning is the process of grouping continuous numerical values into predefined intervals or categories.,Intermediate
+179,What is log transformation?,"Log transformation applies a logarithmic function to numerical values to reduce skewness, compress large values, and make certain distributions more suitable for analysis or modeling.",Intermediate
+180,What is polynomial feature generation?,"Polynomial feature generation creates new features by adding polynomial combinations or powers of existing features, allowing models to capture nonlinear relationships.",Intermediate
+181,How can categorical variables be encoded?,"Categorical variables can be encoded using methods such as one-hot encoding, label encoding, ordinal encoding, or target encoding, depending on the type of variable and the model.",Intermediate
+182,What is target encoding?,"Target encoding replaces each category with a statistic derived from the target variable, such as the mean target value for that category.",Intermediate
+183,What is multicollinearity?,"Multicollinearity occurs when two or more predictor variables in a model are highly correlated, making it difficult to determine their individual effects.",Advanced
+184,How can correlated features be handled?,"Highly correlated features can be handled by removing redundant features, selecting one feature from a correlated group, combining features, or using dimensionality reduction techniques.",Advanced
+185,What is dimensionality reduction?,"Dimensionality reduction reduces the number of features in a dataset while preserving as much useful information as possible, using techniques such as PCA.",Advanced
+186,What is accuracy?,Accuracy is the proportion of correctly classified predictions out of all predictions. It is calculated as (TP + TN) / (TP + TN + FP + FN).,Basic
+187,What is precision?,Precision is the proportion of correctly predicted positive cases among all cases predicted as positive. It is calculated as TP / (TP + FP).,Basic
+188,What is recall?,Recall is the proportion of actual positive cases that are correctly identified by the model. It is calculated as TP / (TP + FN).,Basic
+189,What is F1-score?,"F1-score is the harmonic mean of precision and recall, providing a balance between the two metrics. It is calculated as 2 × (Precision × Recall) / (Precision + Recall).",Basic
+190,What is specificity?,Specificity is the proportion of actual negative cases that are correctly identified by the model. It is calculated as TN / (TN + FP).,Basic
+191,What is ROC-AUC?,ROC-AUC measures how well a classification model distinguishes between positive and negative classes across different classification thresholds. A higher AUC indicates better discrimination.,Basic
+192,What is PR-AUC?,"PR-AUC is the area under the precision-recall curve and measures classification performance across different thresholds, especially when the classes are imbalanced.",Intermediate
+193,What is mean absolute error?,Mean Absolute Error (MAE) is the average absolute difference between the actual and predicted values. It measures the average magnitude of prediction errors.,Intermediate
+194,What is mean squared error?,Mean Squared Error (MSE) is the average of the squared differences between actual and predicted values. Larger errors have a greater impact because the errors are squared.,Intermediate
+195,What is RMSE?,Root Mean Squared Error (RMSE) is the square root of the mean squared error and measures the typical magnitude of prediction errors in the same units as the target variable.,Intermediate
+196,What is R-squared?,R-squared measures the proportion of variance in the target variable that is explained by a regression model.,Intermediate
+197,What is adjusted R-squared?,Adjusted R-squared is a modified version of R-squared that accounts for the number of predictors in the model and penalizes the addition of unnecessary features.,Intermediate
+198,What is cross-validation used for?,Cross-validation is used to evaluate how well a machine learning model is likely to perform on unseen data and to reduce dependence on a single train-test split.,Advanced
+199,How do you evaluate an imbalanced classifier?,"An imbalanced classifier should be evaluated using metrics such as precision, recall, F1-score, ROC-AUC, and PR-AUC rather than relying only on accuracy.",Advanced
+200,What is calibration?,Calibration measures how closely a model's predicted probabilities correspond to the actual frequency of outcomes. A well-calibrated model produces probabilities that reflect observed outcomes.,Advanced
+201,What is business analytics?,"Business analytics is the use of data, statistical methods, and analytical techniques to understand business performance and support data-driven decision-making.",Basic
+202,What is descriptive analytics?,"Descriptive analytics summarizes historical data to explain what has happened, using methods such as reports, dashboards, aggregations, and visualizations.",Basic
+203,What is diagnostic analytics?,"Diagnostic analytics examines data to understand why something happened by identifying patterns, relationships, and possible causes.",Basic
+204,What is predictive analytics?,"Predictive analytics uses historical data, statistical methods, and machine learning techniques to estimate what is likely to happen in the future.",Basic
+205,What is prescriptive analytics?,"Prescriptive analytics uses data, predictions, and analytical methods to recommend actions or decisions that can help achieve desired outcomes.",Basic
+206,What is a business metric?,"A business metric is a measurable value used to track and evaluate a specific aspect of business performance, such as revenue, profit, conversion rate, or customer retention.",Basic
+207,What is a dashboard?,"A dashboard is a visual interface that presents important metrics, trends, and insights in a concise format to help users monitor performance and make decisions.",Basic
+208,What is trend analysis?,"Trend analysis examines data over time to identify patterns, directions, or changes in performance.",Basic
+209,What is cohort analysis?,Cohort analysis groups users or customers based on a shared characteristic or starting event and tracks their behavior or performance over time.,Intermediate
+210,What is segmentation?,"Segmentation is the process of dividing customers, users, or other data into meaningful groups based on shared characteristics, behaviors, or needs.",Intermediate
+211,What is benchmarking?,"Benchmarking is the process of comparing business performance, processes, or metrics against industry standards, competitors, or best-performing organizations to identify areas for improvement.",Intermediate
+212,What is root-cause analysis?,Root-cause analysis is a systematic process of identifying the underlying cause of a problem rather than only addressing its symptoms.,Intermediate
+213,What is scenario analysis?,"Scenario analysis evaluates how different possible situations or assumptions could affect business outcomes, helping organizations prepare for uncertainty and make informed decisions.",Intermediate
+214,What is forecasting?,"Forecasting is the process of using historical data, patterns, and analytical methods to estimate future values or outcomes.",Intermediate
+215,What is sensitivity analysis?,Sensitivity analysis examines how changes in one or more input variables affect a model's output or business outcome.,Intermediate
+216,What is a business case?,"A business case is a structured justification for a proposed project or initiative that explains its objectives, expected benefits, costs, risks, and feasibility.",Intermediate
+217,What is data-driven decision making?,"Data-driven decision making is the process of using relevant data, analysis, and evidence to support business decisions rather than relying primarily on assumptions or intuition.",Advanced
+218,What is an analytical hypothesis?,"An analytical hypothesis is a testable statement or assumption about a relationship, pattern, or potential explanation that can be evaluated using data.",Advanced
+219,How can analytics support pricing decisions?,"Analytics can support pricing decisions by analyzing customer behavior, demand, costs, competitor prices, and historical sales to identify suitable pricing strategies and estimate their potential impact.",Advanced
+220,How can analytics improve customer retention?,"Analytics can improve customer retention by identifying patterns associated with customer churn, segmenting customers based on behavior, and helping businesses develop targeted actions to retain at-risk customers.",Advanced
+221,What is a KPI?,A KPI (Key Performance Indicator) is a measurable value used to track progress toward an important business objective or performance goal.,Basic
+222,What is a metric?,"A metric is a measurable value used to quantify and monitor a particular aspect of performance, activity, or business performance.",Basic
+223,What is the difference between a KPI and a metric?,"A metric is any measurable value used to track performance, while a KPI is a metric specifically selected to measure progress toward an important business objective.",Basic
+224,What is a leading indicator?,A leading indicator is a measurable factor that can provide an early signal about future performance or outcomes.,Basic
+225,What is a lagging indicator?,A lagging indicator measures results or outcomes that have already occurred and is typically used to evaluate past performance.,Basic
+226,What is conversion rate?,"Conversion rate is the percentage of users or visitors who complete a desired action, such as making a purchase, signing up, or submitting a form.",Basic
+227,What is customer acquisition cost?,"Customer Acquisition Cost (CAC) is the average amount a business spends to acquire one new customer, typically calculated by dividing acquisition expenses by the number of new customers acquired.",Intermediate
+228,What is customer lifetime value?,Customer Lifetime Value (CLV) is the estimated total value or revenue a customer is expected to generate for a business over the entire customer relationship.,Intermediate
+229,What is churn rate?,Churn rate is the percentage of customers or users who stop using a product or service during a specified period.,Intermediate
+230,What is retention rate?,Retention rate is the percentage of customers or users who continue using a product or service during a specified period.,Intermediate
+231,What is gross margin?,Gross margin is the percentage of revenue remaining after subtracting the cost of goods sold. It is calculated as (Revenue ? Cost of Goods Sold) / Revenue × 100.,Intermediate
+232,What is ROI?,ROI (Return on Investment) measures the return generated from an investment relative to its cost. It is commonly calculated as (Return ? Investment Cost) / Investment Cost × 100.,Intermediate
+233,What is utilization rate?,"Utilization rate measures how much of an available resource's capacity is actually being used, often calculated as used capacity divided by available capacity multiplied by 100.",Advanced
+234,What is average order value?,Average Order Value (AOV) is the average amount spent by a customer per transaction. It is calculated by dividing total revenue by the number of orders.,Advanced
+235,How should KPI targets be defined?,"KPI targets should be specific, measurable, achievable, relevant, and time-bound, and should be aligned with business objectives and supported by historical performance or appropriate benchmarks.",Advanced
+236,What is requirement gathering?,"Requirement gathering is the process of identifying, collecting, and documenting the needs, expectations, and constraints of stakeholders for a project or system.",Basic
+237,What is a business requirement?,A business requirement describes what a business needs to achieve or the problem a project or system is expected to solve.,Basic
+238,What is a functional requirement?,"A functional requirement specifies what a system or application must do, such as a feature, behavior, or operation it must provide.",Basic
+239,What is a non-functional requirement?,"A non-functional requirement specifies how a system should perform or operate, including qualities such as performance, security, reliability, scalability, and usability.",Basic
+240,What is a user story?,"A user story is a short description of a requirement written from the user's perspective, typically describing who needs something, what they need, and why they need it.",Basic
+241,What is an acceptance criterion?,An acceptance criterion is a set of specific conditions that a requirement or user story must satisfy to be considered complete and accepted by the stakeholders.,Basic
+242,What is a use case?,A use case describes how a user or other system interacts with a system to achieve a specific goal.,Intermediate
+243,What is requirements elicitation?,"Requirements elicitation is the process of gathering and discovering requirements from stakeholders through techniques such as interviews, workshops, surveys, observation, and discussions.",Intermediate
+244,What is requirements validation?,"Requirements validation is the process of checking whether requirements are correct, complete, consistent, feasible, clear, and aligned with stakeholder needs.",Intermediate
+245,What is requirements traceability?,"Requirements traceability is the process of tracking requirements throughout the project lifecycle and linking them to related business needs, design, development, testing, and delivered features.",Intermediate
+246,What is scope creep?,"Scope creep is the uncontrolled addition or expansion of project requirements after the project scope has been defined, often without corresponding adjustments to time, cost, or resources.",Intermediate
+247,How do you prioritize requirements?,"Requirements can be prioritized based on factors such as business value, customer impact, urgency, risk, cost, dependencies, and feasibility.",Intermediate
+248,What is MoSCoW prioritization?,"MoSCoW prioritization categorizes requirements into Must have, Should have, Could have, and Won't have, helping teams determine which requirements are most important.",Advanced
+249,What is a requirements document?,"A requirements document records the functional and non-functional requirements, business needs, constraints, assumptions, and other details that define what a system or project should deliver.",Advanced
+250,What is a change request?,"A change request is a formal proposal to modify an approved requirement, scope, design, schedule, or other aspect of a project.",Advanced
+251,Who is a stakeholder?,"A stakeholder is a person, group, or organization that is affected by a project, has an interest in it, or can influence its outcome.",Basic
+252,How do you identify stakeholders?,"Stakeholders can be identified by examining who is affected by the project, who provides requirements or resources, who makes decisions, and who can influence or be impacted by the project's outcome.",Basic
+253,What is stakeholder analysis?,"Stakeholder analysis is the process of identifying stakeholders and evaluating their interests, influence, expectations, and impact on a project.",Basic
+254,What is a stakeholder map?,"A stakeholder map is a visual representation that groups stakeholders based on factors such as their level of influence, interest, or impact on a project.",Basic
+255,How do you manage conflicting stakeholder requirements?,"Conflicting stakeholder requirements can be managed by understanding the underlying needs, identifying priorities, discussing trade-offs, evaluating business impact, and reaching an agreed solution with stakeholders.",Intermediate
+256,How do you communicate with senior stakeholders?,"Communication with senior stakeholders should be concise, focused on business outcomes, supported by relevant data, and clear about key decisions, risks, progress, and required actions.",Intermediate
+257,What is stakeholder engagement?,"Stakeholder engagement is the process of communicating and collaborating with stakeholders to understand their needs, manage expectations, obtain feedback, and maintain their involvement throughout a project.",Intermediate
+258,How do you handle a difficult stakeholder?,"A difficult stakeholder should be handled by understanding their concerns, listening actively, communicating clearly, using facts and evidence, addressing issues professionally, and finding mutually acceptable solutions.",Intermediate
+259,How do you keep stakeholders aligned?,"Stakeholders can be kept aligned through clear requirements, regular communication, shared goals, documented decisions, progress updates, and early discussion of changes, risks, and issues.",Advanced
+260,What is stakeholder expectation management?,"Stakeholder expectation management is the process of understanding stakeholder expectations, communicating realistic commitments, providing regular updates, and addressing changes or concerns throughout the project.",Advanced
+261,What is SQL and what is it used for?,"SQL (Structured Query Language) is used to create, manage, query, and manipulate data stored in relational databases.",Basic
+262,What is the difference between WHERE and HAVING?,"WHERE filters individual rows before grouping, while HAVING filters groups after aggregation has been performed.",Basic
+263,"Explain INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL JOIN.","INNER JOIN returns matching rows from both tables, LEFT JOIN returns all rows from the left table and matching rows from the right, RIGHT JOIN returns all rows from the right table and matching rows from the left, and FULL JOIN returns all matching and non-matching rows from both tables.",Basic
+264,What is a primary key?,A primary key uniquely identifies each row in a table and does not allow duplicate or NULL values.,Basic
+265,What is a foreign key?,A foreign key is a column or set of columns that references a key in another table and helps maintain referential integrity between related tables.,Basic
+266,What is normalization in databases?,Normalization is the process of organizing database tables to reduce data redundancy and improve data integrity.,Basic
+267,"What is the difference between DELETE, TRUNCATE, and DROP?","DELETE removes selected rows from a table, TRUNCATE removes all rows while keeping the table structure, and DROP removes the entire table structure along with its data.",Intermediate
+268,What is GROUP BY used for?,"GROUP BY groups rows with the same values so that aggregate functions such as COUNT, SUM, AVG, MIN, and MAX can be applied to each group.",Intermediate
+269,What does DISTINCT do?,DISTINCT removes duplicate values or duplicate combinations of values from the query result and returns only unique results.,Intermediate
+270,What is a database index?,"A database index is a data structure that improves the speed of data retrieval from a table, although it can require additional storage and may add overhead to data modifications.",Intermediate
+271,Explain the difference between UNION and UNION ALL.,"UNION combines the results of two or more queries and removes duplicate rows, while UNION ALL combines the results and keeps duplicate rows.",Intermediate
+272,What is a subquery?,A subquery is a query nested inside another SQL query. It is used to provide a result that can be used by the outer query.,Intermediate
+273,What is a correlated subquery?,A correlated subquery is a subquery that references a column from the outer query and is evaluated for each row processed by the outer query.,Advanced
+274,What is a CTE?,A CTE (Common Table Expression) is a temporary named result set defined using the WITH clause and used within a SQL query.,Advanced
+275,What is a window function?,"A window function performs calculations across related rows while keeping the individual rows in the result, commonly using functions such as ROW_NUMBER, RANK, SUM, and AVG.",Advanced
+276,What is a variable?,"A variable is a named reference used to store a value in a program. The value can be used and, in many cases, changed during program execution.",Basic
+277,What are Python data types?,"Python data types define the kind of value stored in a variable. Common types include int, float, str, bool, list, tuple, set, and dict.",Basic
+278,What is indentation in Python?,"Indentation is the use of whitespace at the beginning of a line to define blocks of code in Python, such as the body of functions, loops, and conditional statements.",Basic
+279,What is a function?,A function is a reusable block of code designed to perform a specific task. It can accept inputs called parameters and may return a result.,Basic
+280,What is a module?,"A module is a Python file containing reusable code such as functions, classes, and variables that can be imported into another Python program.",Basic
+281,What is a package?,A package is a collection of related Python modules organized together so they can be imported and reused in a program.,Basic
+282,What is a list?,"A list is an ordered and mutable Python collection that can store multiple values, including values of different data types.",Intermediate
+283,What is a tuple?,A tuple is an ordered and immutable Python collection that can store multiple values.,Intermediate
+284,What is a dictionary?,"A dictionary is a mutable Python collection that stores data as key-value pairs, allowing values to be accessed using their keys.",Intermediate
+285,What is a set?,A set is an unordered collection of unique elements in Python. It automatically removes duplicate values and supports set operations such as union and intersection.,Intermediate
+286,What is type casting?,"Type casting is the process of converting a value from one data type to another, such as converting a string to an integer using int().",Intermediate
+287,What is a loop?,A loop is used to repeatedly execute a block of code. Python commonly provides for loops and while loops for iteration.,Intermediate
+288,What is a conditional statement?,"A conditional statement allows a program to execute different blocks of code depending on whether specified conditions are true or false. Python uses if, elif, and else.",Advanced
+289,What is a comprehension?,"A comprehension is a concise way to create a collection such as a list, set, or dictionary by applying an expression and optionally a condition while iterating over another iterable.",Advanced
+290,What is PEP 8?,"PEP 8 is the official Python style guide that provides recommendations for writing readable and consistent Python code, including naming, indentation, spacing, and line length.",Advanced
+291,What is object-oriented programming?,"Object-oriented programming is a programming approach that organizes code using objects and classes, combining data and related behavior into reusable structures.",Basic
+292,What is a class?,A class is a blueprint for creating objects. It defines the attributes and methods that its objects can have.,Basic
+293,What is an object?,An object is an instance of a class that contains data in the form of attributes and behavior through methods.,Basic
+294,What is encapsulation?,Encapsulation is the practice of bundling data and the methods that operate on it within a class and controlling access to the internal data.,Basic
+295,What is inheritance?,Inheritance is an object-oriented programming feature in which a class can acquire attributes and methods from another class.,Basic
+296,What is polymorphism?,Polymorphism allows the same method or interface to behave differently depending on the object using it.,Basic
+297,What is abstraction?,Abstraction is the process of hiding unnecessary implementation details and exposing only the essential features of an object or system.,Basic
+298,What is a constructor?,"A constructor is a method that is automatically called when an object is created. In Python, __init__() is commonly used to initialize an object's attributes.",Basic
+299,What is method overriding?,Method overriding occurs when a child class provides its own implementation of a method that is already defined in its parent class.,Intermediate
+300,What is method overloading?,"Method overloading means defining multiple methods with the same name but different parameters. Python does not support traditional method overloading directly, but similar behavior can be achieved using default arguments or variable-length arguments.",Intermediate
+301,What is an abstract class?,An abstract class is a class that cannot normally be instantiated directly and is designed to provide a common structure for its subclasses. It can contain abstract methods that subclasses are expected to implement.,Intermediate
+302,What is an interface?,"An interface defines a set of methods that a class should implement. Python does not have a separate interface keyword, but abstract base classes can be used to provide interface-like behavior.",Intermediate
+303,What is composition?,Composition is an object-oriented design principle where one class contains an object of another class and uses it to provide functionality. It represents a has-a relationship.,Intermediate
+304,What is aggregation?,"Aggregation is a relationship where one class contains or uses objects of another class, but the contained objects can exist independently of the containing object.",Intermediate
+305,What is the difference between class and instance variables?,"Class variables are shared by all instances of a class, while instance variables belong to individual objects and can have different values for each instance.",Intermediate
+306,What is self in Python?,self is a reference to the current object in Python. It is used inside instance methods to access the object's attributes and other methods.,Intermediate
+307,What is multiple inheritance?,Multiple inheritance is a feature where a class inherits attributes and methods from more than one parent class.,Advanced
+308,What is MRO?,"MRO (Method Resolution Order) is the order in which Python searches classes when looking for a method or attribute, especially when inheritance involves multiple parent classes.",Advanced
+309,What is a property in Python?,A property in Python is an attribute managed through methods using the @property decorator. It allows a method to be accessed like an attribute while providing controlled access to its value.,Advanced
+310,What is SOLID in OOP?,"SOLID is a set of five object-oriented design principles: Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, and Dependency Inversion.",Advanced
+311,What is an exception?,"An exception is an event that occurs during program execution and disrupts the normal flow of a program, usually because an error or unexpected condition occurred.",Basic
+312,What is try-except?,"try-except is used to handle exceptions in Python. Code that may raise an exception is placed inside the try block, while the except block handles the exception.",Basic
+313,What is finally used for?,"finally is used for code that must execute whether an exception occurs or not, such as releasing resources or closing a file.",Basic
+314,What is else in exception handling?,The else block in exception handling runs when the code inside the try block completes successfully without raising an exception.,Basic
+315,What is raising an exception?,Raising an exception means intentionally generating an exception using the raise statement to indicate that an error or unexpected condition has occurred.,Intermediate
+316,How do you create a custom exception?,A custom exception is created by defining a new class that usually inherits from Exception. It can then be raised to represent application-specific errors.,Intermediate
+317,What is the difference between Exception and BaseException?,"Exception is the base class for most normal application exceptions, while BaseException is the higher-level base class that also includes exceptions such as SystemExit, KeyboardInterrupt, and GeneratorExit.",Intermediate
+318,How do you handle multiple exceptions?,Multiple exceptions can be handled using multiple except blocks or by specifying several exception types in a single except block.,Intermediate
+319,What is exception chaining?,"Exception chaining occurs when one exception is raised while handling another exception, allowing Python to preserve the relationship between the original and subsequent exceptions.",Advanced
+320,Why should exceptions be handled specifically?,"Exceptions should be handled specifically so that only expected errors are caught, making the program easier to debug and preventing unexpected errors from being hidden.",Advanced
+321,How do you open a file in Python?,"A file can be opened in Python using the open() function, which returns a file object that can be used to read from or write to the file.",Basic
+322,What are common file modes?,"Common Python file modes include r for reading, w for writing, a for appending, and x for creating a new file. Modes can also include b for binary and + for reading and writing.",Basic
+323,What is the with statement for files?,"The with statement is used to work with files safely by automatically closing the file after the block is completed, even if an exception occurs.",Basic
+324,How do you read a text file?,"A text file can be read using methods such as read(), readline(), or readlines() after opening the file in read mode.",Basic
+325,How do you write to a file?,A file can be written to by opening it in write mode using w and using the write() or writelines() methods.,Intermediate
+326,How do you append to a file?,A file can be appended to by opening it in append mode using a and writing new content to the file. Existing content is preserved.,Intermediate
+327,How do you work with CSV files?,"CSV files can be handled in Python using the built-in csv module or libraries such as pandas. These tools allow CSV data to be read, processed, and written.",Intermediate
+328,How do you work with JSON files?,JSON files can be handled in Python using the built-in json module. The json module can convert JSON data to Python objects and Python objects back to JSON.,Intermediate
+329,How do you handle file encoding?,"File encoding defines how characters are represented when text is stored or read from a file. Specifying the correct encoding, such as UTF-8, helps prevent character decoding errors.",Advanced
+330,What happens when a file is not found?,"When a file is not found, Python raises a FileNotFoundError exception. It can be handled using try-except to prevent the program from terminating unexpectedly.",Advanced
+331,What is a generator expression?,A generator expression is a concise way to create a generator that produces values one at a time instead of storing all values in memory at once.,Basic
+332,What is a decorator?,A decorator is a function that modifies or extends the behavior of another function or class without changing its original code.,Basic
+333,What is a context manager?,"A context manager is an object that manages resources and ensures that they are properly acquired and released, commonly used with the with statement.",Basic
+334,What is a closure?,A closure is a function that remembers and can access variables from its enclosing scope even after the enclosing function has finished executing.,Basic
+335,What is monkey patching?,"Monkey patching is the practice of dynamically modifying or replacing classes, functions, or methods at runtime.",Basic
+336,What is duck typing?,Duck typing is a Python programming concept where an object's suitability is determined by the methods and behavior it provides rather than its specific type.,Basic
+337,What is metaprogramming?,"Metaprogramming is programming in which code is designed to inspect, modify, or generate other code or program behavior.",Basic
+338,What is the GIL?,The GIL (Global Interpreter Lock) is a mechanism in CPython that allows only one thread to execute Python bytecode at a time within a process.,Basic
+339,What is multiprocessing?,"Multiprocessing is a technique that uses multiple processes to execute tasks concurrently, allowing CPU-bound Python programs to use multiple CPU cores.",Intermediate
+340,What is multithreading?,"Multithreading is a technique where multiple threads run within the same process, commonly used in Python for I/O-bound tasks.",Intermediate
+341,What is asyncio?,"asyncio is a Python library used to write asynchronous programs using an event loop, allowing tasks to perform non-blocking I/O efficiently.",Intermediate
+342,What is an async generator?,An async generator is a generator function defined with async def that uses yield to produce values asynchronously and can be iterated using async for.,Intermediate
+343,What are dataclasses?,Dataclasses are classes provided by Python's dataclasses module that automatically generate common methods such as __init__ and __repr__ for storing structured data.,Intermediate
+344,What are type hints?,"Type hints are optional annotations that specify the expected types of variables, function parameters, and return values to improve code readability and support static analysis.",Intermediate
+345,What is functools.lru_cache?,"functools.lru_cache is a decorator that caches the results of function calls, allowing repeated calls with the same arguments to return faster.",Intermediate
+346,What is dependency injection?,Dependency injection is a design technique where an object or function receives the dependencies it needs from an external source instead of creating them itself.,Intermediate
+347,What is a descriptor?,"A descriptor is an object that defines methods such as __get__, __set__, or __delete__ to control how attributes are accessed or modified.",Advanced
+348,What are dunder methods?,"Dunder methods are special Python methods with names surrounded by double underscores, such as __init__, __str__, and __len__, that define or customize built-in behavior.",Advanced
+349,What is shallow vs deep copy?,"A shallow copy creates a new object but keeps references to the objects contained inside it, while a deep copy recursively creates copies of nested objects.",Advanced
+350,What is garbage collection in Python?,Garbage collection in Python is the automatic process of identifying and removing objects that are no longer reachable so their memory can be reclaimed.,Advanced
+351,What is an array?,"An array is a data structure that stores multiple elements, typically of the same data type, in an organized sequence.",Basic
+352,What is a linked list?,A linked list is a data structure made up of nodes where each node stores data and a reference to another node in the sequence.,Basic
+353,What is a stack?,"A stack is a data structure that follows the Last In, First Out (LIFO) principle, where the most recently added element is removed first.",Basic
+354,What is a queue?,"A queue is a data structure that follows the First In, First Out (FIFO) principle, where the first added element is removed first.",Basic
+355,What is a deque?,A deque is a double-ended queue that allows elements to be efficiently added or removed from both the front and the back.,Basic
+356,What is a hash table?,"A hash table is a data structure that stores key-value pairs and uses a hash function to provide efficient average-case insertion, deletion, and lookup.",Basic
+357,What is a binary tree?,"A binary tree is a tree data structure in which each node has at most two children, commonly referred to as the left and right child.",Basic
+358,What is a binary search tree?,A binary search tree is a binary tree where values smaller than a node are stored in its left subtree and larger values are stored in its right subtree.,Basic
+359,What is a heap?,"A heap is a tree-based data structure that satisfies the heap property, where the parent node has a defined ordering relationship with its children. It is commonly used to implement priority queues.",Basic
+360,What is a graph?,"A graph is a data structure consisting of vertices, or nodes, connected by edges. It is used to represent relationships between entities.",Basic
+361,What is BFS?,"BFS (Breadth-First Search) is a graph traversal algorithm that visits nodes level by level, exploring all neighboring nodes before moving to the next level.",Basic
+362,What is DFS?,DFS (Depth-First Search) is a graph traversal algorithm that explores as far as possible along one path before backtracking.,Basic
+363,What is binary search?,Binary search is a searching algorithm that repeatedly divides a sorted dataset in half to efficiently find a target value.,Basic
+364,What is merge sort?,"Merge sort is a divide-and-conquer sorting algorithm that divides data into smaller parts, sorts them, and merges the sorted parts.",Basic
+365,What is quicksort?,Quicksort is a divide-and-conquer sorting algorithm that selects a pivot and partitions the data around it before recursively sorting the partitions.,Basic
+366,What is insertion sort?,Insertion sort builds the sorted portion of a list one element at a time by inserting each element into its correct position.,Basic
+367,What is selection sort?,Selection sort repeatedly finds the smallest element from the unsorted portion and places it in its correct position.,Intermediate
+368,What is recursion?,Recursion is a programming technique in which a function calls itself to solve smaller instances of the same problem.,Intermediate
+369,What is dynamic programming?,Dynamic programming is a technique that solves complex problems by breaking them into overlapping subproblems and storing their results to avoid repeated computation.,Intermediate
+370,What is memoization?,Memoization is an optimization technique that stores the results of previously computed function calls so they can be reused instead of recalculated.,Intermediate
+371,What is greedy algorithm design?,Greedy algorithm design solves a problem by repeatedly choosing the locally optimal option with the goal of finding a global solution.,Intermediate
+372,What is backtracking?,Backtracking is an algorithmic technique that builds a solution step by step and abandons a path when it cannot lead to a valid solution.,Intermediate
+373,What is a trie?,"A trie is a tree-based data structure used to store and efficiently search strings, especially for prefix-based operations.",Intermediate
+374,What is a priority queue?,A priority queue is a data structure in which elements are removed according to their priority rather than simply by their insertion order.,Intermediate
+375,What is topological sorting?,"Topological sorting is an ordering of the vertices of a directed acyclic graph such that for every directed edge from A to B, A appears before B.",Intermediate
+376,What is Dijkstra's algorithm?,Dijkstra's algorithm finds the shortest paths from a source vertex to other vertices in a weighted graph with non-negative edge weights.,Intermediate
+377,What is union-find?,Union-Find is a data structure used to efficiently manage disjoint sets and determine whether elements belong to the same set.,Intermediate
+378,What is a sliding-window technique?,The sliding-window technique maintains a moving range of elements to efficiently solve problems involving contiguous subarrays or substrings.,Intermediate
+379,What is two-pointer technique?,"The two-pointer technique uses two indices that move through a data structure to efficiently solve problems involving pairs, ranges, or sequences.",Intermediate
+380,What is hashing?,"Hashing is a technique that uses a hash function to map data to a fixed location, enabling fast insertion, deletion, and lookup operations.",Intermediate
+381,What is Big-O notation?,Big-O notation describes the upper bound of an algorithm's growth in time or space as the input size increases.,Intermediate
+382,What is time complexity?,Time complexity measures how the running time of an algorithm grows as the size of the input increases.,Intermediate
+383,What is space complexity?,Space complexity measures how much additional memory an algorithm requires as the size of the input increases.,Advanced
+384,What is amortized analysis?,"Amortized analysis determines the average cost of operations over a sequence of operations, even when some individual operations are expensive.",Advanced
+385,What is a balanced tree?,A balanced tree is a tree data structure in which the heights of its subtrees are kept sufficiently balanced to maintain efficient operations.,Advanced
+386,What is an AVL tree?,An AVL tree is a self-balancing binary search tree in which the height difference between the left and right subtrees of every node is at most one.,Advanced
+387,What is a segment tree?,A segment tree is a tree data structure used to efficiently answer range queries and perform updates on an array.,Advanced
+388,What is a graph adjacency list?,A graph adjacency list represents a graph by storing a list of neighboring vertices for each vertex.,Advanced
+389,What is a graph adjacency matrix?,"A graph adjacency matrix represents a graph using a matrix where each entry indicates whether an edge exists between two vertices, and may also store edge weights.",Advanced
+390,How do you detect a cycle in a graph?,"A cycle in a graph can be detected using graph traversal algorithms such as DFS for directed or undirected graphs, while tracking visited nodes and their relationships.",Advanced
+391,What is object-oriented programming?,Object-oriented programming (OOP) is a programming paradigm that organizes software around objects that contain data and behavior.,Basic
+392,What is a class?,"A class is a blueprint for creating objects, defining their attributes and methods.",Basic
+393,What is an object?,An object is an instance of a class that contains its own data and can use the methods defined by the class.,Basic
+394,What is encapsulation?,Encapsulation is the practice of bundling data and methods within a class and controlling access to the internal data.,Basic
+395,What is inheritance?,Inheritance is an OOP feature that allows a class to inherit attributes and methods from another class.,Basic
+396,What is polymorphism?,Polymorphism is the ability of different objects or classes to provide different implementations of the same method or interface.,Basic
+397,What is abstraction?,Abstraction is the process of hiding implementation details and exposing only the essential features of an object.,Basic
+398,What is a constructor?,A constructor is a special method that is automatically called when an object is created and is typically used to initialize its attributes.,Basic
+399,What is method overriding?,Method overriding occurs when a subclass provides its own implementation of a method that is already defined in its parent class.,Basic
+400,What is method overloading?,Method overloading means defining multiple methods with the same name but different parameter lists; Python does not support traditional method overloading directly.,Basic
+401,What is an abstract class?,An abstract class is a class that cannot normally be instantiated directly and is designed to provide a common interface or structure for its subclasses.,Intermediate
+402,What is an interface?,"An interface defines a set of methods or behaviors that a class is expected to implement; in Python, this can be represented using abstract base classes.",Intermediate
+403,What is composition?,Composition is an OOP relationship where one class contains an object of another class and uses it as part of its functionality.,Intermediate
+404,What is aggregation?,"Aggregation is an OOP relationship where one class contains references to objects of another class, but those objects can exist independently.",Intermediate
+405,What is the difference between class and instance variables?,"A class variable is shared by all instances of a class, while an instance variable belongs to a specific object and can have a different value for each instance.",Intermediate
+406,What is self in Python?,"In Python, self refers to the current instance of a class and is used to access its instance variables and methods.",Intermediate
+407,What is multiple inheritance?,Multiple inheritance allows a class to inherit attributes and methods from more than one parent class.,Intermediate
+408,What is MRO?,MRO (Method Resolution Order) is the order Python follows to search for methods and attributes in a class and its parent classes.,Intermediate
+409,What is a property in Python?,"A property in Python allows a method to be accessed like an attribute and can be used to control how an attribute is read, modified, or validated.",Intermediate
+410,What is SOLID in OOP?,"SOLID is a set of five object-oriented design principles that promote maintainable, flexible, and scalable software: Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, and Dependency Inversion.",Intermediate
+411,What is object-oriented programming — Explain with a practical example?,"Object-oriented programming organizes code around objects containing data and behavior. For example, a Car class can define attributes such as color and model and methods such as start() and stop(), while individual cars are objects created from that class.",Advanced
+412,What is a class — Explain with a practical example?,"A class is a blueprint for creating objects by defining their attributes and methods. For example, a Student class can define attributes such as name and marks and a method such as display_details().",Advanced
+413,What is an object — Explain with a practical example?,"An object is an instance of a class with its own data and access to the class methods. For example, student1 can be an object of the Student class with its own name and marks.",Advanced
+414,What is encapsulation — Explain with a practical example?,"Encapsulation bundles data and methods within a class and controls access to the internal data. For example, a BankAccount class can keep the balance protected and provide deposit() and withdraw() methods to modify it safely.",Advanced
+415,What is inheritance — Explain with a practical example?,"Inheritance allows a subclass to reuse and extend the attributes and methods of a parent class. For example, a Dog class can inherit common behavior from an Animal class and add its own method such as bark().",Advanced
+416,What is a DBMS?,"A DBMS (Database Management System) is software used to create, store, manage, retrieve, and manipulate data in databases.",Basic
+417,What is a relational database?,"A relational database stores data in structured tables consisting of rows and columns, with relationships between tables established using keys.",Basic
+418,What is normalization?,Normalization is the process of organizing data into related tables to reduce redundancy and improve data integrity.,Basic
+419,What is denormalization?,Denormalization is the process of intentionally combining or duplicating data in tables to reduce joins and improve query performance.,Basic
+420,What is a primary key?,A primary key is a column or set of columns that uniquely identifies each row in a table and does not allow duplicate or NULL values.,Basic
+421,What is a foreign key?,A foreign key is a column or set of columns in one table that references a primary key or unique key in another table and helps maintain referential integrity.,Basic
+422,What is an index?,An index is a data structure that improves the speed of data retrieval from a table by providing a faster way to locate rows.,Basic
+423,What is a transaction?,A transaction is a sequence of database operations treated as a single unit of work that can be committed or rolled back.,Basic
+424,What are ACID properties?,"ACID stands for Atomicity, Consistency, Isolation, and Durability, which are properties that ensure reliable and consistent database transactions.",Intermediate
+425,What is a candidate key?,A candidate key is a column or set of columns that can uniquely identify each row in a table and can serve as a primary key.,Intermediate
+426,What is a composite key?,A composite key is a key made up of two or more columns that together uniquely identify each row in a table.,Intermediate
+427,What is referential integrity?,Referential integrity ensures that a foreign key value references a valid row in the related table or is NULL when permitted.,Intermediate
+428,What is a view?,A view is a virtual table based on the result of a SQL query. It does not normally store the underlying data separately and can simplify data access.,Intermediate
+429,What is a stored procedure?,A stored procedure is a precompiled or stored set of SQL statements that can be executed as a unit to perform a specific database operation.,Intermediate
+430,What is a trigger?,"A trigger is a database object that automatically executes a specified action when events such as INSERT, UPDATE, or DELETE occur.",Intermediate
+431,What is a deadlock?,"A deadlock occurs when two or more transactions are waiting for resources held by each other, causing them to wait indefinitely until the database resolves the situation.",Intermediate
+432,What is database locking?,Database locking is a mechanism used to control concurrent access to data and prevent conflicting transactions from modifying the same data improperly.,Advanced
+433,What is isolation level?,An isolation level defines how much one transaction is isolated from changes made by other concurrent transactions and controls issues such as dirty reads and non-repeatable reads.,Advanced
+434,What is a clustered index?,"A clustered index determines the physical order in which rows are stored in a table, so a table generally has only one clustered index.",Advanced
+435,What is a non-clustered index?,"A non-clustered index is a separate data structure that stores indexed values and references to the corresponding rows, allowing fast data retrieval without changing the physical order of the table.",Advanced
+436,What is an operating system?,An operating system is system software that manages computer hardware and software resources and provides services for applications.,Basic
+437,What is a process?,"A process is a program that is currently executing, along with its allocated resources and execution state.",Basic
+438,What is a thread?,A thread is the smallest unit of execution within a process and shares the process's resources with other threads.,Basic
+439,What is context switching?,Context switching is the process of saving the state of one running process or thread and loading the state of another so the CPU can switch between them.,Basic
+440,What is a process scheduler?,A process scheduler is an operating system component that decides which process should receive CPU time and when it should run.,Basic
+441,What is a deadlock?,A deadlock occurs when two or more processes or threads are permanently waiting for resources held by each other.,Basic
+442,What are the four deadlock conditions?,"The four necessary conditions for deadlock are mutual exclusion, hold and wait, no preemption, and circular wait.",Basic
+443,What is virtual memory?,Virtual memory is a memory management technique that uses secondary storage to extend the apparent available memory when physical RAM is insufficient.,Basic
+444,What is paging?,Paging is a memory management technique that divides logical memory into fixed-size pages and physical memory into fixed-size frames.,Intermediate
+445,What is segmentation?,"Segmentation is a memory management technique that divides a program's memory into variable-sized logical segments such as code, data, and stack.",Intermediate
+446,What is a page fault?,"A page fault occurs when a process tries to access a page that is not currently present in physical memory, requiring the operating system to load it from secondary storage.",Intermediate
+447,What is a system call?,"A system call is a mechanism through which a program requests a service from the operating system, such as file access or process management.",Intermediate
+448,What is a kernel?,A kernel is the core component of an operating system that manages hardware resources and provides essential services to applications.,Intermediate
+449,What is a race condition?,A race condition occurs when multiple processes or threads access shared data concurrently and the final result depends on the timing or order of their execution.,Intermediate
+450,What is a mutex?,"A mutex is a synchronization mechanism that allows only one thread at a time to access a shared resource, helping prevent race conditions.",Intermediate
+451,What is a semaphore?,A semaphore is a synchronization mechanism that uses a counter to control access to shared resources by multiple processes or threads.,Intermediate
+452,What is CPU scheduling?,CPU scheduling is the process of selecting which process or thread should be executed by the CPU and for how long.,Advanced
+453,What is a file system?,"A file system is a method used by an operating system to organize, store, manage, and retrieve files on a storage device.",Advanced
+454,What is fragmentation?,"Fragmentation occurs when available memory or storage space becomes divided into small, non-contiguous pieces, which can reduce efficient resource utilization.",Advanced
+455,What is inter-process communication?,Inter-process communication (IPC) refers to mechanisms that allow processes to exchange data and coordinate with each other.,Advanced
+456,What is a computer network?,A computer network is a group of interconnected devices that communicate and share data and resources with each other.,Basic
+457,What is the OSI model?,The OSI model is a seven-layer conceptual framework that standardizes how data is communicated between networked systems.,Basic
+458,What is TCP/IP?,"TCP/IP is a suite of communication protocols used to connect devices and enable data transmission across networks, including the Internet.",Basic
+459,What is an IP address?,An IP address is a numerical address assigned to a device on a network to identify it and enable communication with other devices.,Basic
+460,What is IPv4?,"IPv4 is the fourth version of the Internet Protocol and uses 32-bit addresses, typically written in dotted-decimal notation.",Basic
+461,What is IPv6?,IPv6 is the sixth version of the Internet Protocol and uses 128-bit addresses to provide a much larger address space than IPv4.,Basic
+462,What is a MAC address?,A MAC address is a unique hardware address assigned to a network interface and is used for communication within a local network.,Basic
+463,What is DNS?,DNS (Domain Name System) translates human-readable domain names into IP addresses so devices can locate network resources.,Basic
+464,What is DHCP?,DHCP (Dynamic Host Configuration Protocol) automatically assigns network configuration information such as IP addresses to devices on a network.,Intermediate
+465,What is HTTP?,HTTP (Hypertext Transfer Protocol) is an application-layer protocol used to transfer resources such as web pages between clients and servers.,Intermediate
+466,What is HTTPS?,"HTTPS is the secure version of HTTP that uses encryption, typically through TLS, to protect data exchanged between a client and server.",Intermediate
+467,What is TCP?,"TCP (Transmission Control Protocol) is a connection-oriented protocol that provides reliable, ordered, and error-checked delivery of data.",Intermediate
+468,What is UDP?,"UDP (User Datagram Protocol) is a connectionless protocol that provides faster data transmission without guaranteeing delivery, ordering, or error recovery.",Intermediate
+469,What is a port?,A port is a logical number used to identify a specific service or application endpoint on a device in a network.,Intermediate
+470,What is a router?,A router is a network device that forwards data packets between different networks based on their destination IP addresses.,Intermediate
+471,What is a switch?,A switch is a network device that connects devices within a local network and forwards data to the appropriate device.,Intermediate
+472,What is NAT?,"NAT (Network Address Translation) translates private IP addresses into public IP addresses, and vice versa, allowing multiple devices to share a public IP address.",Advanced
+473,What is a subnet mask?,A subnet mask determines which portion of an IP address represents the network and which portion represents the host.,Advanced
+474,What is ARP?,ARP (Address Resolution Protocol) is used in IPv4 networks to determine the MAC address associated with a known IP address.,Advanced
+475,What is a firewall?,A firewall is a security system that monitors and controls incoming and outgoing network traffic based on defined security rules.,Advanced
+476,What is HTML?,HTML (HyperText Markup Language) is the standard markup language used to structure content on web pages.,Basic
+477,What is semantic HTML?,"Semantic HTML uses meaningful HTML elements such as header, nav, main, article, and footer to clearly describe the structure and purpose of web content.",Basic
+478,What is the purpose of the head element?,"The head element contains metadata and other information about an HTML document, such as its title, character encoding, and linked resources.",Basic
+479,What are block and inline elements?,"Block elements generally start on a new line and occupy the available width, while inline elements occupy only the space needed by their content.",Basic
+480,What is a form in HTML?,An HTML form is used to collect user input and submit that data to a server or process it within a web application.,Basic
+481,What are HTML attributes?,HTML attributes provide additional information about an HTML element and are written inside the opening tag as name-value pairs.,Basic
+482,What is accessibility in HTML?,"HTML accessibility means designing web pages so they can be used by people with different abilities, including users of assistive technologies.",Intermediate
+483,What is the alt attribute?,The alt attribute provides alternative text for an image when the image cannot be displayed and helps screen readers describe the image.,Intermediate
+484,What are lists in HTML?,"HTML lists are used to display related items and can be ordered using <ol>, unordered using <ul>, or descriptive using <dl>.",Intermediate
+485,What are tables in HTML?,"HTML tables organize data into rows and columns using elements such as <table>, <tr>, <th>, and <td>.",Intermediate
+486,What is an iframe?,An iframe embeds another HTML document or webpage within the current webpage.,Intermediate
+487,What are meta tags?,"Meta tags provide information about a webpage, such as character encoding, viewport settings, and description, to browsers and search engines.",Intermediate
+488,What is the difference between div and section?,"The <div> element is a generic container, while <section> represents a meaningful section of related content.",Advanced
+489,What is the difference between id and class?,"An id uniquely identifies a specific HTML element, while a class can be assigned to multiple elements for shared styling or behavior.",Advanced
+490,What is HTML5?,"HTML5 is the modern version of HTML that introduced semantic elements, multimedia support, graphics, and other features for modern web development.",Advanced
+491,What is CSS?,"CSS stands for Cascading Style Sheets and is used to control the appearance, layout, and presentation of HTML elements.",Basic
+492,What is the CSS box model?,"The CSS box model describes an element as consisting of content, padding, border, and margin.",Basic
+493,What is specificity?,CSS specificity determines which CSS rule takes precedence when multiple rules target the same element.,Basic
+494,What is a CSS selector?,A CSS selector is a pattern used to select HTML elements to which CSS styles are applied.,Basic
+495,What is Flexbox?,Flexbox is a CSS layout system used to arrange and align elements efficiently in one-dimensional layouts.,Basic
+496,What is CSS Grid?,CSS Grid is a two-dimensional layout system used to arrange elements in rows and columns.,Basic
+497,What is a media query?,"A media query applies CSS rules based on conditions such as screen width, height, or device characteristics.",Basic
+498,What is responsive design?,Responsive design makes a website adapt its layout and appearance to different screen sizes and devices.,Basic
+499,What is position in CSS?,"The CSS position property controls how an element is positioned in a document, using values such as static, relative, absolute, fixed, and sticky.",Intermediate
+500,What is z-index?,"The z-index property controls the stacking order of positioned elements, with higher values appearing in front of lower values.",Intermediate
+501,What is a pseudo-class?,"A pseudo-class selects an element based on a particular state or condition, such as :hover or :focus.",Intermediate
+502,What is a pseudo-element?,"A pseudo-element styles a specific part of an element, such as ::before, ::after, or ::first-letter.",Intermediate
+503,What is inheritance in CSS?,CSS inheritance allows certain property values from a parent element to be inherited by its child elements.,Intermediate
+504,What is the difference between em and rem?,"The em unit is relative to the font size of the current or parent element, while rem is relative to the root element's font size.",Intermediate
+505,What is the difference between margin and padding?,"Margin is the space outside an element's border, while padding is the space between the content and the border.",Intermediate
+506,What is a CSS variable?,A CSS variable is a reusable custom property that stores a value and can be used throughout a stylesheet.,Intermediate
+507,What is a transition?,A CSS transition creates a smooth change between property values over a specified duration.,Advanced
+508,What is an animation?,A CSS animation allows an element to change styles through defined keyframes over time.,Advanced
+509,What is a stacking context?,A stacking context is a separate rendering context that determines how elements are layered along the z-axis.,Advanced
+510,How does overflow work in CSS?,"The CSS overflow property controls what happens when content exceeds an element's specified dimensions, such as whether it is hidden, clipped, or displayed with scrollbars.",Advanced
+511,What is JavaScript?,"JavaScript is a programming language used to make web pages interactive and dynamic, and it can also be used for server-side development.",Basic
+512,"What is the difference between let, const, and var?","let and const are block-scoped, while var is function-scoped. let allows reassignment, const does not, and var can be redeclared and reassigned.",Basic
+513,What is hoisting?,"Hoisting is JavaScript's behavior of moving declarations to the top of their scope during the compilation phase, before the code is executed.",Basic
+514,What is a closure?,A closure is a function that remembers and can access variables from its outer scope even after the outer function has finished executing.,Basic
+515,What is the DOM?,"The DOM (Document Object Model) is a programming interface that represents an HTML document as a tree of objects, allowing JavaScript to access and modify its content and structure.",Basic
+516,What is event bubbling?,Event bubbling is the process where an event triggered on a child element propagates upward through its parent elements.,Basic
+517,What is event delegation?,Event delegation is a technique of attaching one event listener to a parent element to handle events triggered by its child elements.,Basic
+518,What is a Promise?,A Promise is an object that represents the eventual completion or failure of an asynchronous operation and its resulting value.,Basic
+519,What is async/await?,"async/await is JavaScript syntax used to write asynchronous code in a simpler and more readable way. An async function returns a Promise, and await waits for a Promise to settle.",Basic
+520,What is a callback?,"A callback is a function passed as an argument to another function and executed later, often after an operation is completed.",Basic
+521,What is the difference between == and ===?,"== compares values after performing type conversion when necessary, while === compares both value and data type without type conversion.",Intermediate
+522,What is an arrow function?,An arrow function is a shorter syntax for writing functions in JavaScript and it does not have its own this binding.,Intermediate
+523,What is destructuring?,Destructuring is a JavaScript feature that allows values from arrays or properties from objects to be unpacked into separate variables.,Intermediate
+524,What are spread and rest operators?,"The spread operator (...) expands elements of an iterable or properties of an object, while the rest operator collects multiple values into a single array or object.",Intermediate
+525,What is a module?,"A module is a reusable JavaScript file that can export variables, functions, or classes and import them into other files.",Intermediate
+526,What is JSON?,JSON (JavaScript Object Notation) is a lightweight text format used to store and exchange structured data between applications.,Intermediate
+527,What is the event loop?,The event loop allows JavaScript to handle asynchronous operations by checking the call stack and task queues and executing queued callbacks when the stack is empty.,Intermediate
+528,What is a prototype?,A prototype is an object from which other JavaScript objects can inherit properties and methods.,Intermediate
+529,What is prototypal inheritance?,Prototypal inheritance is a mechanism in which an object inherits properties and methods from another object through the prototype chain.,Intermediate
+530,What is localStorage?,localStorage is a browser storage mechanism that stores key-value data persistently and keeps it available even after the browser is closed.,Intermediate
+531,What is sessionStorage?,sessionStorage is a browser storage mechanism that stores key-value data for the duration of a browser tab session and is cleared when the tab is closed.,Advanced
+532,What is fetch?,Fetch is a JavaScript API used to make HTTP requests and retrieve resources asynchronously from servers or other network sources.,Advanced
+533,What is debouncing?,Debouncing delays the execution of a function until a specified amount of time has passed without another triggering event.,Advanced
+534,What is throttling?,"Throttling limits how often a function can execute within a specified time interval, even if the event occurs repeatedly.",Advanced
+535,What is currying?,Currying is a technique of transforming a function that takes multiple arguments into a sequence of functions that each take one argument.,Advanced
+536,What is React?,"React is a JavaScript library for building user interfaces using reusable components, commonly for web applications.",Basic
+537,What is a component?,"A component is a reusable, independent part of a React application that defines a portion of the user interface and its behavior.",Basic
+538,What are props?,Props are read-only data passed from a parent component to a child component in React to provide information or configuration.,Basic
+539,What is state?,State is data managed by a React component that can change over time and cause the component to re-render when updated.,Basic
+540,What is JSX?,"JSX is a syntax extension for JavaScript that allows developers to write HTML-like markup inside JavaScript code, commonly used with React.",Basic
+541,What is the virtual DOM?,The virtual DOM is a lightweight representation of the actual DOM that React uses to efficiently update only the parts of the UI that have changed.,Basic
+542,What is useState?,useState is a React Hook that allows a functional component to create and manage state.,Intermediate
+543,What is useEffect?,"useEffect is a React Hook used to perform side effects in a component, such as fetching data, updating the DOM, or setting up subscriptions.",Intermediate
+544,What is useContext?,useContext is a React Hook that allows a component to access values from a Context without passing props through multiple levels.,Intermediate
+545,What is useMemo?,useMemo is a React Hook that memoizes a calculated value and recomputes it only when its dependencies change.,Intermediate
+546,What is useCallback?,useCallback is a React Hook that memoizes a function so that the same function reference can be reused until its dependencies change.,Intermediate
+547,What is a controlled component?,A controlled component is a form element whose value is controlled by React state rather than being managed directly by the DOM.,Intermediate
+548,What is conditional rendering?,Conditional rendering means displaying different React elements or components based on a condition.,Advanced
+549,What are React keys?,"React keys are unique identifiers assigned to elements in a list to help React efficiently identify which items have changed, been added, or removed.",Advanced
+550,What is lifting state up?,Lifting state up means moving shared state to the closest common parent component so that multiple child components can access and update it.,Advanced
+551,What is an API?,An API (Application Programming Interface) is a set of rules that allows different software applications to communicate and exchange data.,Basic
+552,What is a REST API?,A REST API is an API that follows REST principles and uses HTTP methods to interact with resources identified by URLs.,Basic
+553,What is an endpoint?,An endpoint is a specific URL through which an API provides access to a particular resource or operation.,Basic
+554,What are HTTP methods?,"HTTP methods specify the type of operation to perform on a resource, such as GET, POST, PUT, PATCH, and DELETE.",Basic
+555,What is GET?,GET is an HTTP method used to request or retrieve data from a server.,Basic
+556,What is POST?,"POST is an HTTP method used to send data to a server, commonly to create a new resource.",Basic
+557,What is PUT?,PUT is an HTTP method commonly used to completely replace or update an existing resource.,Intermediate
+558,What is PATCH?,PATCH is an HTTP method used to partially update an existing resource.,Intermediate
+559,What is DELETE?,DELETE is an HTTP method used to remove a resource from a server.,Intermediate
+560,What is an HTTP status code?,"An HTTP status code is a three-digit code returned by a server that indicates the result of an HTTP request, such as success, redirection, or error.",Intermediate
+561,What is JSON in APIs?,JSON is a lightweight data format commonly used by APIs to exchange structured data between clients and servers.,Intermediate
+562,What is idempotency?,Idempotency means that making the same request multiple times has the same intended effect as making it once.,Intermediate
+563,What is API versioning?,API versioning is the practice of maintaining different versions of an API so changes can be introduced without breaking existing clients.,Advanced
+564,What is pagination?,Pagination divides a large set of results into smaller pages so that data can be retrieved and displayed in manageable portions.,Advanced
+565,What is rate limiting?,Rate limiting controls how many requests a client can make to an API within a specified period to prevent abuse and protect server resources.,Advanced
+566,What is a relational database?,A relational database stores data in structured tables consisting of rows and columns and uses relationships between tables to organize data.,Basic
+567,What is a NoSQL database?,"A NoSQL database is a non-relational database designed to store data in flexible formats such as documents, key-value pairs, graphs, or wide-column structures.",Basic
+568,When would you use SQL vs NoSQL?,"SQL is preferred for structured data, relationships, and complex queries, while NoSQL is useful for flexible schemas, large-scale data, and applications requiring high scalability.",Basic
+569,What is database indexing?,Database indexing is a technique that creates a data structure to speed up data retrieval from a database table.,Basic
+570,What is normalization?,Normalization is the process of organizing data into related tables to reduce redundancy and improve data integrity.,Basic
+571,What is denormalization?,Denormalization is the process of intentionally combining or duplicating data in tables to reduce joins and improve query performance.,Basic
+572,What is a transaction?,A transaction is a sequence of database operations treated as a single unit of work that can be committed or rolled back.,Basic
+573,What is connection pooling?,Connection pooling is a technique that maintains a pool of reusable database connections to reduce the overhead of creating a new connection for each request.,Basic
+574,What is replication?,"Replication is the process of copying data from one database server to one or more other servers to improve availability, reliability, or read performance.",Intermediate
+575,What is sharding?,Sharding is a technique of distributing data across multiple database servers or partitions so that each server handles only a portion of the data.,Intermediate
+576,What is a database migration?,"A database migration is a controlled change to a database schema, such as creating, modifying, or removing tables and columns.",Intermediate
+577,What is a query optimizer?,A query optimizer is a database component that determines an efficient execution plan for running a SQL query.,Intermediate
+578,What is a composite index?,A composite index is an index created on two or more columns to improve the performance of queries that use those columns together.,Intermediate
+579,What is a database constraint?,"A database constraint is a rule applied to data in a table to enforce accuracy, consistency, and integrity.",Intermediate
+580,What is a cache?,A cache is a temporary storage mechanism that keeps frequently accessed data so it can be retrieved faster.,Intermediate
+581,What is Redis commonly used for?,"Redis is commonly used as an in-memory cache, session store, message broker, or fast key-value database.",Intermediate
+582,What is eventual consistency?,Eventual consistency is a consistency model where changes to data may not be immediately visible everywhere but are expected to become consistent over time.,Advanced
+583,What is database partitioning?,Database partitioning is the process of dividing a large table or dataset into smaller parts called partitions to improve performance and manageability.,Advanced
+584,What is read/write splitting?,Read/write splitting directs write operations to a primary database and read operations to one or more replica databases to improve scalability and performance.,Advanced
+585,What is a primary key?,A primary key is a column or set of columns that uniquely identifies each row in a database table and does not allow duplicate or NULL values.,Advanced
+586,What is authentication?,Authentication is the process of verifying the identity of a user or system.,Basic
+587,What is authorization?,Authorization is the process of determining what resources or actions an authenticated user is allowed to access or perform.,Basic
+588,What is a session?,A session is a mechanism used to maintain a user's state and information across multiple requests during an interaction with an application.,Basic
+589,What is a cookie?,"A cookie is a small piece of data stored by a browser that can be used to remember information such as preferences, session identifiers, or authentication data.",Basic
+590,What is a JWT?,"A JWT (JSON Web Token) is a compact, digitally signed token used to securely transmit claims between parties, commonly for authentication and authorization.",Basic
+591,What is OAuth 2.0?,OAuth 2.0 is an authorization framework that allows applications to access protected resources on behalf of a user without sharing the user's password.,Basic
+592,What is OpenID Connect?,OpenID Connect is an authentication protocol built on OAuth 2.0 that allows applications to verify a user's identity and obtain basic user information.,Intermediate
+593,What is password hashing?,Password hashing is the process of converting a password into a one-way cryptographic hash that can be securely stored and later verified.,Intermediate
+594,Why use bcrypt or Argon2?,"bcrypt and Argon2 are password-hashing algorithms designed to be computationally expensive, making password-cracking attacks more difficult.",Intermediate
+595,What is multi-factor authentication?,"Multi-factor authentication requires users to provide two or more different types of verification, such as a password and a one-time code.",Intermediate
+596,What is refresh-token rotation?,"Refresh-token rotation is a security technique where a new refresh token is issued whenever an existing refresh token is used, reducing the risk of token reuse.",Intermediate
+597,What is CSRF?,CSRF (Cross-Site Request Forgery) is an attack that tricks an authenticated user's browser into sending an unwanted request to a website.,Intermediate
+598,What is CORS?,CORS (Cross-Origin Resource Sharing) is a browser security mechanism that controls whether a web page can make requests to a different origin.,Advanced
+599,What is an access token?,An access token is a credential used by a client to access protected resources or APIs on behalf of an authenticated user.,Advanced
+600,What is single sign-on?,Single sign-on (SSO) allows a user to authenticate once and access multiple related applications without signing in separately to each one.,Advanced
+601,What is a backend framework?,"A backend framework is a software framework that provides tools and structures for building server-side applications, APIs, and web services.",Basic
+602,What is Django?,Django is a high-level Python web framework used to build secure and scalable web applications quickly.,Basic
+603,What is Flask?,Flask is a lightweight Python web framework used to build web applications and APIs with a simple and flexible structure.,Basic
+604,What is FastAPI?,FastAPI is a modern Python web framework designed for building fast and scalable APIs with automatic validation and documentation.,Basic
+605,What is Express.js?,Express.js is a lightweight web framework for Node.js used to build web applications and REST APIs.,Basic
+606,What is middleware?,"Middleware is software that processes a request or response between the client and the application, such as for authentication, logging, or error handling.",Basic
+607,What is routing?,Routing is the process of directing incoming requests to the appropriate handler based on the URL and HTTP method.,Basic
+608,What is dependency injection?,Dependency injection is a design pattern where required dependencies are provided to a component instead of the component creating them itself.,Basic
+609,What is MVC architecture?,"MVC is an architectural pattern that separates an application into Model, View, and Controller components to organize application logic.",Basic
+610,What is request validation?,"Request validation checks incoming data to ensure it has the correct format, type, and required values before processing it.",Basic
+611,What is ORM?,ORM stands for Object-Relational Mapping. It allows developers to interact with a database using programming language objects instead of writing SQL directly.,Intermediate
+612,What is an application server?,An application server is software that runs application logic and handles requests from clients or other services.,Intermediate
+613,What is asynchronous request handling?,"Asynchronous request handling allows a server to handle other tasks while waiting for an I/O operation, such as a database or network request, to complete.",Intermediate
+614,What is background job processing?,"Background job processing executes time-consuming or non-urgent tasks separately from the main request, such as sending emails or processing files.",Intermediate
+615,What is API middleware?,"API middleware is software that processes API requests or responses before they reach the main endpoint logic, such as for authentication, logging, or validation.",Intermediate
+616,What is server-side rendering?,Server-side rendering generates the HTML of a web page on the server before sending it to the client.,Intermediate
+617,What is error middleware?,Error middleware is middleware designed to catch and handle application errors and return appropriate responses to clients.,Intermediate
+618,What is framework configuration?,"Framework configuration defines application settings such as database connections, security options, environment variables, and server behavior.",Intermediate
+619,What is dependency management?,"Dependency management is the process of managing the external libraries and packages an application requires, including their versions and installation.",Intermediate
+620,How do you structure a backend project?,"A backend project is commonly organized into separate modules for routes, controllers, services, models, configuration, middleware, and utilities to keep the code maintainable.",Intermediate
+621,What is a service layer?,"A service layer contains the application's business logic and separates it from controllers, routes, and database access.",Advanced
+622,What is a repository pattern?,The repository pattern separates database access logic from business logic by providing a dedicated layer for storing and retrieving data.,Advanced
+623,What is a controller?,"A controller handles incoming requests, coordinates application logic, and returns the appropriate response to the client.",Advanced
+624,What is a health-check endpoint?,A health-check endpoint is an API endpoint used to determine whether an application or its dependencies are operating correctly.,Advanced
+625,What is graceful shutdown?,Graceful shutdown allows an application to stop safely by finishing ongoing requests and releasing resources before shutting down.,Advanced
+626,What is responsive web design?,Responsive web design is an approach that makes web pages adapt to different screen sizes and devices.,Basic
+627,What is the DOM?,The DOM (Document Object Model) is a programming interface that represents an HTML document as a tree of objects that JavaScript can access and modify.,Basic
+628,What is semantic HTML?,"Semantic HTML uses meaningful HTML elements such as header, nav, section, article, and footer to describe the structure and meaning of content.",Basic
+629,What is CSS Flexbox?,CSS Flexbox is a layout system used to arrange and align elements efficiently in a row or column.,Basic
+630,What is CSS Grid?,CSS Grid is a CSS layout system used to create two-dimensional layouts with rows and columns.,Basic
+631,What is JavaScript event handling?,"JavaScript event handling is the process of detecting and responding to user or browser events, such as clicks, key presses, and form submissions.",Basic
+632,What is client-side routing?,Client-side routing is the process of changing the displayed content and URL in a web application without fully reloading the page.,Basic
+633,What is component-based UI?,"Component-based UI is an approach where a user interface is built from reusable, independent components, each responsible for a specific part of the interface.",Basic
+634,What is state management?,"State management is the process of storing, updating, and sharing application data so the user interface remains synchronized with the current state.",Intermediate
+635,What is accessibility?,"Accessibility is the practice of designing websites and applications so they can be used by people with different abilities, including those using assistive technologies.",Intermediate
+636,What is lazy loading?,"Lazy loading is a technique where resources are loaded only when they are needed, which can improve initial page load performance.",Intermediate
+637,What is code splitting?,Code splitting divides application code into smaller bundles that can be loaded when needed instead of loading all the code at once.,Intermediate
+638,What is browser caching?,"Browser caching stores resources such as images, CSS, and JavaScript locally so they can be reused without downloading them again.",Intermediate
+639,What is web performance optimization?,"Web performance optimization is the process of improving a website's loading speed, responsiveness, and resource efficiency.",Intermediate
+640,What is CORS?,CORS (Cross-Origin Resource Sharing) is a browser security mechanism that controls whether a web page can request resources from a different origin.,Intermediate
+641,What is form validation?,"Form validation checks whether user-entered data meets required rules, such as correct format, type, and required fields, before it is submitted.",Intermediate
+642,What is progressive enhancement?,Progressive enhancement is a web development approach that provides a basic functional experience first and adds advanced features for browsers that support them.,Advanced
+643,What is a SPA?,A SPA (Single-Page Application) is a web application that dynamically updates content without requiring a full page reload for each navigation.,Advanced
+644,What is hydration?,Hydration is the process of attaching JavaScript behavior and event handlers to HTML that was already rendered by the server.,Advanced
+645,What is web storage?,Web storage is a browser feature that allows websites to store data locally using mechanisms such as localStorage and sessionStorage.,Advanced
+646,What is a backend service?,"A backend service is a server-side application or component that handles business logic, data processing, database operations, or API requests.",Basic
+647,What is REST?,REST (Representational State Transfer) is an architectural style for designing web services around resources and standard HTTP methods.,Basic
+648,What is middleware?,"Middleware is software that processes requests and responses between different parts of an application, often for tasks such as authentication, logging, or error handling.",Basic
+649,What is a controller?,"A controller handles incoming requests, coordinates the required application logic, and sends an appropriate response to the client.",Basic
+650,What is a service layer?,A service layer contains business logic and separates it from controllers and other parts of the application.,Basic
+651,What is dependency injection?,Dependency injection is a design pattern in which an object's required dependencies are provided to it rather than being created internally.,Basic
+652,What is caching?,Caching is the process of storing frequently accessed data temporarily so it can be retrieved faster and reduce repeated processing or database requests.,Basic
+653,What is logging?,"Logging is the process of recording application events, errors, and other information to help with monitoring, debugging, and troubleshooting.",Basic
+654,What is centralized error handling?,Centralized error handling is an approach where application errors are processed in one common location instead of being handled separately throughout the application.,Intermediate
+655,What is background processing?,"Background processing executes tasks separately from the main request-response cycle, allowing time-consuming operations to run without blocking the user request.",Intermediate
+656,What is a message queue?,A message queue is a system that temporarily stores messages or tasks so producers and consumers can process them asynchronously.,Intermediate
+657,What is rate limiting?,Rate limiting restricts the number of requests a client can make within a specified period to protect a service from excessive traffic or abuse.,Intermediate
+658,What is load balancing?,"Load balancing distributes incoming requests across multiple servers or instances to improve availability, performance, and reliability.",Intermediate
+659,What is horizontal scaling?,Horizontal scaling increases system capacity by adding more servers or instances to handle additional workload.,Intermediate
+660,What is vertical scaling?,"Vertical scaling increases system capacity by adding more resources, such as CPU, memory, or storage, to an existing server.",Intermediate
+661,What is stateless architecture?,"Stateless architecture is an architecture where each request contains the information needed to process it, and the server does not rely on stored client session state between requests.",Intermediate
+662,What is a health check?,A health check is a mechanism that periodically verifies whether a service or application is running correctly and able to handle requests.,Advanced
+663,What is graceful shutdown?,Graceful shutdown is the process of safely stopping an application by completing active requests and releasing resources before the application exits.,Advanced
+664,What is observability?,"Observability is the ability to understand an application's internal state by analyzing telemetry such as logs, metrics, and traces.",Advanced
+665,What is API versioning?,API versioning is the practice of maintaining different versions of an API so changes can be introduced without breaking existing clients.,Advanced
+666,What is a relational database?,"A relational database stores data in structured tables consisting of rows and columns, with relationships defined between related tables.",Basic
+667,What is a NoSQL database?,"A NoSQL database is a non-relational database designed to store data using models such as documents, key-value pairs, graphs, or wide columns.",Basic
+668,When would you use SQL vs NoSQL?,"SQL is generally preferred for structured data and applications requiring strong relationships and transactions, while NoSQL is useful for flexible schemas, large-scale data, and high scalability.",Basic
+669,What is database indexing?,Database indexing is a technique that creates a data structure to allow the database to find and retrieve records faster without scanning the entire table.,Basic
+670,What is normalization?,Normalization is the process of organizing database tables to reduce data duplication and improve data consistency by separating related data into appropriate tables.,Basic
+671,What is denormalization?,Denormalization is the process of intentionally combining or duplicating data across tables to reduce joins and improve read performance.,Basic
+672,What is a transaction?,A transaction is a sequence of database operations that is treated as a single unit of work and either completes successfully or is rolled back.,Intermediate
+673,What is connection pooling?,Connection pooling is a technique that maintains a reusable collection of database connections so applications can reuse them instead of creating a new connection for every request.,Intermediate
+674,What is replication?,"Replication is the process of maintaining copies of database data on multiple servers to improve availability, fault tolerance, and read performance.",Intermediate
+675,What is sharding?,Sharding is a database scaling technique that divides data across multiple servers or databases so the workload can be distributed horizontally.,Intermediate
+676,What is a database migration?,A database migration is a controlled change to a database schema or structure that allows database changes to be applied consistently across different environments.,Intermediate
+677,What is a query optimizer?,A query optimizer is a database component that analyzes a query and selects an efficient execution plan for retrieving or modifying the required data.,Intermediate
+678,What is a composite index?,"A composite index is a database index created on multiple columns, allowing queries that filter or sort using combinations of those columns to execute more efficiently.",Advanced
+679,What is a database constraint?,"A database constraint is a rule enforced by the database to maintain data integrity, such as primary key, foreign key, unique, not-null, and check constraints.",Advanced
+680,What is a cache?,A cache is a temporary storage layer that keeps frequently accessed data so it can be retrieved faster and reduce repeated computation or database requests.,Advanced
+681,What is deployment?,"Deployment is the process of making an application available in a target environment such as development, testing, staging, or production.",Basic
+682,What is CI/CD?,"CI/CD is a development practice that automates building, testing, and deploying software so changes can be delivered more frequently and reliably.",Basic
+683,What is Docker?,Docker is a platform that packages applications and their dependencies into containers so they can run consistently across different environments.,Basic
+684,What is a container image?,"A container image is a packaged, read-only template containing an application's code, dependencies, libraries, and configuration needed to create a container.",Basic
+685,What is Kubernetes?,"Kubernetes is an open-source container orchestration platform that automates the deployment, scaling, networking, and management of containerized applications.",Basic
+686,What is a reverse proxy?,"A reverse proxy is a server that receives client requests and forwards them to backend servers, often providing features such as load balancing, security, and caching.",Basic
+687,What is a load balancer?,"A load balancer distributes incoming network or application requests across multiple servers or instances to improve performance, availability, and reliability.",Basic
+688,What is a cloud deployment?,"A cloud deployment is the process of hosting and running an application on cloud infrastructure using services such as virtual machines, containers, databases, or serverless platforms.",Basic
+689,What is environment configuration?,"Environment configuration is the practice of managing application settings separately for environments such as development, testing, staging, and production.",Intermediate
+690,What are environment variables?,"Environment variables are key-value settings provided to an application through its execution environment, commonly used for configuration values such as database URLs, API keys, and service settings.",Intermediate
+691,What is blue-green deployment?,"Blue-green deployment is a release strategy that maintains two production environments, where one serves the current version and the other hosts the new version before traffic is switched.",Intermediate
+692,What is rolling deployment?,Rolling deployment is a release strategy that gradually replaces instances running the old application version with instances running the new version without stopping the entire service.,Intermediate
+693,What is canary deployment?,Canary deployment is a release strategy that gradually releases a new application version to a small group of users or servers before expanding it to all users.,Intermediate
+694,What is infrastructure as code?,Infrastructure as code is the practice of managing and provisioning infrastructure using configuration files or code instead of manually configuring resources.,Intermediate
+695,What is a health check?,A health check is a mechanism that periodically verifies whether a service or application is running correctly and able to handle requests.,Intermediate
+696,What is monitoring?,"Monitoring is the process of continuously observing an application's systems, resources, and performance to detect problems and measure operational health.",Intermediate
+697,What is centralized logging?,"Centralized logging is an approach where logs from multiple applications, servers, or services are collected and stored in a central location for easier monitoring and troubleshooting.",Advanced
+698,What is autoscaling?,Autoscaling is the automatic adjustment of computing resources based on workload or demand to maintain performance while using resources efficiently.,Advanced
+699,What is a deployment pipeline?,"A deployment pipeline is an automated sequence of steps that builds, tests, validates, and deploys application changes to a target environment.",Advanced
+700,What is a rollback?,A rollback is the process of reverting an application or system to a previous stable version when a new release causes problems.,Advanced
+701,State the First Law of Thermodynamics.,"The First Law of Thermodynamics states that energy cannot be created or destroyed, but it can be transferred or converted from one form to another.",Basic
+702,What is the Second Law of Thermodynamics?,"The Second Law of Thermodynamics states that the entropy of an isolated system tends to increase over time, and heat naturally flows from a higher temperature region to a lower temperature region.",Basic
+703,What is the Zeroth Law?,"The Zeroth Law of Thermodynamics states that if two systems are each in thermal equilibrium with a third system, they are in thermal equilibrium with each other.",Basic
+704,What is an open system?,An open system is a thermodynamic system that can exchange both matter and energy with its surroundings.,Basic
+705,What is a closed system?,A closed system is a thermodynamic system that can exchange energy with its surroundings but does not exchange matter with them.,Basic
+706,What is an isolated system?,An isolated system is a thermodynamic system that exchanges neither matter nor energy with its surroundings.,Basic
+707,What is enthalpy?,Enthalpy is a thermodynamic property that represents the total heat content of a system at constant pressure and is defined as internal energy plus pressure-volume work.,Basic
+708,What is entropy?,Entropy is a thermodynamic property that measures the degree of energy dispersal or disorder in a system and indicates the direction of spontaneous processes.,Basic
+709,What is internal energy?,"Internal energy is the total microscopic energy contained within a system, including the kinetic and potential energies of its particles.",Intermediate
+710,What is a reversible process?,A reversible process is an ideal thermodynamic process that can be reversed without leaving any net change in the system or its surroundings.,Intermediate
+711,What is an irreversible process?,An irreversible process is a thermodynamic process that cannot be completely reversed without producing changes in the system or its surroundings.,Intermediate
+712,What is a thermodynamic cycle?,A thermodynamic cycle is a sequence of thermodynamic processes in which a system returns to its initial state after completing the cycle.,Intermediate
+713,What is specific heat?,Specific heat is the amount of heat required to raise the temperature of a unit mass of a substance by one degree of temperature.,Intermediate
+714,What is an isothermal process?,An isothermal process is a thermodynamic process that occurs at constant temperature throughout the process.,Intermediate
+715,What is an adiabatic process?,An adiabatic process is a thermodynamic process in which no heat is transferred between the system and its surroundings.,Intermediate
+716,What is an isobaric process?,An isobaric process is a thermodynamic process that occurs at constant pressure while other properties such as volume or temperature may change.,Intermediate
+717,What is an isochoric process?,"An isochoric process is a thermodynamic process that occurs at constant volume, so no boundary work is done due to volume change.",Advanced
+718,What is Carnot efficiency?,"Carnot efficiency is the maximum theoretical efficiency of a heat engine operating between two temperatures, determined by the temperatures of the hot and cold reservoirs.",Advanced
+719,What is a heat engine?,A heat engine is a device that converts heat energy into useful mechanical work by operating through a thermodynamic cycle between a high-temperature source and a low-temperature sink.,Advanced
+720,What is a refrigerator?,A refrigerator is a device that removes heat from a low-temperature space and transfers it to a higher-temperature environment by using external work.,Advanced
+721,What is stress?,Stress is the internal resisting force developed within a material per unit area when an external force is applied to it.,Basic
+722,What is strain?,Strain is the deformation of a material relative to its original dimension when an external force is applied.,Basic
+723,State Hooke's law.,"Hooke's law states that, within the elastic limit, the stress produced in a material is directly proportional to the strain.",Basic
+724,What is Young's modulus?,Young's modulus is the ratio of normal stress to normal strain within the elastic limit and is a measure of a material's stiffness.,Basic
+725,What is shear stress?,Shear stress is the internal resisting force per unit area that acts parallel to a material's cross-sectional surface.,Basic
+726,What is shear strain?,Shear strain is the angular deformation produced in a material when a shear force is applied to it.,Basic
+727,What is Poisson's ratio?,Poisson's ratio is the ratio of lateral strain to longitudinal strain in a material subjected to an axial load.,Intermediate
+728,What is bending moment?,Bending moment is the turning effect produced by forces acting on a beam that causes the beam to bend about a particular section.,Intermediate
+729,What is shear force?,Shear force is the internal force acting parallel to a cross-section of a structural member that tends to cause one part of the member to slide relative to another.,Intermediate
+730,What is torsion?,Torsion is the twisting of a material or structural member caused by an applied torque or twisting moment.,Intermediate
+731,What is factor of safety?,Factor of safety is the ratio of the strength of a material or component to the maximum expected working stress or load.,Intermediate
+732,What is elastic limit?,Elastic limit is the maximum stress a material can withstand and still return to its original shape after the applied load is removed.,Intermediate
+733,What is yield strength?,Yield strength is the stress at which a material begins to undergo permanent plastic deformation rather than returning completely to its original shape.,Advanced
+734,What is ultimate tensile strength?,Ultimate tensile strength is the maximum tensile stress a material can withstand before it begins to fail or fracture.,Advanced
+735,What is buckling?,Buckling is the sudden sideways deformation of a slender structural member when it is subjected to a sufficiently large compressive load.,Advanced
+736,What is casting?,Casting is a manufacturing process in which molten material is poured into a mold and allowed to solidify into the desired shape.,Basic
+737,What is forging?,"Forging is a manufacturing process in which metal is shaped by applying compressive forces using hammers, presses, or dies.",Basic
+738,What is machining?,"Machining is a manufacturing process that removes unwanted material from a workpiece to produce the required shape, dimensions, and surface finish.",Basic
+739,What is milling?,Milling is a machining process that uses a rotating multi-point cutting tool to remove material from a workpiece and produce various shapes and surfaces.,Basic
+740,What is turning?,Turning is a machining process in which a cutting tool removes material from a rotating workpiece to produce cylindrical or conical surfaces.,Basic
+741,What is drilling?,Drilling is a machining process that uses a rotating drill to create or enlarge a circular hole in a workpiece.,Basic
+742,What is welding?,"Welding is a manufacturing process that joins two or more materials by applying heat, pressure, or both, with or without using a filler material.",Intermediate
+743,What is extrusion?,Extrusion is a manufacturing process in which a material is forced through a shaped die to produce a continuous product with a uniform cross-section.,Intermediate
+744,What is rolling?,Rolling is a manufacturing process in which material is passed between rotating rolls to reduce its thickness or change its cross-sectional shape.,Intermediate
+745,What is additive manufacturing?,Additive manufacturing is a manufacturing process that creates objects by adding material layer by layer directly from a digital model.,Intermediate
+746,What is CNC machining?,CNC machining is a computer-controlled manufacturing process in which machine tools perform cutting operations according to programmed instructions.,Intermediate
+747,What is a lathe?,"A lathe is a machine tool that rotates a workpiece while a cutting tool removes material to produce cylindrical, conical, or other rotational shapes.",Intermediate
+748,What is tolerance?,Tolerance is the permissible variation in a specified dimension or property of a manufactured part while still allowing it to function correctly.,Advanced
+749,What is surface finish?,"Surface finish describes the texture and quality of a machined or manufactured surface, including characteristics such as roughness and smoothness.",Advanced
+750,What is heat treatment?,"Heat treatment is a controlled process of heating and cooling a material to change its microstructure and improve properties such as hardness, strength, toughness, or ductility.",Advanced
+751,What is fluid mechanics?,Fluid mechanics is the branch of engineering that studies the behavior of fluids at rest and in motion and the forces acting on them.,Basic
+752,What is viscosity?,Viscosity is a fluid's resistance to flow or deformation caused by internal friction between its layers.,Basic
+753,What is pressure?,Pressure is the force exerted perpendicular to a surface per unit area.,Basic
+754,What is density?,Density is the mass of a substance per unit volume and describes how much matter is contained in a given space.,Basic
+755,What is Pascal's law?,Pascal's law states that pressure applied to a confined fluid is transmitted equally and undiminished in all directions throughout the fluid.,Basic
+756,What is Bernoulli's equation?,"Bernoulli's equation states that, for steady incompressible flow along a streamline, the sum of pressure energy, kinetic energy, and potential energy per unit volume remains constant.",Basic
+757,What is Reynolds number?,Reynolds number is a dimensionless quantity used to predict the flow regime of a fluid by comparing inertial forces with viscous forces.,Intermediate
+758,What is laminar flow?,Laminar flow is a smooth and orderly type of fluid flow in which fluid particles move in approximately parallel layers with little mixing.,Intermediate
+759,What is turbulent flow?,"Turbulent flow is an irregular type of fluid flow characterized by fluctuations, eddies, and significant mixing between fluid layers.",Intermediate
+760,What is continuity equation?,"The continuity equation expresses conservation of mass in fluid flow, stating that the mass flow rate remains constant through a system under steady conditions.",Intermediate
+761,What is head loss?,Head loss is the reduction in mechanical energy of a flowing fluid caused by friction and other flow-related effects in pipes or components.,Intermediate
+762,What is buoyancy?,Buoyancy is the upward force exerted by a fluid on an object that is partially or completely immersed in the fluid.,Intermediate
+763,What is Archimedes' principle?,Archimedes' principle states that an immersed object experiences an upward buoyant force equal to the weight of the fluid displaced by the object.,Advanced
+764,What is a boundary layer?,A boundary layer is the thin region of fluid near a solid surface where the fluid velocity changes significantly due to the effect of viscosity.,Advanced
+765,What is cavitation?,"Cavitation is the formation and collapse of vapor bubbles in a liquid when local pressure falls below the liquid's vapor pressure, potentially causing damage to equipment.",Advanced
+766,What is CAD?,"CAD (Computer-Aided Design) is the use of computer software to create, modify, analyze, and document two-dimensional or three-dimensional designs.",Basic
+767,What is CAM?,CAM (Computer-Aided Manufacturing) is the use of computer software to control and automate manufacturing processes such as CNC machining.,Basic
+768,What is CAD/CAM integration?,CAD/CAM integration is the connection of design and manufacturing software so that digital CAD models can be directly used to plan and control manufacturing processes.,Basic
+769,What is a 2D CAD drawing?,A 2D CAD drawing is a computer-generated technical drawing that represents an object's shape and dimensions using two-dimensional geometry.,Basic
+770,What is 3D modeling?,3D modeling is the process of creating a three-dimensional digital representation of an object using specialized computer software.,Intermediate
+771,What is parametric modeling?,"Parametric modeling is a CAD modeling approach in which the shape and dimensions of a design are controlled by parameters, constraints, and relationships.",Intermediate
+772,What is a CNC program?,"A CNC program is a set of coded instructions that controls the movements, speeds, and operations of a computer numerical control machine.",Intermediate
+773,What is geometric dimensioning and tolerancing?,"Geometric dimensioning and tolerancing is a standardized system for defining allowable variations in the geometry, dimensions, and location of manufactured parts.",Intermediate
+774,What is a CAD assembly?,A CAD assembly is a digital model that combines multiple individual components into a single design to represent how the parts fit and interact with each other.,Advanced
+775,What is finite element modeling?,"Finite element modeling is a numerical method that divides a complex structure or object into smaller elements to analyze its behavior under conditions such as loads, stresses, or heat.",Advanced
+776,What is structural engineering?,"Structural engineering is a branch of engineering concerned with designing and analyzing structures to ensure they are safe, stable, and capable of carrying expected loads.",Basic
+777,What is a load-bearing structure?,A load-bearing structure is a structure designed to support and transfer loads safely to its foundations or other supporting elements.,Basic
+778,What is dead load?,"Dead load is the permanent load acting on a structure, such as the weight of its structural components, walls, floors, and fixed equipment.",Basic
+779,What is live load?,"Live load is a temporary or movable load acting on a structure, such as people, furniture, vehicles, or stored materials.",Basic
+780,What is a bending moment?,A bending moment is the turning effect produced by forces acting on a structural member that causes it to bend about a particular section.,Basic
+781,What is shear force?,Shear force is the internal force acting parallel to a cross-section of a structural member that tends to cause one part of the member to slide relative to another.,Basic
+782,What is a truss?,"A truss is a structural framework made of straight members connected at joints, designed to carry loads primarily through tension and compression.",Basic
+783,What is a beam?,A beam is a structural member designed to carry loads primarily through bending and shear while transferring those loads to its supports.,Basic
+784,What is a column?,A column is a vertical structural member designed primarily to carry compressive loads and transfer them safely to a foundation or supporting structure.,Intermediate
+785,What is buckling?,Buckling is the sudden sideways deformation of a slender structural member when it is subjected to a sufficiently large compressive load.,Intermediate
+786,What is structural stability?,"Structural stability is the ability of a structure to maintain its shape and safely resist applied loads without excessive deformation, overturning, or collapse.",Intermediate
+787,What is factor of safety?,Factor of safety is the ratio of the strength of a material or structural component to the maximum expected working stress or load.,Intermediate
+788,What is ductility?,Ductility is the ability of a material to undergo significant plastic deformation before breaking or fracturing.,Intermediate
+789,What is structural analysis?,"Structural analysis is the process of determining the forces, stresses, strains, and deformations that occur in a structure under applied loads.",Intermediate
+790,What is a foundation?,A foundation is the lowest part of a structure that transfers structural loads safely to the supporting soil or rock.,Intermediate
+791,What is a simply supported beam?,"A simply supported beam is a beam supported at its ends, typically by a pin or hinge at one end and a roller at the other, allowing rotation at the supports.",Intermediate
+792,What is a cantilever?,"A cantilever is a structural member fixed at one end and free at the other, designed to resist loads through bending and shear.",Advanced
+793,What is torsion in structures?,Torsion in structures is the twisting of a structural member caused by an applied torque or moment acting about its longitudinal axis.,Advanced
+794,What is lateral load?,"Lateral load is a horizontal force acting on a structure, commonly caused by wind, earthquakes, earth pressure, or other horizontal actions.",Advanced
+795,What is seismic load?,Seismic load is the force or structural demand produced by ground motion during an earthquake and transferred to a structure through its foundation.,Advanced
+796,What is surveying?,"Surveying is the process of measuring and determining the positions, distances, angles, and elevations of points on or near the Earth's surface.",Basic
+797,What is leveling?,Leveling is a surveying technique used to determine the difference in elevation between points or establish points at known elevations.,Basic
+798,What is a benchmark?,A benchmark is a fixed reference point with a precisely known elevation that is used as a reference for determining elevations during surveying.,Basic
+799,What is a total station?,"A total station is an electronic surveying instrument that combines an electronic theodolite, distance measurement system, and data processing capabilities to measure angles and distances.",Basic
+800,What is theodolite?,A theodolite is a surveying instrument used to measure horizontal and vertical angles accurately.,Basic
+801,What is chain surveying?,Chain surveying is a simple surveying method in which distances are measured using a chain or tape and the survey area is divided into a network of triangles.,Basic
+802,What is plane table surveying?,Plane table surveying is a field surveying method in which observations and measurements are plotted directly on a drawing sheet mounted on a plane table.,Intermediate
+803,What is contouring?,Contouring is the process of representing points of equal elevation on a map using contour lines to show the shape and slope of the terrain.,Intermediate
+804,What is a traverse?,A traverse is a series of connected survey lines whose lengths and directions are measured to determine the positions of points on the ground.,Intermediate
+805,What is bearing?,"Bearing is the horizontal direction of a survey line measured relative to a reference meridian, usually expressed as an angle.",Intermediate
+806,What is reduced level?,Reduced level is the elevation of a point relative to an established reference datum or benchmark used in surveying.,Intermediate
+807,What is GPS surveying?,GPS surveying is a surveying technique that uses signals from global navigation satellites to determine the precise position and coordinates of points on the Earth's surface.,Intermediate
+808,What is an EDM?,EDM (Electronic Distance Measurement) is a surveying technology that uses electromagnetic waves to measure distances accurately between two points.,Advanced
+809,What is triangulation?,Triangulation is a surveying method that determines the positions of points by measuring angles in a network of connected triangles with known reference measurements.,Advanced
+810,What is surveying error?,"Surveying error is the difference between a measured or calculated value and its true or accepted value, caused by factors such as instruments, environment, or human observation.",Advanced
+811,What is concrete?,"Concrete is a composite construction material made by mixing cement, water, fine aggregate, and coarse aggregate, which hardens into a strong mass.",Basic
+812,What is cement?,Cement is a binding material that reacts with water to form a paste that binds aggregates together and hardens over time.,Basic
+813,What is water-cement ratio?,The water-cement ratio is the ratio of the mass of water to the mass of cement in a concrete mixture and strongly affects its strength and workability.,Basic
+814,What is workability?,"Workability is the ease with which fresh concrete can be mixed, placed, compacted, and finished without segregation or excessive loss of uniformity.",Basic
+815,What is slump test?,The slump test is a simple test used to measure the consistency and workability of fresh concrete by measuring the reduction in height of a molded concrete cone after removing the mold.,Basic
+816,What is curing?,"Curing is the process of maintaining adequate moisture, temperature, and time in concrete after placing to allow proper hydration and development of strength.",Basic
+817,What is segregation?,"Segregation is the separation of the components of fresh concrete, such as coarse aggregate and cement paste, resulting in a non-uniform mixture.",Intermediate
+818,What is bleeding?,Bleeding is the upward movement of water to the surface of freshly placed concrete as solid particles settle under gravity.,Intermediate
+819,What is admixture?,"An admixture is a material added to concrete in small quantities before or during mixing to modify properties such as workability, setting time, strength, or durability.",Intermediate
+820,What is aggregate?,"Aggregate is granular material such as sand, gravel, or crushed stone used with cement and water to form concrete and provide volume, strength, and stability.",Intermediate
+821,What is characteristic strength?,Characteristic strength is the strength value below which only a specified small percentage of test results are expected to fall under defined testing conditions.,Intermediate
+822,What is mix design?,"Mix design is the process of determining the suitable proportions of cement, water, aggregates, and admixtures required to produce concrete with specified strength, workability, and durability.",Intermediate
+823,What is reinforced concrete?,Reinforced concrete is a composite material in which concrete is combined with steel reinforcement to resist both compressive and tensile forces effectively.,Advanced
+824,What is prestressed concrete?,Prestressed concrete is concrete in which internal compressive stresses are intentionally introduced using tensioned steel tendons to improve its resistance to tensile stresses and cracking.,Advanced
+825,What is concrete durability?,"Concrete durability is the ability of concrete to resist deterioration caused by environmental conditions, chemical attack, moisture, abrasion, and other harmful effects throughout its service life.",Advanced
+826,What is soil mechanics?,"Soil mechanics is the branch of civil engineering that studies the physical properties, behavior, and strength of soil under different loading and environmental conditions.",Basic
+827,What is soil classification?,"Soil classification is the process of grouping soils according to their properties, such as particle size, plasticity, and composition, to predict their engineering behavior.",Basic
+828,What is bearing capacity?,Bearing capacity is the maximum pressure that soil can safely support beneath a foundation without excessive settlement or shear failure.,Basic
+829,What is compaction?,Compaction is the process of mechanically reducing the volume of air in soil by applying energy to increase its density and improve its engineering properties.,Basic
+830,What is consolidation?,Consolidation is the gradual reduction in the volume of saturated soil caused by the expulsion of water from its pores under sustained loading.,Basic
+831,What is permeability?,Permeability is the ability of soil or another porous material to allow water or other fluids to flow through its interconnected pores.,Basic
+832,What is shear strength of soil?,Shear strength of soil is the maximum resistance soil can provide against shearing or sliding failure under applied loads.,Intermediate
+833,What is effective stress?,Effective stress is the portion of total stress carried by the soil skeleton and is calculated as total stress minus pore water pressure.,Intermediate
+834,What is a shallow foundation?,A shallow foundation is a foundation constructed relatively close to the ground surface that transfers structural loads to the soil at a shallow depth.,Intermediate
+835,What is a deep foundation?,"A deep foundation is a foundation that transfers structural loads to deeper, stronger soil or rock layers when suitable bearing soil is not available near the surface.",Intermediate
+836,What is a pile foundation?,"A pile foundation is a type of deep foundation that uses long, slender structural elements called piles to transfer loads from a structure into deeper soil or rock.",Intermediate
+837,What is settlement?,Settlement is the downward movement of a structure or foundation caused by compression or deformation of the supporting soil under applied loads.,Intermediate
+838,What is a retaining wall?,A retaining wall is a structure designed to hold back soil or other materials and resist the lateral pressure exerted by the retained material.,Advanced
+839,What is slope stability?,"Slope stability is the ability of a natural or constructed slope to resist sliding, collapse, or other forms of failure under existing loading and environmental conditions.",Advanced
+840,What is the Standard Penetration Test?,The Standard Penetration Test is an in-situ soil test that measures the resistance of soil to penetration by recording the number of blows required to drive a standard sampler a specified distance.,Advanced
+841,What is environmental engineering?,"Environmental engineering is a branch of engineering focused on protecting human health and the environment by addressing issues such as pollution, waste management, water quality, and air quality.",Basic
+842,What is wastewater treatment?,"Wastewater treatment is the process of removing physical, chemical, and biological pollutants from wastewater before it is discharged or reused.",Basic
+843,What is sewage?,"Sewage is wastewater containing human waste, domestic wastewater, and other materials discharged from homes, institutions, and similar sources.",Basic
+844,What is BOD?,BOD (Biochemical Oxygen Demand) is the amount of dissolved oxygen required by microorganisms to biologically decompose organic matter in water over a specified period.,Basic
+845,What is COD?,COD (Chemical Oxygen Demand) is the amount of oxygen required to chemically oxidize organic and other oxidizable substances present in water.,Intermediate
+846,What is drinking-water treatment?,Drinking-water treatment is the process of removing contaminants and harmful substances from raw water to make it safe and suitable for human consumption.,Intermediate
+847,What is sedimentation?,Sedimentation is a water-treatment process in which suspended particles settle to the bottom of a tank under the action of gravity.,Intermediate
+848,What is coagulation?,Coagulation is a water-treatment process in which chemicals are added to destabilize suspended and colloidal particles so they can combine and be removed more easily.,Intermediate
+849,What is filtration?,"Filtration is a water-treatment process that removes suspended particles and other impurities by passing water through a porous medium such as sand, membranes, or activated carbon.",Advanced
+850,What is disinfection?,"Disinfection is the process of destroying or inactivating harmful microorganisms in water or wastewater using methods such as chlorination, ultraviolet light, or ozonation.",Advanced
+851,What is Ohm's law?,Ohm's law states that the current flowing through a conductor is directly proportional to the voltage across it when physical conditions remain constant.,Basic
+852,What is Kirchhoff's Current Law?,"Kirchhoff's Current Law states that the algebraic sum of currents at any electrical junction is zero, meaning the total current entering a node equals the total current leaving it.",Basic
+853,What is Kirchhoff's Voltage Law?,Kirchhoff's Voltage Law states that the algebraic sum of all voltage changes around any closed electrical loop is zero.,Basic
+854,What is resistance?,Resistance is the opposition offered by a material or electrical component to the flow of electric current.,Basic
+855,What is capacitance?,Capacitance is the ability of a component to store electric charge and is defined as the ratio of stored charge to the voltage across it.,Basic
+856,What is inductance?,Inductance is the property of an electrical component that opposes changes in current by inducing a voltage when the current changes.,Basic
+857,What is impedance?,"Impedance is the total opposition offered by an electrical circuit to the flow of alternating current, combining resistance and reactance.",Basic
+858,What is reactance?,Reactance is the opposition offered by a capacitor or inductor to alternating current due to energy storage and release in electric or magnetic fields.,Basic
+859,What is an AC circuit?,"An AC circuit is an electrical circuit supplied by alternating current, in which the magnitude and direction of current periodically change with time.",Intermediate
+860,What is a DC circuit?,"A DC circuit is an electrical circuit supplied by direct current, in which electric current flows in a constant direction.",Intermediate
+861,What is resonance?,"Resonance is a condition in an electrical circuit where inductive and capacitive reactances cancel each other, causing the circuit to respond strongly at a particular frequency.",Intermediate
+862,What is power factor?,Power factor is the ratio of real power consumed by an AC circuit to its apparent power and indicates how effectively electrical power is being used.,Intermediate
+863,What is RMS voltage?,RMS voltage is the effective value of an alternating voltage that produces the same heating effect in a resistor as an equivalent DC voltage.,Intermediate
+864,What is Thevenin's theorem?,Thevenin's theorem states that any linear two-terminal electrical network can be replaced by an equivalent circuit consisting of a single voltage source and a series resistance.,Intermediate
+865,What is Norton's theorem?,Norton's theorem states that any linear two-terminal electrical network can be replaced by an equivalent circuit consisting of a current source and a parallel resistance.,Intermediate
+866,What is superposition theorem?,"The superposition theorem states that in a linear circuit containing multiple independent sources, the total response is the sum of the responses produced by each source acting individually.",Intermediate
+867,What is maximum power transfer theorem?,The maximum power transfer theorem states that a load receives maximum power from a source when the load resistance matches the source's equivalent resistance for a resistive circuit.,Advanced
+868,What is a series circuit?,"A series circuit is an electrical circuit in which components are connected along a single path, so the same current flows through every component.",Advanced
+869,What is a parallel circuit?,"A parallel circuit is an electrical circuit in which components are connected across the same two nodes, providing multiple paths for current to flow.",Advanced
+870,What is transient response?,"Transient response is the temporary behavior of a circuit immediately after a change in input or switching condition, before the circuit reaches its steady-state response.",Advanced
+871,What is an electrical power system?,"An electrical power system is a network of generation, transmission, and distribution equipment used to produce, transfer, and deliver electrical energy to consumers.",Basic
+872,What is a power plant?,"A power plant is a facility that generates electrical energy by converting other forms of energy, such as thermal, hydro, nuclear, solar, or wind energy, into electricity.",Basic
+873,What is transmission?,Transmission is the process of transferring electrical power over long distances from generating stations to distribution substations using high-voltage lines.,Basic
+874,What is distribution?,Distribution is the process of delivering electrical power from substations to consumers through medium- and low-voltage networks.,Basic
+875,Why is high voltage used for transmission?,"High voltage is used for transmission because, for the same amount of power, increasing voltage reduces current and therefore reduces power losses in transmission lines.",Basic
+876,What is a transformer?,A transformer is an electrical device that transfers electrical energy between circuits through electromagnetic induction and can increase or decrease AC voltage.,Basic
+877,What is a substation?,"A substation is an electrical facility that contains equipment for transforming voltage levels, switching circuits, protecting equipment, and controlling the flow of electrical power.",Basic
+878,What is a circuit breaker?,A circuit breaker is a protective switching device that automatically interrupts electrical current when a fault or abnormal condition occurs.,Basic
+879,What is a relay?,A relay is a protective or control device that detects abnormal electrical conditions and sends a signal to operate equipment such as a circuit breaker.,Intermediate
+880,What is a busbar?,A busbar is a conductive metal bar or system used in electrical substations and switchboards to collect and distribute electrical power between multiple circuits.,Intermediate
+881,What is power factor correction?,"Power factor correction is the process of improving the power factor of an electrical system, commonly by using capacitors or other compensating equipment to reduce reactive power demand.",Intermediate
+882,What is load flow?,"Load flow is the analysis of an electrical power system used to determine quantities such as bus voltages, power flows, currents, and losses under specified operating conditions.",Intermediate
+883,What is short-circuit analysis?,"Short-circuit analysis is the study of fault conditions in a power system to determine fault currents, voltages, and the required ratings of protective equipment.",Intermediate
+884,What is a three-phase system?,A three-phase system is an electrical power system consisting of three alternating voltages or currents of the same frequency and magnitude that are separated by 120 degrees in phase.,Intermediate
+885,What is a synchronous grid?,A synchronous grid is an interconnected power network in which generators and other connected systems operate at the same nominal frequency and maintain synchronized operation.,Intermediate
+886,What is an electrical fault?,"An electrical fault is an abnormal condition in which unintended connections or insulation failures cause excessive current, abnormal voltage, or other disturbances in an electrical system.",Intermediate
+887,What is earthing?,Earthing is the process of connecting electrical equipment or systems to the ground to provide a safe path for fault current and reduce the risk of electric shock.,Advanced
+888,What is a surge arrester?,A surge arrester is a protective device that limits excessive transient voltage caused by events such as lightning or switching surges and diverts the surge current safely to ground.,Advanced
+889,What is voltage regulation?,Voltage regulation is the ability of an electrical system or device to maintain its output voltage within an acceptable range as the load or operating conditions change.,Advanced
+890,What is power-system stability?,Power-system stability is the ability of an electrical power system to maintain or restore a stable operating condition after a disturbance.,Advanced
+891,What is an electrical machine?,"An electrical machine is a device that converts electrical energy into mechanical energy, mechanical energy into electrical energy, or transfers electrical energy through electromagnetic principles.",Basic
+892,What is a transformer?,A transformer is an electrical device that transfers AC electrical energy between circuits through electromagnetic induction and changes voltage or current levels without changing frequency.,Basic
+893,What is a DC motor?,A DC motor is an electrical machine that converts direct-current electrical energy into mechanical rotational energy using electromagnetic forces.,Basic
+894,What is a DC generator?,A DC generator is an electrical machine that converts mechanical energy into direct-current electrical energy through electromagnetic induction.,Basic
+895,What is an induction motor?,An induction motor is an AC motor in which current is induced in the rotor by the rotating magnetic field produced by the stator.,Basic
+896,What is a synchronous motor?,A synchronous motor is an AC motor whose rotor rotates at the same speed as the rotating magnetic field of the stator under normal operating conditions.,Basic
+897,What is slip?,"Slip is the difference between the synchronous speed of an induction motor's rotating magnetic field and the actual rotor speed, usually expressed as a fraction or percentage of synchronous speed.",Intermediate
+898,What is back EMF?,"Back EMF is the voltage induced in a motor's winding as the motor rotates, which opposes the applied voltage and limits the current flowing through the motor.",Intermediate
+899,What is torque?,Torque is the rotational force produced by a motor or applied to a shaft that causes or tends to cause rotational motion.,Intermediate
+900,What is motor efficiency?,"Motor efficiency is the ratio of the mechanical output power produced by a motor to the electrical input power supplied to it, usually expressed as a percentage.",Intermediate
+901,What is an alternator?,An alternator is an electrical machine that converts mechanical energy into alternating electrical energy through electromagnetic induction.,Intermediate
+902,What is rotor?,A rotor is the rotating part of an electrical machine that moves inside or around the stationary stator to produce or transfer mechanical and electromagnetic energy.,Intermediate
+903,What is stator?,A stator is the stationary part of an electrical machine that contains windings or magnetic components responsible for producing or interacting with the machine's magnetic field.,Advanced
+904,What is a three-phase induction motor?,A three-phase induction motor is an AC motor that uses a three-phase stator supply to produce a rotating magnetic field that induces current and torque in the rotor.,Advanced
+905,What is motor starting?,"Motor starting is the process of bringing a motor from rest to its required operating speed while controlling starting current, torque, and mechanical stress.",Advanced
+906,What is a control system?,A control system is a system that manages or regulates the behavior of a process or device to achieve a desired output.,Basic
+907,What is open-loop control?,An open-loop control system is a system in which the control action does not depend on feedback from the output.,Basic
+908,What is closed-loop control?,A closed-loop control system is a system that uses feedback to compare the actual output with the desired output and adjust the control action.,Basic
+909,What is feedback?,Feedback is the process of using a portion of a system's output and returning it to the input for monitoring or control.,Basic
+910,What is transfer function?,"A transfer function is the mathematical relationship between a system's output and input in the Laplace domain, assuming zero initial conditions.",Intermediate
+911,What is a block diagram?,A block diagram is a graphical representation of a system that uses blocks and connecting lines to show the relationships between its components and signals.,Intermediate
+912,What is stability?,Stability is the ability of a control system to produce a bounded response and return toward a normal operating condition after a disturbance.,Intermediate
+913,What is steady-state error?,Steady-state error is the difference between the desired output and the actual output of a control system after transient effects have settled.,Intermediate
+914,What is transient response?,Transient response is the part of a system's response that occurs immediately after an input or disturbance and before the system reaches steady-state operation.,Advanced
+915,What is PID control?,"PID control is a feedback control method that uses proportional, integral, and derivative actions to reduce error and improve system response.",Advanced
+916,What is a diode?,A diode is a semiconductor device that primarily allows electric current to flow in one direction and blocks it in the opposite direction.,Basic
+917,What is a transistor?,A transistor is a semiconductor device used to amplify or switch electronic signals and control the flow of electrical current.,Basic
+918,What is an LED?,An LED is a semiconductor device that emits light when electric current flows through it in the forward direction.,Basic
+919,What is a rectifier?,A rectifier is an electronic circuit or device that converts alternating current into direct current.,Basic
+920,What is an amplifier?,An amplifier is an electronic device or circuit that increases the amplitude of an electrical signal without changing its basic waveform significantly.,Intermediate
+921,What is an operational amplifier?,"An operational amplifier is a high-gain electronic amplifier used to perform mathematical and signal-processing operations such as amplification, addition, and comparison.",Intermediate
+922,What is a capacitor?,A capacitor is a passive electrical component that stores energy in an electric field and opposes changes in voltage.,Intermediate
+923,What is a resistor?,A resistor is a passive electrical component that limits current flow and produces a voltage drop according to its resistance.,Intermediate
+924,What is a voltage regulator?,A voltage regulator is an electronic device or circuit that maintains a stable output voltage despite changes in input voltage or load conditions.,Advanced
+925,What is a digital logic gate?,A digital logic gate is an electronic circuit that performs a basic logical operation on one or more binary inputs to produce a binary output.,Advanced
+926,How would you introduce yourself in an interview?,"I would introduce myself by briefly describing my educational background, key technical skills, relevant projects or experience, and my career interests.",Behavioral
+927,Tell me about yourself.,"My name is [Your Name]. I am a [your degree/field] graduate with an interest in [your area of interest]. During my studies, I have developed knowledge and skills in [your key skills or subjects] through academic work, projects, and practical learning. I am interested in building my career in [your career area] and continuously improving my skills.",Behavioral
+928,How would you summarize your professional background?,"I would summarize my professional background by mentioning my educational qualification, relevant skills, academic or professional experience, and important projects. My background has helped me develop knowledge in [your field or area of expertise] and prepared me to take on professional responsibilities and new challenges.",Behavioral
+929,What are your key areas of expertise?,"My key areas of expertise include [your main skills or technical areas]. I have developed these skills through my education, projects, training, and practical experience, and I am continuously working on improving my knowledge and applying it to real-world problems.",Behavioral
+930,What project are you most proud of?,"The project I am most proud of is [Project Name], which focused on [briefly describe the project]. I worked on areas such as [your role or responsibilities], and the project helped me strengthen my skills in [relevant skills] while also improving my problem-solving and practical experience.",Behavioral
+931,What interests you about this role?,"I am interested in this role because it aligns with my skills, interests, and career goals. I believe it will give me an opportunity to apply my knowledge, learn from experienced professionals, and grow within the field.",Behavioral
+932,How does your background relate to this position?,"My educational background, technical skills, projects, and practical experience have helped me develop knowledge relevant to this position. I believe these skills provide a strong foundation for understanding the responsibilities of the role and contributing effectively.",Behavioral
+933,What are you currently learning?,"I am currently learning more about [skill, technology, or subject] to strengthen my knowledge and stay updated in my field. I am also practicing through projects and practical exercises to improve my understanding.",Behavioral
+934,What motivates you professionally?,"I am professionally motivated by opportunities to learn, solve meaningful problems, improve my skills, and achieve measurable results. I also enjoy taking on new challenges that help me grow and become more capable in my field.",Behavioral
+935,How would your colleagues describe you?,"My colleagues would likely describe me as responsible, cooperative, dependable, and willing to learn. I try to communicate clearly, complete my responsibilities on time, and support others when needed.",Behavioral
+936,What is your greatest strength?,"My greatest strength is my willingness to learn and adapt. I can approach new challenges with a positive attitude, understand what is required, and continuously work on improving my skills.",Behavioral
+937,What is one professional weakness you are working on?,"One professional weakness I am working on is [area for improvement]. I have recognized that it can affect my performance, so I am actively working on it through practice, planning, and regular self-evaluation.",Behavioral
+938,How have you improved a weakness?,"I have improved my weakness by identifying the situations where it affects me, practicing better approaches, and regularly reviewing my progress. This has helped me become more confident and consistent in that area.",Behavioral
+939,What skill do you want to develop further?,I would like to develop my skills further in [skill or area]. I believe improving this skill will help me perform better in my field and take on more challenging responsibilities in the future.,Behavioral
+940,How do you respond to constructive feedback?,"I respond to constructive feedback positively by listening carefully, understanding the specific areas for improvement, and applying the suggestions to my work. I see feedback as an opportunity to learn and improve.",Behavioral
+941,What strength helps you under pressure?,"My ability to stay calm and focused helps me perform under pressure. I try to understand the situation, prioritize the important tasks, and work through the problem step by step.",Behavioral
+942,What is an area where you seek mentorship?,I seek mentorship in areas where I want to gain deeper knowledge or practical experience. I value guidance from experienced people because it helps me learn from their experience and avoid common mistakes.,Behavioral
+943,How do you avoid overusing a strength?,I avoid overusing a strength by understanding when a different approach may be more appropriate. I regularly evaluate my decisions and remain open to feedback so that my strengths continue to support rather than limit my performance.,Behavioral
+944,How do you measure personal improvement?,"I measure personal improvement by comparing my current performance with my previous results, evaluating the skills I have developed, and considering feedback from others. I also set small goals to track my progress over time.",Behavioral
+945,Describe a time feedback changed your approach.,"I once received feedback that I needed to [area for improvement]. I considered the feedback carefully, changed my approach by [action taken], and gradually improved my performance in that area.",Behavioral
+946,What is a skill you initially struggled to learn?,"A skill I initially struggled to learn was [skill or subject]. I improved by breaking it into smaller concepts, practicing regularly, asking questions when needed, and applying it through practical tasks.",Behavioral
+947,How do you handle uncertainty?,"I handle uncertainty by first understanding what information is available and identifying what is still unclear. I then prioritize the next steps, gather the required information, and make the best decision possible based on the available evidence.",Behavioral
+948,How do you manage competing priorities?,"I manage competing priorities by evaluating tasks based on their urgency, importance, and deadlines. I create a clear plan, focus on high-priority work first, and communicate early if priorities or deadlines need to be adjusted.",Behavioral
+949,What habit has improved your productivity?,"A habit that has improved my productivity is planning my tasks before starting the day. I organize my priorities, break larger tasks into smaller steps, and regularly review my progress to stay focused.",Behavioral
+950,What professional behavior are you trying to improve?,"I am working on improving my tendency to [professional behavior]. I am becoming more aware of situations where it affects my work and am using planning, self-evaluation, and feedback to develop a better approach.",Behavioral
+951,Describe a successful team experience.,"I had a successful team experience while working on [project or task]. We divided the responsibilities according to our strengths, communicated regularly, and supported each other, which helped us complete the work successfully.",Behavioral
+952,How do you handle disagreement within a team?,"I handle disagreement within a team by listening to the other person's perspective and discussing the issue calmly. I focus on facts, the team's objective, and finding a solution that works best for the project.",Behavioral
+953,How do you divide work among team members?,"I divide work among team members by considering the project's requirements, each person's skills and interests, and the available time. I make sure responsibilities are clearly understood and regularly check progress.",Behavioral
+954,How do you support a struggling teammate?,I support a struggling teammate by first understanding the difficulty they are facing and then offering help or guidance where I can. I believe in supporting teammates while also encouraging them to develop the ability to handle the task independently.,Behavioral
+955,How do you communicate progress to a team?,"I communicate progress by providing clear and timely updates about completed work, current tasks, and any challenges or delays. This helps the team understand the project's status and coordinate the next steps effectively.",Behavioral
+956,What makes a team effective?,"An effective team has clear communication, shared goals, defined responsibilities, mutual respect, and a willingness to support one another. Good teamwork also requires accountability and the ability to solve problems together.",Behavioral
+957,How do you handle different working styles?,"I handle different working styles by understanding how each person prefers to communicate and complete tasks. I remain flexible, focus on the team's common goals, and adjust my approach when necessary to work effectively with others.",Behavioral
+958,Describe a time you collaborated across functions.,"I collaborated across functions while working on [project or task], where I worked with people from different areas of expertise. We communicated our requirements, coordinated responsibilities, and combined our knowledge to achieve the project objective.",Behavioral
+959,How do you give feedback to teammates?,"I give feedback to teammates respectfully and focus on the work rather than the person. I explain the specific area that can be improved, provide practical suggestions, and acknowledge what they are doing well.",Behavioral
+960,How do you receive feedback from teammates?,"I receive feedback from teammates with an open mind and try to understand their perspective before responding. If the feedback is useful, I apply it to my work and use it as an opportunity to improve my performance.",Behavioral
+961,How do you build trust in a team?,"I build trust in a team by being reliable, communicating honestly, meeting my responsibilities, and respecting the ideas and contributions of other team members.",Behavioral
+962,How do you handle missed team deadlines?,"If a team deadline is missed, I first understand the reason for the delay and focus on what can be done to recover the schedule. I communicate the situation clearly, adjust priorities if needed, and work with the team to prevent similar delays.",Behavioral
+963,How do you resolve a team misunderstanding?,"I resolve a team misunderstanding by listening to everyone involved, clarifying the facts and expectations, and discussing the issue calmly. I focus on finding a common understanding rather than assigning blame.",Behavioral
+964,How do you contribute when you are not the team lead?,"When I am not the team lead, I contribute by completing my responsibilities, supporting my teammates, sharing useful ideas, and communicating any issues that could affect the team's progress.",Behavioral
+965,How do you celebrate team success?,I celebrate team success by recognizing everyone's contributions and appreciating the effort that went into achieving the result. I believe celebrating together strengthens team morale and encourages future collaboration.,Behavioral
+966,Describe a difficult problem you solved.,"I faced a difficult problem while working on [project or task] when [briefly describe the problem]. I analyzed the possible causes, divided the problem into smaller parts, and worked through potential solutions until I found an effective approach.",Behavioral
+967,How do you approach an unfamiliar problem?,"When I face an unfamiliar problem, I first understand the requirements and identify what I already know. I then research the missing information, break the problem into smaller steps, and test possible solutions systematically.",Behavioral
+968,How do you identify root cause?,"I identify the root cause by first defining the problem clearly, collecting relevant information, and examining the possible causes. I then test the most likely causes until I identify the underlying issue rather than only treating the symptoms.",Behavioral
+969,What do you do when you lack enough information?,"When I do not have enough information, I identify what information is missing and gather it from reliable sources or people with relevant knowledge. I avoid making assumptions until I have enough information to make a reasonable decision.",Behavioral
+970,How do you compare possible solutions?,"I compare possible solutions by considering their effectiveness, time required, resources, risks, cost, and long-term impact. I then select the option that best meets the requirements and available constraints.",Behavioral
+971,How do you handle a problem under time pressure?,"When solving a problem under time pressure, I focus first on understanding the most important issue and identifying the quickest reliable solution. I prioritize critical tasks, avoid unnecessary steps, and communicate if additional support is required.",Behavioral
+972,Describe a time your first solution failed.,"There was a situation where my first solution to [problem or task] did not produce the expected result. I analyzed what went wrong, identified the cause, changed my approach, and tested the revised solution until I achieved the desired outcome.",Behavioral
+973,How do you validate a proposed solution?,"I validate a proposed solution by testing it against the original requirements and checking whether it produces the expected results. I also consider possible edge cases, risks, and feedback before treating the solution as complete.",Behavioral
+974,How do you break a complex problem into smaller parts?,I break a complex problem into smaller parts by first understanding the overall objective and then dividing it into manageable tasks or subproblems. I solve and validate each part before combining the results into the final solution.,Behavioral
+975,How do you decide when to ask for help?,I ask for help when I have made a reasonable effort to solve the problem myself but still cannot make sufficient progress or when the issue requires expertise I do not have. I explain what I have already tried so that the discussion is more productive.,Behavioral
+976,How do you learn from a failed solution?,I learn from a failed solution by identifying what caused it to fail and understanding what I could have done differently. I apply those lessons to future problems and use the experience to improve my approach.,Behavioral
+977,How do you communicate a technical problem to a non-technical person?,"I communicate a technical problem to a non-technical person by focusing on its impact rather than using complex technical terms. I explain the situation in simple language, describe the available options, and clearly communicate what action is needed.",Behavioral
+978,How do you prioritize multiple problems?,"I prioritize multiple problems based on their urgency, impact, dependencies, and deadlines. I address critical issues first while keeping track of lower-priority problems and communicating any changes in priorities to the relevant people.",Behavioral
+979,Describe a process you improved.,"I improved a process by identifying an unnecessary or inefficient step in [process or task] and finding a simpler approach. After implementing the improvement, I monitored the results to ensure it saved time or improved the quality of the work.",Behavioral
+980,How do you balance speed and quality?,"I balance speed and quality by first understanding the required standard and deadline. I focus on the most important requirements, avoid unnecessary work, and perform essential checks before completing the task.",Behavioral
+981,What are your short-term career goals?,"My short-term career goal is to gain practical experience, strengthen my technical and professional skills, and become a reliable contributor in my field. I also want to take on increasingly challenging responsibilities as I grow.",Behavioral
+982,Where do you see yourself in five years?,"In five years, I see myself as a skilled professional with strong expertise in my field, taking on greater responsibilities and contributing to meaningful projects. I also hope to continue learning and growing into a position where I can support and guide others.",Behavioral
+983,What skills do you want to develop?,"I want to further develop [skill or area of expertise] along with my problem-solving, communication, and leadership abilities. Improving these skills will help me handle more challenging responsibilities and progress in my career.",Behavioral
+984,What type of work do you want to specialize in?,"I would like to specialize in [area of interest] because it matches my skills, interests, and long-term career goals. I want to develop deeper expertise while gaining practical experience through challenging projects.",Behavioral
+985,What motivates your career choices?,"My career choices are motivated by opportunities to learn, solve meaningful problems, develop my skills, and work in an area that matches my interests. I also value roles that provide opportunities for continuous growth.",Behavioral
+986,How does this role fit your goals?,This role fits my goals because it would allow me to apply my existing skills while gaining practical experience and learning new ones. It also provides an opportunity to grow toward my long-term career interests in [your field or area].,Behavioral
+987,What kind of responsibilities would you like to take on?,"I would like to take on responsibilities that allow me to apply my skills, solve meaningful problems, and contribute to team goals. As I gain experience, I would also like to take responsibility for larger projects and eventually support or lead others.",Behavioral
+988,What would professional growth look like for you?,"Professional growth for me means continuously improving my knowledge and skills, taking on more challenging responsibilities, and becoming more independent and effective in my work. It also means learning from experienced professionals and contributing greater value over time.",Behavioral
+989,How do you stay current in your field?,"I stay current in my field by following industry developments, learning new technologies and concepts, taking relevant courses, and practicing through projects. I also learn from experienced professionals and reliable technical resources.",Behavioral
+990,What is a long-term goal you are working toward?,"A long-term goal I am working toward is becoming a highly skilled professional in [your field or area of interest]. I am working toward this by continuously developing my technical knowledge, gaining practical experience, and taking on new challenges.",Behavioral
+991,What does leadership mean to you?,"Leadership means guiding and supporting a team toward a common goal while taking responsibility for decisions and results. A good leader communicates clearly, listens to others, and helps team members perform at their best.",Behavioral
+992,Describe a time you led a project.,"I led a project when working on [project name], where I was responsible for planning tasks, coordinating with team members, tracking progress, and helping resolve issues. By keeping the team organized and communicating regularly, we were able to complete the project successfully.",Behavioral
+993,How do you delegate work?,"I delegate work by understanding the project requirements and assigning tasks based on each team member's skills, availability, and interests. I make sure responsibilities are clear and follow up on progress without unnecessarily interfering with their work.",Behavioral
+994,How do you handle conflict between team members?,I handle conflict between team members by listening to both sides separately or together and understanding the actual cause of the disagreement. I encourage respectful communication and focus on finding a fair solution that supports the team's common goal.,Behavioral
+995,How do you make decisions as a leader?,"I make decisions as a leader by first understanding the situation, gathering relevant information, and considering the possible options and their consequences. I also consider the team's input before making a decision and take responsibility for the outcome.",Behavioral
+996,How do you motivate a team?,"I motivate a team by setting clear goals, recognizing individual contributions, encouraging open communication, and supporting team members when they face challenges. I also try to create a positive environment where everyone feels responsible for the team's success.",Behavioral
+997,How do you handle disagreement with a manager?,"If I disagree with my manager, I respectfully explain my perspective and support it with relevant facts or reasoning. I listen to their viewpoint as well and, once a decision is made, I remain professional and work toward achieving the agreed objective.",Behavioral
+998,How do you build accountability?,"I build accountability by clearly defining responsibilities, expectations, and deadlines for each team member. I encourage regular progress updates and address problems early while focusing on solutions rather than blame.",Behavioral
+999,How do you communicate a difficult decision?,"I communicate a difficult decision by explaining it clearly, honestly, and respectfully. I provide the reasoning behind the decision, acknowledge its impact on others, and remain open to questions while keeping the focus on the overall objective.",Behavioral
+1000,How do you manage conflict when deadlines are tight?,"When conflict occurs under a tight deadline, I focus first on resolving the issue that could affect the project's progress. I listen to the people involved, keep the discussion objective, agree on a practical solution, and make sure everyone understands the next steps.",Behavioral

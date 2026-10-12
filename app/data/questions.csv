@@ -1,0 +1,1001 @@
+question_id,domain,topic,difficulty,question,source
+1,Data Analyst,SQL,Easy,What is SQL and what is it used for?,Manual
+2,Data Analyst,SQL,Easy,What is the difference between WHERE and HAVING?,Manual
+3,Data Analyst,SQL,Easy,"Explain INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL JOIN.",Manual
+4,Data Analyst,SQL,Easy,What is a primary key?,Manual
+5,Data Analyst,SQL,Easy,What is a foreign key?,Manual
+6,Data Analyst,SQL,Easy,What is normalization in databases?,Manual
+7,Data Analyst,SQL,Easy,"What is the difference between DELETE, TRUNCATE, and DROP?",Manual
+8,Data Analyst,SQL,Easy,What is GROUP BY used for?,Manual
+9,Data Analyst,SQL,Easy,What does DISTINCT do?,Manual
+10,Data Analyst,SQL,Easy,What is a database index?,Manual
+11,Data Analyst,SQL,Easy,Explain the difference between UNION and UNION ALL.,Manual
+12,Data Analyst,SQL,Easy,What is a subquery?,Manual
+13,Data Analyst,SQL,Medium,What is a correlated subquery?,Manual
+14,Data Analyst,SQL,Medium,What is a CTE?,Manual
+15,Data Analyst,SQL,Medium,What is a window function?,Manual
+16,Data Analyst,SQL,Medium,How do you find duplicate rows in SQL?,Manual
+17,Data Analyst,SQL,Medium,How do you find the second-highest salary?,Manual
+18,Data Analyst,SQL,Medium,How do you count NULL values?,Manual
+19,Data Analyst,SQL,Medium,What is COALESCE used for?,Manual
+20,Data Analyst,SQL,Medium,What is CASE WHEN in SQL?,Manual
+21,Data Analyst,SQL,Medium,What is the difference between COUNT(*) and COUNT(column)?,Manual
+22,Data Analyst,SQL,Medium,How does ORDER BY work?,Manual
+23,Data Analyst,SQL,Medium,What is the difference between CHAR and VARCHAR?,Manual
+24,Data Analyst,SQL,Medium,What are aggregate functions?,Manual
+25,Data Analyst,SQL,Hard,What is a self join?,Manual
+26,Data Analyst,SQL,Hard,What is a composite key?,Manual
+27,Data Analyst,SQL,Hard,What are constraints in SQL?,Manual
+28,Data Analyst,SQL,Hard,What is referential integrity?,Manual
+29,Data Analyst,SQL,Hard,What is a transaction?,Manual
+30,Data Analyst,SQL,Hard,Explain ACID properties.,Manual
+31,Data Analyst,Excel,Easy,What is a cell reference in Excel?,Manual
+32,Data Analyst,Excel,Easy,What is the difference between relative and absolute references?,Manual
+33,Data Analyst,Excel,Easy,How do you use SUM and AVERAGE?,Manual
+34,Data Analyst,Excel,Easy,What is VLOOKUP?,Manual
+35,Data Analyst,Excel,Easy,What is XLOOKUP?,Manual
+36,Data Analyst,Excel,Easy,How does INDEX-MATCH work?,Manual
+37,Data Analyst,Excel,Easy,What is a PivotTable?,Manual
+38,Data Analyst,Excel,Easy,How do you remove duplicates?,Manual
+39,Data Analyst,Excel,Medium,How do you apply conditional formatting?,Manual
+40,Data Analyst,Excel,Medium,What is data validation?,Manual
+41,Data Analyst,Excel,Medium,How do you sort and filter data?,Manual
+42,Data Analyst,Excel,Medium,What is the IF function?,Manual
+43,Data Analyst,Excel,Medium,How do AND and OR work with IF?,Manual
+44,Data Analyst,Excel,Medium,What is SUMIF?,Manual
+45,Data Analyst,Excel,Medium,What is SUMIFS?,Manual
+46,Data Analyst,Excel,Medium,What is COUNTIF?,Manual
+47,Data Analyst,Excel,Hard,What is COUNTIFS?,Manual
+48,Data Analyst,Excel,Hard,How do you handle errors with IFERROR?,Manual
+49,Data Analyst,Excel,Hard,What are Excel tables?,Manual
+50,Data Analyst,Excel,Hard,What is Power Query in Excel?,Manual
+51,Data Analyst,Statistics,Easy,"What is mean, median, and mode?",Manual
+52,Data Analyst,Statistics,Easy,What is variance?,Manual
+53,Data Analyst,Statistics,Easy,What is standard deviation?,Manual
+54,Data Analyst,Statistics,Easy,What is a percentile?,Manual
+55,Data Analyst,Statistics,Easy,What is a distribution?,Manual
+56,Data Analyst,Statistics,Easy,What is a normal distribution?,Manual
+57,Data Analyst,Statistics,Easy,What is skewness?,Manual
+58,Data Analyst,Statistics,Easy,What is correlation?,Manual
+59,Data Analyst,Statistics,Medium,Does correlation imply causation?,Manual
+60,Data Analyst,Statistics,Medium,What is covariance?,Manual
+61,Data Analyst,Statistics,Medium,What is a confidence interval?,Manual
+62,Data Analyst,Statistics,Medium,What is a hypothesis test?,Manual
+63,Data Analyst,Statistics,Medium,What is a null hypothesis?,Manual
+64,Data Analyst,Statistics,Medium,What is a p-value?,Manual
+65,Data Analyst,Statistics,Medium,What is statistical significance?,Manual
+66,Data Analyst,Statistics,Medium,What is Type I error?,Manual
+67,Data Analyst,Statistics,Hard,What is Type II error?,Manual
+68,Data Analyst,Statistics,Hard,What is a z-score?,Manual
+69,Data Analyst,Statistics,Hard,What is sampling bias?,Manual
+70,Data Analyst,Statistics,Hard,What is the central limit theorem?,Manual
+71,Data Analyst,Power BI,Easy,What is Power BI?,Manual
+72,Data Analyst,Power BI,Easy,What is Power Query?,Manual
+73,Data Analyst,Power BI,Easy,What is DAX?,Manual
+74,Data Analyst,Power BI,Easy,What is a measure in Power BI?,Manual
+75,Data Analyst,Power BI,Easy,What is a calculated column?,Manual
+76,Data Analyst,Power BI,Easy,What is a relationship between tables?,Manual
+77,Data Analyst,Power BI,Medium,What is a star schema?,Manual
+78,Data Analyst,Power BI,Medium,What is a slicer?,Manual
+79,Data Analyst,Power BI,Medium,What is a Power BI dashboard?,Manual
+80,Data Analyst,Power BI,Medium,What is a report page?,Manual
+81,Data Analyst,Power BI,Medium,What is drill-through?,Manual
+82,Data Analyst,Power BI,Medium,What is drill-down?,Manual
+83,Data Analyst,Power BI,Hard,What is row-level security?,Manual
+84,Data Analyst,Power BI,Hard,What is a data model in Power BI?,Manual
+85,Data Analyst,Power BI,Hard,How can you improve Power BI report performance?,Manual
+86,Data Analyst,Data Visualization,Easy,What is data visualization?,Manual
+87,Data Analyst,Data Visualization,Easy,When should you use a bar chart?,Manual
+88,Data Analyst,Data Visualization,Easy,When is a line chart appropriate?,Manual
+89,Data Analyst,Data Visualization,Easy,When should you use a scatter plot?,Manual
+90,Data Analyst,Data Visualization,Easy,What is a histogram?,Manual
+91,Data Analyst,Data Visualization,Easy,What is a box plot?,Manual
+92,Data Analyst,Data Visualization,Medium,What makes a dashboard effective?,Manual
+93,Data Analyst,Data Visualization,Medium,What is chart junk?,Manual
+94,Data Analyst,Data Visualization,Medium,Why is choosing the right scale important?,Manual
+95,Data Analyst,Data Visualization,Medium,What is color accessibility in charts?,Manual
+96,Data Analyst,Data Visualization,Medium,What is a heatmap?,Manual
+97,Data Analyst,Data Visualization,Medium,What is a KPI card?,Manual
+98,Data Analyst,Data Visualization,Hard,What is data storytelling?,Manual
+99,Data Analyst,Data Visualization,Hard,How can misleading visualizations be avoided?,Manual
+100,Data Analyst,Data Visualization,Hard,What is a small-multiple chart?,Manual
+101,Data Scientist,Python,Easy,What is Python and why is it popular for data science?,Manual
+102,Data Scientist,Python,Easy,What are Python lists?,Manual
+103,Data Scientist,Python,Easy,What is a tuple?,Manual
+104,Data Scientist,Python,Easy,What is a dictionary?,Manual
+105,Data Scientist,Python,Easy,What is a set?,Manual
+106,Data Scientist,Python,Easy,What is list comprehension?,Manual
+107,Data Scientist,Python,Easy,What is a lambda function?,Manual
+108,Data Scientist,Python,Easy,What is the difference between == and is?,Manual
+109,Data Scientist,Python,Medium,What are mutable and immutable objects?,Manual
+110,Data Scientist,Python,Medium,What is slicing in Python?,Manual
+111,Data Scientist,Python,Medium,What is *args and **kwargs?,Manual
+112,Data Scientist,Python,Medium,What is a generator?,Manual
+113,Data Scientist,Python,Medium,What is an iterator?,Manual
+114,Data Scientist,Python,Medium,What is a decorator?,Manual
+115,Data Scientist,Python,Medium,What is a Python virtual environment?,Manual
+116,Data Scientist,Python,Medium,What is NumPy used for?,Manual
+117,Data Scientist,Python,Hard,What is pandas used for?,Manual
+118,Data Scientist,Python,Hard,What is a DataFrame?,Manual
+119,Data Scientist,Python,Hard,What is broadcasting in NumPy?,Manual
+120,Data Scientist,Python,Hard,How does Python manage memory?,Manual
+121,Data Scientist,Statistics,Easy,"What is mean, median, and mode?",Manual
+122,Data Scientist,Statistics,Easy,What is variance?,Manual
+123,Data Scientist,Statistics,Easy,What is standard deviation?,Manual
+124,Data Scientist,Statistics,Easy,What is a percentile?,Manual
+125,Data Scientist,Statistics,Easy,What is a distribution?,Manual
+126,Data Scientist,Statistics,Easy,What is a normal distribution?,Manual
+127,Data Scientist,Statistics,Easy,What is skewness?,Manual
+128,Data Scientist,Statistics,Easy,What is correlation?,Manual
+129,Data Scientist,Statistics,Medium,Does correlation imply causation?,Manual
+130,Data Scientist,Statistics,Medium,What is covariance?,Manual
+131,Data Scientist,Statistics,Medium,What is a confidence interval?,Manual
+132,Data Scientist,Statistics,Medium,What is a hypothesis test?,Manual
+133,Data Scientist,Statistics,Medium,What is a null hypothesis?,Manual
+134,Data Scientist,Statistics,Medium,What is a p-value?,Manual
+135,Data Scientist,Statistics,Medium,What is statistical significance?,Manual
+136,Data Scientist,Statistics,Medium,What is Type I error?,Manual
+137,Data Scientist,Statistics,Hard,What is Type II error?,Manual
+138,Data Scientist,Statistics,Hard,What is a z-score?,Manual
+139,Data Scientist,Statistics,Hard,What is sampling bias?,Manual
+140,Data Scientist,Statistics,Hard,What is the central limit theorem?,Manual
+141,Data Scientist,Machine Learning,Easy,What is supervised learning?,Manual
+142,Data Scientist,Machine Learning,Easy,What is unsupervised learning?,Manual
+143,Data Scientist,Machine Learning,Easy,What is reinforcement learning?,Manual
+144,Data Scientist,Machine Learning,Easy,What is linear regression?,Manual
+145,Data Scientist,Machine Learning,Easy,What is logistic regression?,Manual
+146,Data Scientist,Machine Learning,Easy,What is a decision tree?,Manual
+147,Data Scientist,Machine Learning,Easy,What is random forest?,Manual
+148,Data Scientist,Machine Learning,Easy,What is gradient boosting?,Manual
+149,Data Scientist,Machine Learning,Easy,What is k-nearest neighbors?,Manual
+150,Data Scientist,Machine Learning,Easy,What is k-means clustering?,Manual
+151,Data Scientist,Machine Learning,Easy,What is overfitting?,Manual
+152,Data Scientist,Machine Learning,Easy,What is underfitting?,Manual
+153,Data Scientist,Machine Learning,Medium,What is the bias-variance tradeoff?,Manual
+154,Data Scientist,Machine Learning,Medium,What is regularization?,Manual
+155,Data Scientist,Machine Learning,Medium,What is cross-validation?,Manual
+156,Data Scientist,Machine Learning,Medium,What is hyperparameter tuning?,Manual
+157,Data Scientist,Machine Learning,Medium,What is a learning rate?,Manual
+158,Data Scientist,Machine Learning,Medium,What is feature scaling?,Manual
+159,Data Scientist,Machine Learning,Medium,What is an ensemble method?,Manual
+160,Data Scientist,Machine Learning,Medium,What is dimensionality reduction?,Manual
+161,Data Scientist,Machine Learning,Medium,What is PCA?,Manual
+162,Data Scientist,Machine Learning,Medium,What is class imbalance?,Manual
+163,Data Scientist,Machine Learning,Medium,What is a confusion matrix?,Manual
+164,Data Scientist,Machine Learning,Medium,What is a classification threshold?,Manual
+165,Data Scientist,Machine Learning,Hard,What is a regression loss function?,Manual
+166,Data Scientist,Machine Learning,Hard,What is gradient descent?,Manual
+167,Data Scientist,Machine Learning,Hard,What is early stopping?,Manual
+168,Data Scientist,Machine Learning,Hard,What is data leakage?,Manual
+169,Data Scientist,Machine Learning,Hard,How does a decision tree choose a split?,Manual
+170,Data Scientist,Machine Learning,Hard,What is model interpretability?,Manual
+171,Data Scientist,Feature Engineering,Easy,What is feature engineering?,Manual
+172,Data Scientist,Feature Engineering,Easy,Why is feature scaling useful?,Manual
+173,Data Scientist,Feature Engineering,Easy,What is one-hot encoding?,Manual
+174,Data Scientist,Feature Engineering,Easy,What is label encoding?,Manual
+175,Data Scientist,Feature Engineering,Easy,How do you handle missing values?,Manual
+176,Data Scientist,Feature Engineering,Easy,What is feature selection?,Manual
+177,Data Scientist,Feature Engineering,Medium,What is feature extraction?,Manual
+178,Data Scientist,Feature Engineering,Medium,What is binning?,Manual
+179,Data Scientist,Feature Engineering,Medium,What is log transformation?,Manual
+180,Data Scientist,Feature Engineering,Medium,What is polynomial feature generation?,Manual
+181,Data Scientist,Feature Engineering,Medium,How can categorical variables be encoded?,Manual
+182,Data Scientist,Feature Engineering,Medium,What is target encoding?,Manual
+183,Data Scientist,Feature Engineering,Hard,What is multicollinearity?,Manual
+184,Data Scientist,Feature Engineering,Hard,How can correlated features be handled?,Manual
+185,Data Scientist,Feature Engineering,Hard,What is dimensionality reduction?,Manual
+186,Data Scientist,Model Evaluation,Easy,What is accuracy?,Manual
+187,Data Scientist,Model Evaluation,Easy,What is precision?,Manual
+188,Data Scientist,Model Evaluation,Easy,What is recall?,Manual
+189,Data Scientist,Model Evaluation,Easy,What is F1-score?,Manual
+190,Data Scientist,Model Evaluation,Easy,What is specificity?,Manual
+191,Data Scientist,Model Evaluation,Easy,What is ROC-AUC?,Manual
+192,Data Scientist,Model Evaluation,Medium,What is PR-AUC?,Manual
+193,Data Scientist,Model Evaluation,Medium,What is mean absolute error?,Manual
+194,Data Scientist,Model Evaluation,Medium,What is mean squared error?,Manual
+195,Data Scientist,Model Evaluation,Medium,What is RMSE?,Manual
+196,Data Scientist,Model Evaluation,Medium,What is R-squared?,Manual
+197,Data Scientist,Model Evaluation,Medium,What is adjusted R-squared?,Manual
+198,Data Scientist,Model Evaluation,Hard,What is cross-validation used for?,Manual
+199,Data Scientist,Model Evaluation,Hard,How do you evaluate an imbalanced classifier?,Manual
+200,Data Scientist,Model Evaluation,Hard,What is calibration?,Manual
+201,Business Analyst,Business Analytics,Easy,What is business analytics?,Manual
+202,Business Analyst,Business Analytics,Easy,What is descriptive analytics?,Manual
+203,Business Analyst,Business Analytics,Easy,What is diagnostic analytics?,Manual
+204,Business Analyst,Business Analytics,Easy,What is predictive analytics?,Manual
+205,Business Analyst,Business Analytics,Easy,What is prescriptive analytics?,Manual
+206,Business Analyst,Business Analytics,Easy,What is a business metric?,Manual
+207,Business Analyst,Business Analytics,Easy,What is a dashboard?,Manual
+208,Business Analyst,Business Analytics,Easy,What is trend analysis?,Manual
+209,Business Analyst,Business Analytics,Medium,What is cohort analysis?,Manual
+210,Business Analyst,Business Analytics,Medium,What is segmentation?,Manual
+211,Business Analyst,Business Analytics,Medium,What is benchmarking?,Manual
+212,Business Analyst,Business Analytics,Medium,What is root-cause analysis?,Manual
+213,Business Analyst,Business Analytics,Medium,What is scenario analysis?,Manual
+214,Business Analyst,Business Analytics,Medium,What is forecasting?,Manual
+215,Business Analyst,Business Analytics,Medium,What is sensitivity analysis?,Manual
+216,Business Analyst,Business Analytics,Medium,What is a business case?,Manual
+217,Business Analyst,Business Analytics,Hard,What is data-driven decision making?,Manual
+218,Business Analyst,Business Analytics,Hard,What is an analytical hypothesis?,Manual
+219,Business Analyst,Business Analytics,Hard,How can analytics support pricing decisions?,Manual
+220,Business Analyst,Business Analytics,Hard,How can analytics improve customer retention?,Manual
+221,Business Analyst,KPI & Metrics,Easy,What is a KPI?,Manual
+222,Business Analyst,KPI & Metrics,Easy,What is a metric?,Manual
+223,Business Analyst,KPI & Metrics,Easy,What is the difference between a KPI and a metric?,Manual
+224,Business Analyst,KPI & Metrics,Easy,What is a leading indicator?,Manual
+225,Business Analyst,KPI & Metrics,Easy,What is a lagging indicator?,Manual
+226,Business Analyst,KPI & Metrics,Easy,What is conversion rate?,Manual
+227,Business Analyst,KPI & Metrics,Medium,What is customer acquisition cost?,Manual
+228,Business Analyst,KPI & Metrics,Medium,What is customer lifetime value?,Manual
+229,Business Analyst,KPI & Metrics,Medium,What is churn rate?,Manual
+230,Business Analyst,KPI & Metrics,Medium,What is retention rate?,Manual
+231,Business Analyst,KPI & Metrics,Medium,What is gross margin?,Manual
+232,Business Analyst,KPI & Metrics,Medium,What is ROI?,Manual
+233,Business Analyst,KPI & Metrics,Hard,What is utilization rate?,Manual
+234,Business Analyst,KPI & Metrics,Hard,What is average order value?,Manual
+235,Business Analyst,KPI & Metrics,Hard,How should KPI targets be defined?,Manual
+236,Business Analyst,Requirement Gathering,Easy,What is requirement gathering?,Manual
+237,Business Analyst,Requirement Gathering,Easy,What is a business requirement?,Manual
+238,Business Analyst,Requirement Gathering,Easy,What is a functional requirement?,Manual
+239,Business Analyst,Requirement Gathering,Easy,What is a non-functional requirement?,Manual
+240,Business Analyst,Requirement Gathering,Easy,What is a user story?,Manual
+241,Business Analyst,Requirement Gathering,Easy,What is an acceptance criterion?,Manual
+242,Business Analyst,Requirement Gathering,Medium,What is a use case?,Manual
+243,Business Analyst,Requirement Gathering,Medium,What is requirements elicitation?,Manual
+244,Business Analyst,Requirement Gathering,Medium,What is requirements validation?,Manual
+245,Business Analyst,Requirement Gathering,Medium,What is requirements traceability?,Manual
+246,Business Analyst,Requirement Gathering,Medium,What is scope creep?,Manual
+247,Business Analyst,Requirement Gathering,Medium,How do you prioritize requirements?,Manual
+248,Business Analyst,Requirement Gathering,Hard,What is MoSCoW prioritization?,Manual
+249,Business Analyst,Requirement Gathering,Hard,What is a requirements document?,Manual
+250,Business Analyst,Requirement Gathering,Hard,What is a change request?,Manual
+251,Business Analyst,Stakeholder Management,Easy,Who is a stakeholder?,Manual
+252,Business Analyst,Stakeholder Management,Easy,How do you identify stakeholders?,Manual
+253,Business Analyst,Stakeholder Management,Easy,What is stakeholder analysis?,Manual
+254,Business Analyst,Stakeholder Management,Easy,What is a stakeholder map?,Manual
+255,Business Analyst,Stakeholder Management,Medium,How do you manage conflicting stakeholder requirements?,Manual
+256,Business Analyst,Stakeholder Management,Medium,How do you communicate with senior stakeholders?,Manual
+257,Business Analyst,Stakeholder Management,Medium,What is stakeholder engagement?,Manual
+258,Business Analyst,Stakeholder Management,Medium,How do you handle a difficult stakeholder?,Manual
+259,Business Analyst,Stakeholder Management,Hard,How do you keep stakeholders aligned?,Manual
+260,Business Analyst,Stakeholder Management,Hard,What is stakeholder expectation management?,Manual
+261,Business Analyst,SQL,Easy,What is SQL and what is it used for?,Manual
+262,Business Analyst,SQL,Easy,What is the difference between WHERE and HAVING?,Manual
+263,Business Analyst,SQL,Easy,"Explain INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL JOIN.",Manual
+264,Business Analyst,SQL,Easy,What is a primary key?,Manual
+265,Business Analyst,SQL,Easy,What is a foreign key?,Manual
+266,Business Analyst,SQL,Easy,What is normalization in databases?,Manual
+267,Business Analyst,SQL,Medium,"What is the difference between DELETE, TRUNCATE, and DROP?",Manual
+268,Business Analyst,SQL,Medium,What is GROUP BY used for?,Manual
+269,Business Analyst,SQL,Medium,What does DISTINCT do?,Manual
+270,Business Analyst,SQL,Medium,What is a database index?,Manual
+271,Business Analyst,SQL,Medium,Explain the difference between UNION and UNION ALL.,Manual
+272,Business Analyst,SQL,Medium,What is a subquery?,Manual
+273,Business Analyst,SQL,Hard,What is a correlated subquery?,Manual
+274,Business Analyst,SQL,Hard,What is a CTE?,Manual
+275,Business Analyst,SQL,Hard,What is a window function?,Manual
+276,Python Developer,Basics,Easy,What is a variable?,Manual
+277,Python Developer,Basics,Easy,What are Python data types?,Manual
+278,Python Developer,Basics,Easy,What is indentation in Python?,Manual
+279,Python Developer,Basics,Easy,What is a function?,Manual
+280,Python Developer,Basics,Easy,What is a module?,Manual
+281,Python Developer,Basics,Easy,What is a package?,Manual
+282,Python Developer,Basics,Medium,What is a list?,Manual
+283,Python Developer,Basics,Medium,What is a tuple?,Manual
+284,Python Developer,Basics,Medium,What is a dictionary?,Manual
+285,Python Developer,Basics,Medium,What is a set?,Manual
+286,Python Developer,Basics,Medium,What is type casting?,Manual
+287,Python Developer,Basics,Medium,What is a loop?,Manual
+288,Python Developer,Basics,Hard,What is a conditional statement?,Manual
+289,Python Developer,Basics,Hard,What is a comprehension?,Manual
+290,Python Developer,Basics,Hard,What is PEP 8?,Manual
+291,Python Developer,OOP,Easy,What is object-oriented programming?,Manual
+292,Python Developer,OOP,Easy,What is a class?,Manual
+293,Python Developer,OOP,Easy,What is an object?,Manual
+294,Python Developer,OOP,Easy,What is encapsulation?,Manual
+295,Python Developer,OOP,Easy,What is inheritance?,Manual
+296,Python Developer,OOP,Easy,What is polymorphism?,Manual
+297,Python Developer,OOP,Easy,What is abstraction?,Manual
+298,Python Developer,OOP,Easy,What is a constructor?,Manual
+299,Python Developer,OOP,Medium,What is method overriding?,Manual
+300,Python Developer,OOP,Medium,What is method overloading?,Manual
+301,Python Developer,OOP,Medium,What is an abstract class?,Manual
+302,Python Developer,OOP,Medium,What is an interface?,Manual
+303,Python Developer,OOP,Medium,What is composition?,Manual
+304,Python Developer,OOP,Medium,What is aggregation?,Manual
+305,Python Developer,OOP,Medium,What is the difference between class and instance variables?,Manual
+306,Python Developer,OOP,Medium,What is self in Python?,Manual
+307,Python Developer,OOP,Hard,What is multiple inheritance?,Manual
+308,Python Developer,OOP,Hard,What is MRO?,Manual
+309,Python Developer,OOP,Hard,What is a property in Python?,Manual
+310,Python Developer,OOP,Hard,What is SOLID in OOP?,Manual
+311,Python Developer,Exception Handling,Easy,What is an exception?,Manual
+312,Python Developer,Exception Handling,Easy,What is try-except?,Manual
+313,Python Developer,Exception Handling,Easy,What is finally used for?,Manual
+314,Python Developer,Exception Handling,Easy,What is else in exception handling?,Manual
+315,Python Developer,Exception Handling,Medium,What is raising an exception?,Manual
+316,Python Developer,Exception Handling,Medium,How do you create a custom exception?,Manual
+317,Python Developer,Exception Handling,Medium,What is the difference between Exception and BaseException?,Manual
+318,Python Developer,Exception Handling,Medium,How do you handle multiple exceptions?,Manual
+319,Python Developer,Exception Handling,Hard,What is exception chaining?,Manual
+320,Python Developer,Exception Handling,Hard,Why should exceptions be handled specifically?,Manual
+321,Python Developer,File Handling,Easy,How do you open a file in Python?,Manual
+322,Python Developer,File Handling,Easy,What are common file modes?,Manual
+323,Python Developer,File Handling,Easy,What is the with statement for files?,Manual
+324,Python Developer,File Handling,Easy,How do you read a text file?,Manual
+325,Python Developer,File Handling,Medium,How do you write to a file?,Manual
+326,Python Developer,File Handling,Medium,How do you append to a file?,Manual
+327,Python Developer,File Handling,Medium,How do you work with CSV files?,Manual
+328,Python Developer,File Handling,Medium,How do you work with JSON files?,Manual
+329,Python Developer,File Handling,Hard,How do you handle file encoding?,Manual
+330,Python Developer,File Handling,Hard,What happens when a file is not found?,Manual
+331,Python Developer,Advanced Python,Easy,What is a generator expression?,Manual
+332,Python Developer,Advanced Python,Easy,What is a decorator?,Manual
+333,Python Developer,Advanced Python,Easy,What is a context manager?,Manual
+334,Python Developer,Advanced Python,Easy,What is a closure?,Manual
+335,Python Developer,Advanced Python,Easy,What is monkey patching?,Manual
+336,Python Developer,Advanced Python,Easy,What is duck typing?,Manual
+337,Python Developer,Advanced Python,Easy,What is metaprogramming?,Manual
+338,Python Developer,Advanced Python,Easy,What is the GIL?,Manual
+339,Python Developer,Advanced Python,Medium,What is multiprocessing?,Manual
+340,Python Developer,Advanced Python,Medium,What is multithreading?,Manual
+341,Python Developer,Advanced Python,Medium,What is asyncio?,Manual
+342,Python Developer,Advanced Python,Medium,What is an async generator?,Manual
+343,Python Developer,Advanced Python,Medium,What are dataclasses?,Manual
+344,Python Developer,Advanced Python,Medium,What are type hints?,Manual
+345,Python Developer,Advanced Python,Medium,What is functools.lru_cache?,Manual
+346,Python Developer,Advanced Python,Medium,What is dependency injection?,Manual
+347,Python Developer,Advanced Python,Hard,What is a descriptor?,Manual
+348,Python Developer,Advanced Python,Hard,What are dunder methods?,Manual
+349,Python Developer,Advanced Python,Hard,What is shallow vs deep copy?,Manual
+350,Python Developer,Advanced Python,Hard,What is garbage collection in Python?,Manual
+351,Software Engineer,DSA,Easy,What is an array?,Manual
+352,Software Engineer,DSA,Easy,What is a linked list?,Manual
+353,Software Engineer,DSA,Easy,What is a stack?,Manual
+354,Software Engineer,DSA,Easy,What is a queue?,Manual
+355,Software Engineer,DSA,Easy,What is a deque?,Manual
+356,Software Engineer,DSA,Easy,What is a hash table?,Manual
+357,Software Engineer,DSA,Easy,What is a binary tree?,Manual
+358,Software Engineer,DSA,Easy,What is a binary search tree?,Manual
+359,Software Engineer,DSA,Easy,What is a heap?,Manual
+360,Software Engineer,DSA,Easy,What is a graph?,Manual
+361,Software Engineer,DSA,Easy,What is BFS?,Manual
+362,Software Engineer,DSA,Easy,What is DFS?,Manual
+363,Software Engineer,DSA,Easy,What is binary search?,Manual
+364,Software Engineer,DSA,Easy,What is merge sort?,Manual
+365,Software Engineer,DSA,Easy,What is quicksort?,Manual
+366,Software Engineer,DSA,Easy,What is insertion sort?,Manual
+367,Software Engineer,DSA,Medium,What is selection sort?,Manual
+368,Software Engineer,DSA,Medium,What is recursion?,Manual
+369,Software Engineer,DSA,Medium,What is dynamic programming?,Manual
+370,Software Engineer,DSA,Medium,What is memoization?,Manual
+371,Software Engineer,DSA,Medium,What is greedy algorithm design?,Manual
+372,Software Engineer,DSA,Medium,What is backtracking?,Manual
+373,Software Engineer,DSA,Medium,What is a trie?,Manual
+374,Software Engineer,DSA,Medium,What is a priority queue?,Manual
+375,Software Engineer,DSA,Medium,What is topological sorting?,Manual
+376,Software Engineer,DSA,Medium,What is Dijkstra's algorithm?,Manual
+377,Software Engineer,DSA,Medium,What is union-find?,Manual
+378,Software Engineer,DSA,Medium,What is a sliding-window technique?,Manual
+379,Software Engineer,DSA,Medium,What is two-pointer technique?,Manual
+380,Software Engineer,DSA,Medium,What is hashing?,Manual
+381,Software Engineer,DSA,Medium,What is Big-O notation?,Manual
+382,Software Engineer,DSA,Medium,What is time complexity?,Manual
+383,Software Engineer,DSA,Hard,What is space complexity?,Manual
+384,Software Engineer,DSA,Hard,What is amortized analysis?,Manual
+385,Software Engineer,DSA,Hard,What is a balanced tree?,Manual
+386,Software Engineer,DSA,Hard,What is an AVL tree?,Manual
+387,Software Engineer,DSA,Hard,What is a segment tree?,Manual
+388,Software Engineer,DSA,Hard,What is a graph adjacency list?,Manual
+389,Software Engineer,DSA,Hard,What is a graph adjacency matrix?,Manual
+390,Software Engineer,DSA,Hard,How do you detect a cycle in a graph?,Manual
+391,Software Engineer,OOP,Easy,What is object-oriented programming?,Manual
+392,Software Engineer,OOP,Easy,What is a class?,Manual
+393,Software Engineer,OOP,Easy,What is an object?,Manual
+394,Software Engineer,OOP,Easy,What is encapsulation?,Manual
+395,Software Engineer,OOP,Easy,What is inheritance?,Manual
+396,Software Engineer,OOP,Easy,What is polymorphism?,Manual
+397,Software Engineer,OOP,Easy,What is abstraction?,Manual
+398,Software Engineer,OOP,Easy,What is a constructor?,Manual
+399,Software Engineer,OOP,Easy,What is method overriding?,Manual
+400,Software Engineer,OOP,Easy,What is method overloading?,Manual
+401,Software Engineer,OOP,Medium,What is an abstract class?,Manual
+402,Software Engineer,OOP,Medium,What is an interface?,Manual
+403,Software Engineer,OOP,Medium,What is composition?,Manual
+404,Software Engineer,OOP,Medium,What is aggregation?,Manual
+405,Software Engineer,OOP,Medium,What is the difference between class and instance variables?,Manual
+406,Software Engineer,OOP,Medium,What is self in Python?,Manual
+407,Software Engineer,OOP,Medium,What is multiple inheritance?,Manual
+408,Software Engineer,OOP,Medium,What is MRO?,Manual
+409,Software Engineer,OOP,Medium,What is a property in Python?,Manual
+410,Software Engineer,OOP,Medium,What is SOLID in OOP?,Manual
+411,Software Engineer,OOP,Hard,What is object-oriented programming — Explain with a practical example?,Manual
+412,Software Engineer,OOP,Hard,What is a class — Explain with a practical example?,Manual
+413,Software Engineer,OOP,Hard,What is an object — Explain with a practical example?,Manual
+414,Software Engineer,OOP,Hard,What is encapsulation — Explain with a practical example?,Manual
+415,Software Engineer,OOP,Hard,What is inheritance — Explain with a practical example?,Manual
+416,Software Engineer,DBMS,Easy,What is a DBMS?,Manual
+417,Software Engineer,DBMS,Easy,What is a relational database?,Manual
+418,Software Engineer,DBMS,Easy,What is normalization?,Manual
+419,Software Engineer,DBMS,Easy,What is denormalization?,Manual
+420,Software Engineer,DBMS,Easy,What is a primary key?,Manual
+421,Software Engineer,DBMS,Easy,What is a foreign key?,Manual
+422,Software Engineer,DBMS,Easy,What is an index?,Manual
+423,Software Engineer,DBMS,Easy,What is a transaction?,Manual
+424,Software Engineer,DBMS,Medium,What are ACID properties?,Manual
+425,Software Engineer,DBMS,Medium,What is a candidate key?,Manual
+426,Software Engineer,DBMS,Medium,What is a composite key?,Manual
+427,Software Engineer,DBMS,Medium,What is referential integrity?,Manual
+428,Software Engineer,DBMS,Medium,What is a view?,Manual
+429,Software Engineer,DBMS,Medium,What is a stored procedure?,Manual
+430,Software Engineer,DBMS,Medium,What is a trigger?,Manual
+431,Software Engineer,DBMS,Medium,What is a deadlock?,Manual
+432,Software Engineer,DBMS,Hard,What is database locking?,Manual
+433,Software Engineer,DBMS,Hard,What is isolation level?,Manual
+434,Software Engineer,DBMS,Hard,What is a clustered index?,Manual
+435,Software Engineer,DBMS,Hard,What is a non-clustered index?,Manual
+436,Software Engineer,Operating Systems,Easy,What is an operating system?,Manual
+437,Software Engineer,Operating Systems,Easy,What is a process?,Manual
+438,Software Engineer,Operating Systems,Easy,What is a thread?,Manual
+439,Software Engineer,Operating Systems,Easy,What is context switching?,Manual
+440,Software Engineer,Operating Systems,Easy,What is a process scheduler?,Manual
+441,Software Engineer,Operating Systems,Easy,What is a deadlock?,Manual
+442,Software Engineer,Operating Systems,Easy,What are the four deadlock conditions?,Manual
+443,Software Engineer,Operating Systems,Easy,What is virtual memory?,Manual
+444,Software Engineer,Operating Systems,Medium,What is paging?,Manual
+445,Software Engineer,Operating Systems,Medium,What is segmentation?,Manual
+446,Software Engineer,Operating Systems,Medium,What is a page fault?,Manual
+447,Software Engineer,Operating Systems,Medium,What is a system call?,Manual
+448,Software Engineer,Operating Systems,Medium,What is a kernel?,Manual
+449,Software Engineer,Operating Systems,Medium,What is a race condition?,Manual
+450,Software Engineer,Operating Systems,Medium,What is a mutex?,Manual
+451,Software Engineer,Operating Systems,Medium,What is a semaphore?,Manual
+452,Software Engineer,Operating Systems,Hard,What is CPU scheduling?,Manual
+453,Software Engineer,Operating Systems,Hard,What is a file system?,Manual
+454,Software Engineer,Operating Systems,Hard,What is fragmentation?,Manual
+455,Software Engineer,Operating Systems,Hard,What is inter-process communication?,Manual
+456,Software Engineer,Computer Networks,Easy,What is a computer network?,Manual
+457,Software Engineer,Computer Networks,Easy,What is the OSI model?,Manual
+458,Software Engineer,Computer Networks,Easy,What is TCP/IP?,Manual
+459,Software Engineer,Computer Networks,Easy,What is an IP address?,Manual
+460,Software Engineer,Computer Networks,Easy,What is IPv4?,Manual
+461,Software Engineer,Computer Networks,Easy,What is IPv6?,Manual
+462,Software Engineer,Computer Networks,Easy,What is a MAC address?,Manual
+463,Software Engineer,Computer Networks,Easy,What is DNS?,Manual
+464,Software Engineer,Computer Networks,Medium,What is DHCP?,Manual
+465,Software Engineer,Computer Networks,Medium,What is HTTP?,Manual
+466,Software Engineer,Computer Networks,Medium,What is HTTPS?,Manual
+467,Software Engineer,Computer Networks,Medium,What is TCP?,Manual
+468,Software Engineer,Computer Networks,Medium,What is UDP?,Manual
+469,Software Engineer,Computer Networks,Medium,What is a port?,Manual
+470,Software Engineer,Computer Networks,Medium,What is a router?,Manual
+471,Software Engineer,Computer Networks,Medium,What is a switch?,Manual
+472,Software Engineer,Computer Networks,Hard,What is NAT?,Manual
+473,Software Engineer,Computer Networks,Hard,What is a subnet mask?,Manual
+474,Software Engineer,Computer Networks,Hard,What is ARP?,Manual
+475,Software Engineer,Computer Networks,Hard,What is a firewall?,Manual
+476,Frontend Developer,HTML,Easy,What is HTML?,Manual
+477,Frontend Developer,HTML,Easy,What is semantic HTML?,Manual
+478,Frontend Developer,HTML,Easy,What is the purpose of the head element?,Manual
+479,Frontend Developer,HTML,Easy,What are block and inline elements?,Manual
+480,Frontend Developer,HTML,Easy,What is a form in HTML?,Manual
+481,Frontend Developer,HTML,Easy,What are HTML attributes?,Manual
+482,Frontend Developer,HTML,Medium,What is accessibility in HTML?,Manual
+483,Frontend Developer,HTML,Medium,What is the alt attribute?,Manual
+484,Frontend Developer,HTML,Medium,What are lists in HTML?,Manual
+485,Frontend Developer,HTML,Medium,What are tables in HTML?,Manual
+486,Frontend Developer,HTML,Medium,What is an iframe?,Manual
+487,Frontend Developer,HTML,Medium,What are meta tags?,Manual
+488,Frontend Developer,HTML,Hard,What is the difference between div and section?,Manual
+489,Frontend Developer,HTML,Hard,What is the difference between id and class?,Manual
+490,Frontend Developer,HTML,Hard,What is HTML5?,Manual
+491,Frontend Developer,CSS,Easy,What is CSS?,Manual
+492,Frontend Developer,CSS,Easy,What is the CSS box model?,Manual
+493,Frontend Developer,CSS,Easy,What is specificity?,Manual
+494,Frontend Developer,CSS,Easy,What is a CSS selector?,Manual
+495,Frontend Developer,CSS,Easy,What is Flexbox?,Manual
+496,Frontend Developer,CSS,Easy,What is CSS Grid?,Manual
+497,Frontend Developer,CSS,Easy,What is a media query?,Manual
+498,Frontend Developer,CSS,Easy,What is responsive design?,Manual
+499,Frontend Developer,CSS,Medium,What is position in CSS?,Manual
+500,Frontend Developer,CSS,Medium,What is z-index?,Manual
+501,Frontend Developer,CSS,Medium,What is a pseudo-class?,Manual
+502,Frontend Developer,CSS,Medium,What is a pseudo-element?,Manual
+503,Frontend Developer,CSS,Medium,What is inheritance in CSS?,Manual
+504,Frontend Developer,CSS,Medium,What is the difference between em and rem?,Manual
+505,Frontend Developer,CSS,Medium,What is the difference between margin and padding?,Manual
+506,Frontend Developer,CSS,Medium,What is a CSS variable?,Manual
+507,Frontend Developer,CSS,Hard,What is a transition?,Manual
+508,Frontend Developer,CSS,Hard,What is an animation?,Manual
+509,Frontend Developer,CSS,Hard,What is a stacking context?,Manual
+510,Frontend Developer,CSS,Hard,How does overflow work in CSS?,Manual
+511,Frontend Developer,JavaScript,Easy,What is JavaScript?,Manual
+512,Frontend Developer,JavaScript,Easy,"What is the difference between let, const, and var?",Manual
+513,Frontend Developer,JavaScript,Easy,What is hoisting?,Manual
+514,Frontend Developer,JavaScript,Easy,What is a closure?,Manual
+515,Frontend Developer,JavaScript,Easy,What is the DOM?,Manual
+516,Frontend Developer,JavaScript,Easy,What is event bubbling?,Manual
+517,Frontend Developer,JavaScript,Easy,What is event delegation?,Manual
+518,Frontend Developer,JavaScript,Easy,What is a Promise?,Manual
+519,Frontend Developer,JavaScript,Easy,What is async/await?,Manual
+520,Frontend Developer,JavaScript,Easy,What is a callback?,Manual
+521,Frontend Developer,JavaScript,Medium,What is the difference between == and ===?,Manual
+522,Frontend Developer,JavaScript,Medium,What is an arrow function?,Manual
+523,Frontend Developer,JavaScript,Medium,What is destructuring?,Manual
+524,Frontend Developer,JavaScript,Medium,What are spread and rest operators?,Manual
+525,Frontend Developer,JavaScript,Medium,What is a module?,Manual
+526,Frontend Developer,JavaScript,Medium,What is JSON?,Manual
+527,Frontend Developer,JavaScript,Medium,What is the event loop?,Manual
+528,Frontend Developer,JavaScript,Medium,What is a prototype?,Manual
+529,Frontend Developer,JavaScript,Medium,What is prototypal inheritance?,Manual
+530,Frontend Developer,JavaScript,Medium,What is localStorage?,Manual
+531,Frontend Developer,JavaScript,Hard,What is sessionStorage?,Manual
+532,Frontend Developer,JavaScript,Hard,What is fetch?,Manual
+533,Frontend Developer,JavaScript,Hard,What is debouncing?,Manual
+534,Frontend Developer,JavaScript,Hard,What is throttling?,Manual
+535,Frontend Developer,JavaScript,Hard,What is currying?,Manual
+536,Frontend Developer,React,Easy,What is React?,Manual
+537,Frontend Developer,React,Easy,What is a component?,Manual
+538,Frontend Developer,React,Easy,What are props?,Manual
+539,Frontend Developer,React,Easy,What is state?,Manual
+540,Frontend Developer,React,Easy,What is JSX?,Manual
+541,Frontend Developer,React,Easy,What is the virtual DOM?,Manual
+542,Frontend Developer,React,Medium,What is useState?,Manual
+543,Frontend Developer,React,Medium,What is useEffect?,Manual
+544,Frontend Developer,React,Medium,What is useContext?,Manual
+545,Frontend Developer,React,Medium,What is useMemo?,Manual
+546,Frontend Developer,React,Medium,What is useCallback?,Manual
+547,Frontend Developer,React,Medium,What is a controlled component?,Manual
+548,Frontend Developer,React,Hard,What is conditional rendering?,Manual
+549,Frontend Developer,React,Hard,What are React keys?,Manual
+550,Frontend Developer,React,Hard,What is lifting state up?,Manual
+551,Backend Developer,APIs,Easy,What is an API?,Manual
+552,Backend Developer,APIs,Easy,What is a REST API?,Manual
+553,Backend Developer,APIs,Easy,What is an endpoint?,Manual
+554,Backend Developer,APIs,Easy,What are HTTP methods?,Manual
+555,Backend Developer,APIs,Easy,What is GET?,Manual
+556,Backend Developer,APIs,Easy,What is POST?,Manual
+557,Backend Developer,APIs,Medium,What is PUT?,Manual
+558,Backend Developer,APIs,Medium,What is PATCH?,Manual
+559,Backend Developer,APIs,Medium,What is DELETE?,Manual
+560,Backend Developer,APIs,Medium,What is an HTTP status code?,Manual
+561,Backend Developer,APIs,Medium,What is JSON in APIs?,Manual
+562,Backend Developer,APIs,Medium,What is idempotency?,Manual
+563,Backend Developer,APIs,Hard,What is API versioning?,Manual
+564,Backend Developer,APIs,Hard,What is pagination?,Manual
+565,Backend Developer,APIs,Hard,What is rate limiting?,Manual
+566,Backend Developer,Databases,Easy,What is a relational database?,Manual
+567,Backend Developer,Databases,Easy,What is a NoSQL database?,Manual
+568,Backend Developer,Databases,Easy,When would you use SQL vs NoSQL?,Manual
+569,Backend Developer,Databases,Easy,What is database indexing?,Manual
+570,Backend Developer,Databases,Easy,What is normalization?,Manual
+571,Backend Developer,Databases,Easy,What is denormalization?,Manual
+572,Backend Developer,Databases,Easy,What is a transaction?,Manual
+573,Backend Developer,Databases,Easy,What is connection pooling?,Manual
+574,Backend Developer,Databases,Medium,What is replication?,Manual
+575,Backend Developer,Databases,Medium,What is sharding?,Manual
+576,Backend Developer,Databases,Medium,What is a database migration?,Manual
+577,Backend Developer,Databases,Medium,What is a query optimizer?,Manual
+578,Backend Developer,Databases,Medium,What is a composite index?,Manual
+579,Backend Developer,Databases,Medium,What is a database constraint?,Manual
+580,Backend Developer,Databases,Medium,What is a cache?,Manual
+581,Backend Developer,Databases,Medium,What is Redis commonly used for?,Manual
+582,Backend Developer,Databases,Hard,What is eventual consistency?,Manual
+583,Backend Developer,Databases,Hard,What is database partitioning?,Manual
+584,Backend Developer,Databases,Hard,What is read/write splitting?,Manual
+585,Backend Developer,Databases,Hard,What is a primary key?,Manual
+586,Backend Developer,Authentication,Easy,What is authentication?,Manual
+587,Backend Developer,Authentication,Easy,What is authorization?,Manual
+588,Backend Developer,Authentication,Easy,What is a session?,Manual
+589,Backend Developer,Authentication,Easy,What is a cookie?,Manual
+590,Backend Developer,Authentication,Easy,What is a JWT?,Manual
+591,Backend Developer,Authentication,Easy,What is OAuth 2.0?,Manual
+592,Backend Developer,Authentication,Medium,What is OpenID Connect?,Manual
+593,Backend Developer,Authentication,Medium,What is password hashing?,Manual
+594,Backend Developer,Authentication,Medium,Why use bcrypt or Argon2?,Manual
+595,Backend Developer,Authentication,Medium,What is multi-factor authentication?,Manual
+596,Backend Developer,Authentication,Medium,What is refresh-token rotation?,Manual
+597,Backend Developer,Authentication,Medium,What is CSRF?,Manual
+598,Backend Developer,Authentication,Hard,What is CORS?,Manual
+599,Backend Developer,Authentication,Hard,What is an access token?,Manual
+600,Backend Developer,Authentication,Hard,What is single sign-on?,Manual
+601,Backend Developer,Backend Frameworks,Easy,What is a backend framework?,Manual
+602,Backend Developer,Backend Frameworks,Easy,What is Django?,Manual
+603,Backend Developer,Backend Frameworks,Easy,What is Flask?,Manual
+604,Backend Developer,Backend Frameworks,Easy,What is FastAPI?,Manual
+605,Backend Developer,Backend Frameworks,Easy,What is Express.js?,Manual
+606,Backend Developer,Backend Frameworks,Easy,What is middleware?,Manual
+607,Backend Developer,Backend Frameworks,Easy,What is routing?,Manual
+608,Backend Developer,Backend Frameworks,Easy,What is dependency injection?,Manual
+609,Backend Developer,Backend Frameworks,Easy,What is MVC architecture?,Manual
+610,Backend Developer,Backend Frameworks,Easy,What is request validation?,Manual
+611,Backend Developer,Backend Frameworks,Medium,What is ORM?,Manual
+612,Backend Developer,Backend Frameworks,Medium,What is an application server?,Manual
+613,Backend Developer,Backend Frameworks,Medium,What is asynchronous request handling?,Manual
+614,Backend Developer,Backend Frameworks,Medium,What is background job processing?,Manual
+615,Backend Developer,Backend Frameworks,Medium,What is API middleware?,Manual
+616,Backend Developer,Backend Frameworks,Medium,What is server-side rendering?,Manual
+617,Backend Developer,Backend Frameworks,Medium,What is error middleware?,Manual
+618,Backend Developer,Backend Frameworks,Medium,What is framework configuration?,Manual
+619,Backend Developer,Backend Frameworks,Medium,What is dependency management?,Manual
+620,Backend Developer,Backend Frameworks,Medium,How do you structure a backend project?,Manual
+621,Backend Developer,Backend Frameworks,Hard,What is a service layer?,Manual
+622,Backend Developer,Backend Frameworks,Hard,What is a repository pattern?,Manual
+623,Backend Developer,Backend Frameworks,Hard,What is a controller?,Manual
+624,Backend Developer,Backend Frameworks,Hard,What is a health-check endpoint?,Manual
+625,Backend Developer,Backend Frameworks,Hard,What is graceful shutdown?,Manual
+626,Full Stack Developer,Frontend Concepts,Easy,What is responsive web design?,Manual
+627,Full Stack Developer,Frontend Concepts,Easy,What is the DOM?,Manual
+628,Full Stack Developer,Frontend Concepts,Easy,What is semantic HTML?,Manual
+629,Full Stack Developer,Frontend Concepts,Easy,What is CSS Flexbox?,Manual
+630,Full Stack Developer,Frontend Concepts,Easy,What is CSS Grid?,Manual
+631,Full Stack Developer,Frontend Concepts,Easy,What is JavaScript event handling?,Manual
+632,Full Stack Developer,Frontend Concepts,Easy,What is client-side routing?,Manual
+633,Full Stack Developer,Frontend Concepts,Easy,What is component-based UI?,Manual
+634,Full Stack Developer,Frontend Concepts,Medium,What is state management?,Manual
+635,Full Stack Developer,Frontend Concepts,Medium,What is accessibility?,Manual
+636,Full Stack Developer,Frontend Concepts,Medium,What is lazy loading?,Manual
+637,Full Stack Developer,Frontend Concepts,Medium,What is code splitting?,Manual
+638,Full Stack Developer,Frontend Concepts,Medium,What is browser caching?,Manual
+639,Full Stack Developer,Frontend Concepts,Medium,What is web performance optimization?,Manual
+640,Full Stack Developer,Frontend Concepts,Medium,What is CORS?,Manual
+641,Full Stack Developer,Frontend Concepts,Medium,What is form validation?,Manual
+642,Full Stack Developer,Frontend Concepts,Hard,What is progressive enhancement?,Manual
+643,Full Stack Developer,Frontend Concepts,Hard,What is a SPA?,Manual
+644,Full Stack Developer,Frontend Concepts,Hard,What is hydration?,Manual
+645,Full Stack Developer,Frontend Concepts,Hard,What is web storage?,Manual
+646,Full Stack Developer,Backend Concepts,Easy,What is a backend service?,Manual
+647,Full Stack Developer,Backend Concepts,Easy,What is REST?,Manual
+648,Full Stack Developer,Backend Concepts,Easy,What is middleware?,Manual
+649,Full Stack Developer,Backend Concepts,Easy,What is a controller?,Manual
+650,Full Stack Developer,Backend Concepts,Easy,What is a service layer?,Manual
+651,Full Stack Developer,Backend Concepts,Easy,What is dependency injection?,Manual
+652,Full Stack Developer,Backend Concepts,Easy,What is caching?,Manual
+653,Full Stack Developer,Backend Concepts,Easy,What is logging?,Manual
+654,Full Stack Developer,Backend Concepts,Medium,What is centralized error handling?,Manual
+655,Full Stack Developer,Backend Concepts,Medium,What is background processing?,Manual
+656,Full Stack Developer,Backend Concepts,Medium,What is a message queue?,Manual
+657,Full Stack Developer,Backend Concepts,Medium,What is rate limiting?,Manual
+658,Full Stack Developer,Backend Concepts,Medium,What is load balancing?,Manual
+659,Full Stack Developer,Backend Concepts,Medium,What is horizontal scaling?,Manual
+660,Full Stack Developer,Backend Concepts,Medium,What is vertical scaling?,Manual
+661,Full Stack Developer,Backend Concepts,Medium,What is stateless architecture?,Manual
+662,Full Stack Developer,Backend Concepts,Hard,What is a health check?,Manual
+663,Full Stack Developer,Backend Concepts,Hard,What is graceful shutdown?,Manual
+664,Full Stack Developer,Backend Concepts,Hard,What is observability?,Manual
+665,Full Stack Developer,Backend Concepts,Hard,What is API versioning?,Manual
+666,Full Stack Developer,Databases,Easy,What is a relational database?,Manual
+667,Full Stack Developer,Databases,Easy,What is a NoSQL database?,Manual
+668,Full Stack Developer,Databases,Easy,When would you use SQL vs NoSQL?,Manual
+669,Full Stack Developer,Databases,Easy,What is database indexing?,Manual
+670,Full Stack Developer,Databases,Easy,What is normalization?,Manual
+671,Full Stack Developer,Databases,Easy,What is denormalization?,Manual
+672,Full Stack Developer,Databases,Medium,What is a transaction?,Manual
+673,Full Stack Developer,Databases,Medium,What is connection pooling?,Manual
+674,Full Stack Developer,Databases,Medium,What is replication?,Manual
+675,Full Stack Developer,Databases,Medium,What is sharding?,Manual
+676,Full Stack Developer,Databases,Medium,What is a database migration?,Manual
+677,Full Stack Developer,Databases,Medium,What is a query optimizer?,Manual
+678,Full Stack Developer,Databases,Hard,What is a composite index?,Manual
+679,Full Stack Developer,Databases,Hard,What is a database constraint?,Manual
+680,Full Stack Developer,Databases,Hard,What is a cache?,Manual
+681,Full Stack Developer,Deployment,Easy,What is deployment?,Manual
+682,Full Stack Developer,Deployment,Easy,What is CI/CD?,Manual
+683,Full Stack Developer,Deployment,Easy,What is Docker?,Manual
+684,Full Stack Developer,Deployment,Easy,What is a container image?,Manual
+685,Full Stack Developer,Deployment,Easy,What is Kubernetes?,Manual
+686,Full Stack Developer,Deployment,Easy,What is a reverse proxy?,Manual
+687,Full Stack Developer,Deployment,Easy,What is a load balancer?,Manual
+688,Full Stack Developer,Deployment,Easy,What is a cloud deployment?,Manual
+689,Full Stack Developer,Deployment,Medium,What is environment configuration?,Manual
+690,Full Stack Developer,Deployment,Medium,What are environment variables?,Manual
+691,Full Stack Developer,Deployment,Medium,What is blue-green deployment?,Manual
+692,Full Stack Developer,Deployment,Medium,What is rolling deployment?,Manual
+693,Full Stack Developer,Deployment,Medium,What is canary deployment?,Manual
+694,Full Stack Developer,Deployment,Medium,What is infrastructure as code?,Manual
+695,Full Stack Developer,Deployment,Medium,What is a health check?,Manual
+696,Full Stack Developer,Deployment,Medium,What is monitoring?,Manual
+697,Full Stack Developer,Deployment,Hard,What is centralized logging?,Manual
+698,Full Stack Developer,Deployment,Hard,What is autoscaling?,Manual
+699,Full Stack Developer,Deployment,Hard,What is a deployment pipeline?,Manual
+700,Full Stack Developer,Deployment,Hard,What is a rollback?,Manual
+701,Mechanical Engineer,Thermodynamics,Easy,State the First Law of Thermodynamics.,Manual
+702,Mechanical Engineer,Thermodynamics,Easy,What is the Second Law of Thermodynamics?,Manual
+703,Mechanical Engineer,Thermodynamics,Easy,What is the Zeroth Law?,Manual
+704,Mechanical Engineer,Thermodynamics,Easy,What is an open system?,Manual
+705,Mechanical Engineer,Thermodynamics,Easy,What is a closed system?,Manual
+706,Mechanical Engineer,Thermodynamics,Easy,What is an isolated system?,Manual
+707,Mechanical Engineer,Thermodynamics,Easy,What is enthalpy?,Manual
+708,Mechanical Engineer,Thermodynamics,Easy,What is entropy?,Manual
+709,Mechanical Engineer,Thermodynamics,Medium,What is internal energy?,Manual
+710,Mechanical Engineer,Thermodynamics,Medium,What is a reversible process?,Manual
+711,Mechanical Engineer,Thermodynamics,Medium,What is an irreversible process?,Manual
+712,Mechanical Engineer,Thermodynamics,Medium,What is a thermodynamic cycle?,Manual
+713,Mechanical Engineer,Thermodynamics,Medium,What is specific heat?,Manual
+714,Mechanical Engineer,Thermodynamics,Medium,What is an isothermal process?,Manual
+715,Mechanical Engineer,Thermodynamics,Medium,What is an adiabatic process?,Manual
+716,Mechanical Engineer,Thermodynamics,Medium,What is an isobaric process?,Manual
+717,Mechanical Engineer,Thermodynamics,Hard,What is an isochoric process?,Manual
+718,Mechanical Engineer,Thermodynamics,Hard,What is Carnot efficiency?,Manual
+719,Mechanical Engineer,Thermodynamics,Hard,What is a heat engine?,Manual
+720,Mechanical Engineer,Thermodynamics,Hard,What is a refrigerator?,Manual
+721,Mechanical Engineer,SOM,Easy,What is stress?,Manual
+722,Mechanical Engineer,SOM,Easy,What is strain?,Manual
+723,Mechanical Engineer,SOM,Easy,State Hooke's law.,Manual
+724,Mechanical Engineer,SOM,Easy,What is Young's modulus?,Manual
+725,Mechanical Engineer,SOM,Easy,What is shear stress?,Manual
+726,Mechanical Engineer,SOM,Easy,What is shear strain?,Manual
+727,Mechanical Engineer,SOM,Medium,What is Poisson's ratio?,Manual
+728,Mechanical Engineer,SOM,Medium,What is bending moment?,Manual
+729,Mechanical Engineer,SOM,Medium,What is shear force?,Manual
+730,Mechanical Engineer,SOM,Medium,What is torsion?,Manual
+731,Mechanical Engineer,SOM,Medium,What is factor of safety?,Manual
+732,Mechanical Engineer,SOM,Medium,What is elastic limit?,Manual
+733,Mechanical Engineer,SOM,Hard,What is yield strength?,Manual
+734,Mechanical Engineer,SOM,Hard,What is ultimate tensile strength?,Manual
+735,Mechanical Engineer,SOM,Hard,What is buckling?,Manual
+736,Mechanical Engineer,Manufacturing,Easy,What is casting?,Manual
+737,Mechanical Engineer,Manufacturing,Easy,What is forging?,Manual
+738,Mechanical Engineer,Manufacturing,Easy,What is machining?,Manual
+739,Mechanical Engineer,Manufacturing,Easy,What is milling?,Manual
+740,Mechanical Engineer,Manufacturing,Easy,What is turning?,Manual
+741,Mechanical Engineer,Manufacturing,Easy,What is drilling?,Manual
+742,Mechanical Engineer,Manufacturing,Medium,What is welding?,Manual
+743,Mechanical Engineer,Manufacturing,Medium,What is extrusion?,Manual
+744,Mechanical Engineer,Manufacturing,Medium,What is rolling?,Manual
+745,Mechanical Engineer,Manufacturing,Medium,What is additive manufacturing?,Manual
+746,Mechanical Engineer,Manufacturing,Medium,What is CNC machining?,Manual
+747,Mechanical Engineer,Manufacturing,Medium,What is a lathe?,Manual
+748,Mechanical Engineer,Manufacturing,Hard,What is tolerance?,Manual
+749,Mechanical Engineer,Manufacturing,Hard,What is surface finish?,Manual
+750,Mechanical Engineer,Manufacturing,Hard,What is heat treatment?,Manual
+751,Mechanical Engineer,Fluid Mechanics,Easy,What is fluid mechanics?,Manual
+752,Mechanical Engineer,Fluid Mechanics,Easy,What is viscosity?,Manual
+753,Mechanical Engineer,Fluid Mechanics,Easy,What is pressure?,Manual
+754,Mechanical Engineer,Fluid Mechanics,Easy,What is density?,Manual
+755,Mechanical Engineer,Fluid Mechanics,Easy,What is Pascal's law?,Manual
+756,Mechanical Engineer,Fluid Mechanics,Easy,What is Bernoulli's equation?,Manual
+757,Mechanical Engineer,Fluid Mechanics,Medium,What is Reynolds number?,Manual
+758,Mechanical Engineer,Fluid Mechanics,Medium,What is laminar flow?,Manual
+759,Mechanical Engineer,Fluid Mechanics,Medium,What is turbulent flow?,Manual
+760,Mechanical Engineer,Fluid Mechanics,Medium,What is continuity equation?,Manual
+761,Mechanical Engineer,Fluid Mechanics,Medium,What is head loss?,Manual
+762,Mechanical Engineer,Fluid Mechanics,Medium,What is buoyancy?,Manual
+763,Mechanical Engineer,Fluid Mechanics,Hard,What is Archimedes' principle?,Manual
+764,Mechanical Engineer,Fluid Mechanics,Hard,What is a boundary layer?,Manual
+765,Mechanical Engineer,Fluid Mechanics,Hard,What is cavitation?,Manual
+766,Mechanical Engineer,CAD/CAM,Easy,What is CAD?,Manual
+767,Mechanical Engineer,CAD/CAM,Easy,What is CAM?,Manual
+768,Mechanical Engineer,CAD/CAM,Easy,What is CAD/CAM integration?,Manual
+769,Mechanical Engineer,CAD/CAM,Easy,What is a 2D CAD drawing?,Manual
+770,Mechanical Engineer,CAD/CAM,Medium,What is 3D modeling?,Manual
+771,Mechanical Engineer,CAD/CAM,Medium,What is parametric modeling?,Manual
+772,Mechanical Engineer,CAD/CAM,Medium,What is a CNC program?,Manual
+773,Mechanical Engineer,CAD/CAM,Medium,What is geometric dimensioning and tolerancing?,Manual
+774,Mechanical Engineer,CAD/CAM,Hard,What is a CAD assembly?,Manual
+775,Mechanical Engineer,CAD/CAM,Hard,What is finite element modeling?,Manual
+776,Civil Engineer,Structural Engineering,Easy,What is structural engineering?,Manual
+777,Civil Engineer,Structural Engineering,Easy,What is a load-bearing structure?,Manual
+778,Civil Engineer,Structural Engineering,Easy,What is dead load?,Manual
+779,Civil Engineer,Structural Engineering,Easy,What is live load?,Manual
+780,Civil Engineer,Structural Engineering,Easy,What is a bending moment?,Manual
+781,Civil Engineer,Structural Engineering,Easy,What is shear force?,Manual
+782,Civil Engineer,Structural Engineering,Easy,What is a truss?,Manual
+783,Civil Engineer,Structural Engineering,Easy,What is a beam?,Manual
+784,Civil Engineer,Structural Engineering,Medium,What is a column?,Manual
+785,Civil Engineer,Structural Engineering,Medium,What is buckling?,Manual
+786,Civil Engineer,Structural Engineering,Medium,What is structural stability?,Manual
+787,Civil Engineer,Structural Engineering,Medium,What is factor of safety?,Manual
+788,Civil Engineer,Structural Engineering,Medium,What is ductility?,Manual
+789,Civil Engineer,Structural Engineering,Medium,What is structural analysis?,Manual
+790,Civil Engineer,Structural Engineering,Medium,What is a foundation?,Manual
+791,Civil Engineer,Structural Engineering,Medium,What is a simply supported beam?,Manual
+792,Civil Engineer,Structural Engineering,Hard,What is a cantilever?,Manual
+793,Civil Engineer,Structural Engineering,Hard,What is torsion in structures?,Manual
+794,Civil Engineer,Structural Engineering,Hard,What is lateral load?,Manual
+795,Civil Engineer,Structural Engineering,Hard,What is seismic load?,Manual
+796,Civil Engineer,Surveying,Easy,What is surveying?,Manual
+797,Civil Engineer,Surveying,Easy,What is leveling?,Manual
+798,Civil Engineer,Surveying,Easy,What is a benchmark?,Manual
+799,Civil Engineer,Surveying,Easy,What is a total station?,Manual
+800,Civil Engineer,Surveying,Easy,What is theodolite?,Manual
+801,Civil Engineer,Surveying,Easy,What is chain surveying?,Manual
+802,Civil Engineer,Surveying,Medium,What is plane table surveying?,Manual
+803,Civil Engineer,Surveying,Medium,What is contouring?,Manual
+804,Civil Engineer,Surveying,Medium,What is a traverse?,Manual
+805,Civil Engineer,Surveying,Medium,What is bearing?,Manual
+806,Civil Engineer,Surveying,Medium,What is reduced level?,Manual
+807,Civil Engineer,Surveying,Medium,What is GPS surveying?,Manual
+808,Civil Engineer,Surveying,Hard,What is an EDM?,Manual
+809,Civil Engineer,Surveying,Hard,What is triangulation?,Manual
+810,Civil Engineer,Surveying,Hard,What is surveying error?,Manual
+811,Civil Engineer,Concrete Technology,Easy,What is concrete?,Manual
+812,Civil Engineer,Concrete Technology,Easy,What is cement?,Manual
+813,Civil Engineer,Concrete Technology,Easy,What is water-cement ratio?,Manual
+814,Civil Engineer,Concrete Technology,Easy,What is workability?,Manual
+815,Civil Engineer,Concrete Technology,Easy,What is slump test?,Manual
+816,Civil Engineer,Concrete Technology,Easy,What is curing?,Manual
+817,Civil Engineer,Concrete Technology,Medium,What is segregation?,Manual
+818,Civil Engineer,Concrete Technology,Medium,What is bleeding?,Manual
+819,Civil Engineer,Concrete Technology,Medium,What is admixture?,Manual
+820,Civil Engineer,Concrete Technology,Medium,What is aggregate?,Manual
+821,Civil Engineer,Concrete Technology,Medium,What is characteristic strength?,Manual
+822,Civil Engineer,Concrete Technology,Medium,What is mix design?,Manual
+823,Civil Engineer,Concrete Technology,Hard,What is reinforced concrete?,Manual
+824,Civil Engineer,Concrete Technology,Hard,What is prestressed concrete?,Manual
+825,Civil Engineer,Concrete Technology,Hard,What is concrete durability?,Manual
+826,Civil Engineer,Geotechnical Engineering,Easy,What is soil mechanics?,Manual
+827,Civil Engineer,Geotechnical Engineering,Easy,What is soil classification?,Manual
+828,Civil Engineer,Geotechnical Engineering,Easy,What is bearing capacity?,Manual
+829,Civil Engineer,Geotechnical Engineering,Easy,What is compaction?,Manual
+830,Civil Engineer,Geotechnical Engineering,Easy,What is consolidation?,Manual
+831,Civil Engineer,Geotechnical Engineering,Easy,What is permeability?,Manual
+832,Civil Engineer,Geotechnical Engineering,Medium,What is shear strength of soil?,Manual
+833,Civil Engineer,Geotechnical Engineering,Medium,What is effective stress?,Manual
+834,Civil Engineer,Geotechnical Engineering,Medium,What is a shallow foundation?,Manual
+835,Civil Engineer,Geotechnical Engineering,Medium,What is a deep foundation?,Manual
+836,Civil Engineer,Geotechnical Engineering,Medium,What is a pile foundation?,Manual
+837,Civil Engineer,Geotechnical Engineering,Medium,What is settlement?,Manual
+838,Civil Engineer,Geotechnical Engineering,Hard,What is a retaining wall?,Manual
+839,Civil Engineer,Geotechnical Engineering,Hard,What is slope stability?,Manual
+840,Civil Engineer,Geotechnical Engineering,Hard,What is the Standard Penetration Test?,Manual
+841,Civil Engineer,Environmental Engineering,Easy,What is environmental engineering?,Manual
+842,Civil Engineer,Environmental Engineering,Easy,What is wastewater treatment?,Manual
+843,Civil Engineer,Environmental Engineering,Easy,What is sewage?,Manual
+844,Civil Engineer,Environmental Engineering,Easy,What is BOD?,Manual
+845,Civil Engineer,Environmental Engineering,Medium,What is COD?,Manual
+846,Civil Engineer,Environmental Engineering,Medium,What is drinking-water treatment?,Manual
+847,Civil Engineer,Environmental Engineering,Medium,What is sedimentation?,Manual
+848,Civil Engineer,Environmental Engineering,Medium,What is coagulation?,Manual
+849,Civil Engineer,Environmental Engineering,Hard,What is filtration?,Manual
+850,Civil Engineer,Environmental Engineering,Hard,What is disinfection?,Manual
+851,Electrical Engineer,Circuit Theory,Easy,What is Ohm's law?,Manual
+852,Electrical Engineer,Circuit Theory,Easy,What is Kirchhoff's Current Law?,Manual
+853,Electrical Engineer,Circuit Theory,Easy,What is Kirchhoff's Voltage Law?,Manual
+854,Electrical Engineer,Circuit Theory,Easy,What is resistance?,Manual
+855,Electrical Engineer,Circuit Theory,Easy,What is capacitance?,Manual
+856,Electrical Engineer,Circuit Theory,Easy,What is inductance?,Manual
+857,Electrical Engineer,Circuit Theory,Easy,What is impedance?,Manual
+858,Electrical Engineer,Circuit Theory,Easy,What is reactance?,Manual
+859,Electrical Engineer,Circuit Theory,Medium,What is an AC circuit?,Manual
+860,Electrical Engineer,Circuit Theory,Medium,What is a DC circuit?,Manual
+861,Electrical Engineer,Circuit Theory,Medium,What is resonance?,Manual
+862,Electrical Engineer,Circuit Theory,Medium,What is power factor?,Manual
+863,Electrical Engineer,Circuit Theory,Medium,What is RMS voltage?,Manual
+864,Electrical Engineer,Circuit Theory,Medium,What is Thevenin's theorem?,Manual
+865,Electrical Engineer,Circuit Theory,Medium,What is Norton's theorem?,Manual
+866,Electrical Engineer,Circuit Theory,Medium,What is superposition theorem?,Manual
+867,Electrical Engineer,Circuit Theory,Hard,What is maximum power transfer theorem?,Manual
+868,Electrical Engineer,Circuit Theory,Hard,What is a series circuit?,Manual
+869,Electrical Engineer,Circuit Theory,Hard,What is a parallel circuit?,Manual
+870,Electrical Engineer,Circuit Theory,Hard,What is transient response?,Manual
+871,Electrical Engineer,Power Systems,Easy,What is an electrical power system?,Manual
+872,Electrical Engineer,Power Systems,Easy,What is a power plant?,Manual
+873,Electrical Engineer,Power Systems,Easy,What is transmission?,Manual
+874,Electrical Engineer,Power Systems,Easy,What is distribution?,Manual
+875,Electrical Engineer,Power Systems,Easy,Why is high voltage used for transmission?,Manual
+876,Electrical Engineer,Power Systems,Easy,What is a transformer?,Manual
+877,Electrical Engineer,Power Systems,Easy,What is a substation?,Manual
+878,Electrical Engineer,Power Systems,Easy,What is a circuit breaker?,Manual
+879,Electrical Engineer,Power Systems,Medium,What is a relay?,Manual
+880,Electrical Engineer,Power Systems,Medium,What is a busbar?,Manual
+881,Electrical Engineer,Power Systems,Medium,What is power factor correction?,Manual
+882,Electrical Engineer,Power Systems,Medium,What is load flow?,Manual
+883,Electrical Engineer,Power Systems,Medium,What is short-circuit analysis?,Manual
+884,Electrical Engineer,Power Systems,Medium,What is a three-phase system?,Manual
+885,Electrical Engineer,Power Systems,Medium,What is a synchronous grid?,Manual
+886,Electrical Engineer,Power Systems,Medium,What is an electrical fault?,Manual
+887,Electrical Engineer,Power Systems,Hard,What is earthing?,Manual
+888,Electrical Engineer,Power Systems,Hard,What is a surge arrester?,Manual
+889,Electrical Engineer,Power Systems,Hard,What is voltage regulation?,Manual
+890,Electrical Engineer,Power Systems,Hard,What is power-system stability?,Manual
+891,Electrical Engineer,Electrical Machines,Easy,What is an electrical machine?,Manual
+892,Electrical Engineer,Electrical Machines,Easy,What is a transformer?,Manual
+893,Electrical Engineer,Electrical Machines,Easy,What is a DC motor?,Manual
+894,Electrical Engineer,Electrical Machines,Easy,What is a DC generator?,Manual
+895,Electrical Engineer,Electrical Machines,Easy,What is an induction motor?,Manual
+896,Electrical Engineer,Electrical Machines,Easy,What is a synchronous motor?,Manual
+897,Electrical Engineer,Electrical Machines,Medium,What is slip?,Manual
+898,Electrical Engineer,Electrical Machines,Medium,What is back EMF?,Manual
+899,Electrical Engineer,Electrical Machines,Medium,What is torque?,Manual
+900,Electrical Engineer,Electrical Machines,Medium,What is motor efficiency?,Manual
+901,Electrical Engineer,Electrical Machines,Medium,What is an alternator?,Manual
+902,Electrical Engineer,Electrical Machines,Medium,What is rotor?,Manual
+903,Electrical Engineer,Electrical Machines,Hard,What is stator?,Manual
+904,Electrical Engineer,Electrical Machines,Hard,What is a three-phase induction motor?,Manual
+905,Electrical Engineer,Electrical Machines,Hard,What is motor starting?,Manual
+906,Electrical Engineer,Control Systems,Easy,What is a control system?,Manual
+907,Electrical Engineer,Control Systems,Easy,What is open-loop control?,Manual
+908,Electrical Engineer,Control Systems,Easy,What is closed-loop control?,Manual
+909,Electrical Engineer,Control Systems,Easy,What is feedback?,Manual
+910,Electrical Engineer,Control Systems,Medium,What is transfer function?,Manual
+911,Electrical Engineer,Control Systems,Medium,What is a block diagram?,Manual
+912,Electrical Engineer,Control Systems,Medium,What is stability?,Manual
+913,Electrical Engineer,Control Systems,Medium,What is steady-state error?,Manual
+914,Electrical Engineer,Control Systems,Hard,What is transient response?,Manual
+915,Electrical Engineer,Control Systems,Hard,What is PID control?,Manual
+916,Electrical Engineer,Electronics Basics,Easy,What is a diode?,Manual
+917,Electrical Engineer,Electronics Basics,Easy,What is a transistor?,Manual
+918,Electrical Engineer,Electronics Basics,Easy,What is an LED?,Manual
+919,Electrical Engineer,Electronics Basics,Easy,What is a rectifier?,Manual
+920,Electrical Engineer,Electronics Basics,Medium,What is an amplifier?,Manual
+921,Electrical Engineer,Electronics Basics,Medium,What is an operational amplifier?,Manual
+922,Electrical Engineer,Electronics Basics,Medium,What is a capacitor?,Manual
+923,Electrical Engineer,Electronics Basics,Medium,What is a resistor?,Manual
+924,Electrical Engineer,Electronics Basics,Hard,What is a voltage regulator?,Manual
+925,Electrical Engineer,Electronics Basics,Hard,What is a digital logic gate?,Manual
+926,HR & Behavioral,Self Introduction,Easy,How would you introduce yourself in an interview?,Manual
+927,HR & Behavioral,Self Introduction,Easy,Tell me about yourself.,Manual
+928,HR & Behavioral,Self Introduction,Easy,How would you summarize your professional background?,Manual
+929,HR & Behavioral,Self Introduction,Easy,What are your key areas of expertise?,Manual
+930,HR & Behavioral,Self Introduction,Medium,What project are you most proud of?,Manual
+931,HR & Behavioral,Self Introduction,Medium,What interests you about this role?,Manual
+932,HR & Behavioral,Self Introduction,Medium,How does your background relate to this position?,Manual
+933,HR & Behavioral,Self Introduction,Medium,What are you currently learning?,Manual
+934,HR & Behavioral,Self Introduction,Hard,What motivates you professionally?,Manual
+935,HR & Behavioral,Self Introduction,Hard,How would your colleagues describe you?,Manual
+936,HR & Behavioral,Strengths & Weaknesses,Easy,What is your greatest strength?,Manual
+937,HR & Behavioral,Strengths & Weaknesses,Easy,What is one professional weakness you are working on?,Manual
+938,HR & Behavioral,Strengths & Weaknesses,Easy,How have you improved a weakness?,Manual
+939,HR & Behavioral,Strengths & Weaknesses,Easy,What skill do you want to develop further?,Manual
+940,HR & Behavioral,Strengths & Weaknesses,Easy,How do you respond to constructive feedback?,Manual
+941,HR & Behavioral,Strengths & Weaknesses,Easy,What strength helps you under pressure?,Manual
+942,HR & Behavioral,Strengths & Weaknesses,Medium,What is an area where you seek mentorship?,Manual
+943,HR & Behavioral,Strengths & Weaknesses,Medium,How do you avoid overusing a strength?,Manual
+944,HR & Behavioral,Strengths & Weaknesses,Medium,How do you measure personal improvement?,Manual
+945,HR & Behavioral,Strengths & Weaknesses,Medium,Describe a time feedback changed your approach.,Manual
+946,HR & Behavioral,Strengths & Weaknesses,Medium,What is a skill you initially struggled to learn?,Manual
+947,HR & Behavioral,Strengths & Weaknesses,Medium,How do you handle uncertainty?,Manual
+948,HR & Behavioral,Strengths & Weaknesses,Hard,How do you manage competing priorities?,Manual
+949,HR & Behavioral,Strengths & Weaknesses,Hard,What habit has improved your productivity?,Manual
+950,HR & Behavioral,Strengths & Weaknesses,Hard,What professional behavior are you trying to improve?,Manual
+951,HR & Behavioral,Teamwork,Easy,Describe a successful team experience.,Manual
+952,HR & Behavioral,Teamwork,Easy,How do you handle disagreement within a team?,Manual
+953,HR & Behavioral,Teamwork,Easy,How do you divide work among team members?,Manual
+954,HR & Behavioral,Teamwork,Easy,How do you support a struggling teammate?,Manual
+955,HR & Behavioral,Teamwork,Easy,How do you communicate progress to a team?,Manual
+956,HR & Behavioral,Teamwork,Easy,What makes a team effective?,Manual
+957,HR & Behavioral,Teamwork,Medium,How do you handle different working styles?,Manual
+958,HR & Behavioral,Teamwork,Medium,Describe a time you collaborated across functions.,Manual
+959,HR & Behavioral,Teamwork,Medium,How do you give feedback to teammates?,Manual
+960,HR & Behavioral,Teamwork,Medium,How do you receive feedback from teammates?,Manual
+961,HR & Behavioral,Teamwork,Medium,How do you build trust in a team?,Manual
+962,HR & Behavioral,Teamwork,Medium,How do you handle missed team deadlines?,Manual
+963,HR & Behavioral,Teamwork,Hard,How do you resolve a team misunderstanding?,Manual
+964,HR & Behavioral,Teamwork,Hard,How do you contribute when you are not the team lead?,Manual
+965,HR & Behavioral,Teamwork,Hard,How do you celebrate team success?,Manual
+966,HR & Behavioral,Problem Solving,Easy,Describe a difficult problem you solved.,Manual
+967,HR & Behavioral,Problem Solving,Easy,How do you approach an unfamiliar problem?,Manual
+968,HR & Behavioral,Problem Solving,Easy,How do you identify root cause?,Manual
+969,HR & Behavioral,Problem Solving,Easy,What do you do when you lack enough information?,Manual
+970,HR & Behavioral,Problem Solving,Easy,How do you compare possible solutions?,Manual
+971,HR & Behavioral,Problem Solving,Easy,How do you handle a problem under time pressure?,Manual
+972,HR & Behavioral,Problem Solving,Medium,Describe a time your first solution failed.,Manual
+973,HR & Behavioral,Problem Solving,Medium,How do you validate a proposed solution?,Manual
+974,HR & Behavioral,Problem Solving,Medium,How do you break a complex problem into smaller parts?,Manual
+975,HR & Behavioral,Problem Solving,Medium,How do you decide when to ask for help?,Manual
+976,HR & Behavioral,Problem Solving,Medium,How do you learn from a failed solution?,Manual
+977,HR & Behavioral,Problem Solving,Medium,How do you communicate a technical problem to a non-technical person?,Manual
+978,HR & Behavioral,Problem Solving,Hard,How do you prioritize multiple problems?,Manual
+979,HR & Behavioral,Problem Solving,Hard,Describe a process you improved.,Manual
+980,HR & Behavioral,Problem Solving,Hard,How do you balance speed and quality?,Manual
+981,HR & Behavioral,Career Goals,Easy,What are your short-term career goals?,Manual
+982,HR & Behavioral,Career Goals,Easy,Where do you see yourself in five years?,Manual
+983,HR & Behavioral,Career Goals,Easy,What skills do you want to develop?,Manual
+984,HR & Behavioral,Career Goals,Easy,What type of work do you want to specialize in?,Manual
+985,HR & Behavioral,Career Goals,Medium,What motivates your career choices?,Manual
+986,HR & Behavioral,Career Goals,Medium,How does this role fit your goals?,Manual
+987,HR & Behavioral,Career Goals,Medium,What kind of responsibilities would you like to take on?,Manual
+988,HR & Behavioral,Career Goals,Medium,What would professional growth look like for you?,Manual
+989,HR & Behavioral,Career Goals,Hard,How do you stay current in your field?,Manual
+990,HR & Behavioral,Career Goals,Hard,What is a long-term goal you are working toward?,Manual
+991,HR & Behavioral,Leadership & Conflict,Easy,What does leadership mean to you?,Manual
+992,HR & Behavioral,Leadership & Conflict,Easy,Describe a time you led a project.,Manual
+993,HR & Behavioral,Leadership & Conflict,Easy,How do you delegate work?,Manual
+994,HR & Behavioral,Leadership & Conflict,Easy,How do you handle conflict between team members?,Manual
+995,HR & Behavioral,Leadership & Conflict,Medium,How do you make decisions as a leader?,Manual
+996,HR & Behavioral,Leadership & Conflict,Medium,How do you motivate a team?,Manual
+997,HR & Behavioral,Leadership & Conflict,Medium,How do you handle disagreement with a manager?,Manual
+998,HR & Behavioral,Leadership & Conflict,Medium,How do you build accountability?,Manual
+999,HR & Behavioral,Leadership & Conflict,Hard,How do you communicate a difficult decision?,Manual
+1000,HR & Behavioral,Leadership & Conflict,Hard,How do you manage conflict when deadlines are tight?,Manual
