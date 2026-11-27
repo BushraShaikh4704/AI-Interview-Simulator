@@ -10,4 +10,4 @@ The AI-Powered Interview Readiness Assessment and Career Improvement Platform is
 
 The platform simulates real interview experiences by conducting role-specific mock interviews, evaluating candidate responses using Natural Language Processing (NLP) techniques, calculating interview readiness scores, identifying weak skill areas, and generating personalized improvement recommendations.
 
-The system aims to bridge the gap between interview preparation and actual interview performance by providing measurable feedback and structured learning guidance
+The system aims to bridge the gap between interview preparation and actual interview performance by providing measurable feedback and structured learning guidance.
